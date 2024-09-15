@@ -1,9 +1,0 @@
-[
-  {
-    "objectID": "papers/2023-11-30-FemaleOfficer/index.html",
-    "href": "papers/2023-11-30-FemaleOfficer/index.html",
-    "title": "A Reproduction of ‘Do Female Officers Police Differently? Evidence from Traffic Stops’ (American Journal of Political Science, 2021)",
-    "section": "",
-    "text": "Abstract\nWe reproduce Shoub, Kelsey, Katelyn E. Stauffer, and Miyeon Song (May 2021). “Do Female Officers Police Differently? Evidence from Traffic Stops,” with alternative specifications and interpretation of the results. While our reproduction confirms that female police officers are less likely to search drivers than male officers and female officers are more likely to find contraband upon a search, we re-evaluate the authors’ claims on the equality of effectiveness between male and female officers and find that female officers in the dataset confiscated less contraband than male officers.\nThe replication files for this paper are available at https://doi.org/10.7910/DVN/8XQ1ZB.\n@Article{Yang2023,\n  author    = {Yang, Dianyi and Huang, Leike},\n  journal   = {I4R Discussion Paper Series},\n  title     = {A Replication of “Do Female Officers Police Differently? Evidence from Traffic Stops” (American Journal of Political Science, 2021)},\n  year      = {2023},\n  number    = {127},\n  doi       = {10.2139/ssrn.4632847},\n  publisher = {The Institute for Replication (I4R)},\n}"
-  }
-]
