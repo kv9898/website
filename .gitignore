@@ -6,7 +6,10 @@
 Thumbs.db
 /public/
 /resources/
+
 /.quarto/
+/_site/
+
 .hugo_build.lock
 
 /.luarc.json
