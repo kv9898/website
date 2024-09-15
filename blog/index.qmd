@@ -1,11 +1,11 @@
 ---
-title: "Meeting People Where They R"
+title: "My blogs"
 description: |
-  This is my blog where I practice sharing my curiosity about R.
+  All of my mind-blowing ideas that are not publishable are hidden here. 
   
-  It includes notes and tutorials for my future self and hopefully also for you.
-
-  [Subscribe via RSS](/index.xml)
+  While my papers are focused on explanation, as most of the mainstream academic papers do, 
+  
+  my blogs conceive of alternative realities with my “lunatic” policy designs.
 listing: 
   contents: 
     - "**/index.qmd"
