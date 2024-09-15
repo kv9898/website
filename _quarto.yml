@@ -11,9 +11,9 @@ website:
   comments: 
     giscus:
       repo: kv9898/website
-      repo-id: R_kgDOMoo-dg
+      repo-id: R_kgDOMx274g
       category: general
-      category-id: DIC_kwDOMoo-ds4CiDTF
+      category-id: DIC_kwDOMx274s4Ciftj
       mapping: title
       reactions-enabled: true
       theme:
