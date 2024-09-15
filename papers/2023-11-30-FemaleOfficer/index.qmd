@@ -1,5 +1,9 @@
 ---
-author: Dianyi Yang and Leike Huang
+author: 
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+- name: Leike Huang
+  orcid: 0009-0009-9108-5436
 subtitle: adapted from GV330 project
 title: A Reproduction of 'Do Female Officers Police Differently? Evidence from Traffic Stops' (American Journal of Political Science, 2021)
 citation: false
