@@ -78,9 +78,9 @@ format:
         - assets/silvia/fonts.scss
       dark:
         - cosmo
-        #- assets/dianyi-theme-dark.scss
-        #- assets/silvia/colors-light.scss
-        #- assets/silvia/fonts.scss
+        - assets/dianyi/dianyi-theme-dark.scss
+        - assets/dianyi/colors-dark.scss
+        - assets/silvia/fonts.scss
     highlight-style: a11y
 
 execute: 
