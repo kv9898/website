@@ -4,6 +4,7 @@ author:
   orcid: 0009-0004-4652-3429
 - name: Leike Huang
   orcid: 0009-0009-9108-5436
+date: 2023-07-04
 title: The Differential Impact of the Hong Kong National Security Law on Political Sensitivity Bias in Local Opinion Polls
 subtitle: adapted from my BSc dissertation
 citation: false

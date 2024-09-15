@@ -6,6 +6,7 @@ author:
   orcid: 0009-0009-9108-5436
 - name: Dianyi Yang
   orcid: 0009-0004-4652-3429
+date: 2023-11-10
 title: "Economic Impact of the South China Sea Dispute in China-Philippines Relations from 2012 to 2016: A DM-LFM analysis"
 subtitle: adapted from Leike's BSc dissertation
 citation: false
