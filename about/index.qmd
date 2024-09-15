@@ -55,8 +55,8 @@ listing:
   image-height: "200"
 - id: publication
   contents: 
-    - "../publication/*/index.qmd"
-    - "../publication/*/index.markdown"
+    - "../papers/*/index.qmd"
+    - "../papars/*/index.markdown"
   sort: date desc
   type: grid
   grid-columns: 1

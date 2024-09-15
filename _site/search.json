@@ -1,5 +1,152 @@
 [
   {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "A Reproduction of ‘Do Female Officers Police Differently? Evidence from Traffic Stops’ (American Journal of Political Science, 2021)\n\n\nadapted from GV330 project\n\n\n\npublic administration\n\n\npolice-citizen interaction\n\n\nfeminism\n\n\npublic administration\n\n\npublic opinion\n\n\nUnited States\n\n\n\n\n\n\nDianyi Yang and Leike Huang\n\n\n\n\n\n\n\n\n\n\n\n\nA medication-wide association study (MWAS) on repurposed drugs for COVID-19 with Pre-pandemic prescription medication exposure and pregnancy outcomes\n\n\nEHR study describing an MWAS approach to explore connections between exposure to repurposed COVID-19 prescription medications and the risk of cesarean section, preterm birth, and stillbirth\n\n\n\nResearch\n\n\ncovid-19\n\n\nEHR\n\n\npregnancy\n\n\nmedications\n\n\n\n\n\n\nNov 24, 2022\n\n\nLena Davidson, Silvia P. Canelón, Mary Regina Boland\n\n\n\n\n\n\n\n\n\n\n\n\nTen simple rules to host an inclusive conference\n\n\nCommunity-led publication describing ten guidelines for hosting an inclusive conference\n\n\n\nEducation\n\n\ncommunity\n\n\n\n\n\n\nJul 21, 2022\n\n\nRocío Joo, Andrea Sánchez-Tapia, Sara Mortara, Yanina Bellini Saibene, Heather Turner, Dorothea Hug Peter, Natalia Soledad Morandeira, Matt Bannert, Batool Almazrouq, Elizabeth Hare, Laura Ación, Juan Pablo Narváez-Gómez, Marcela Alfaro Córdoba, Federico Marini, Rita Giordano, Silvia Canelón, Anicet Ebou, Adithi R. Upadhya, Joselyn Chávez, Janani Ravi\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "papers/2022-11-24-mwas-repurposed-covid19-meds/index.html",
+    "href": "papers/2022-11-24-mwas-repurposed-covid19-meds/index.html",
+    "title": "A medication-wide association study (MWAS) on repurposed drugs for COVID-19 with Pre-pandemic prescription medication exposure and pregnancy outcomes",
+    "section": "",
+    "text": "Information on effects of medication therapies during pregnancy is lacking as pregnant patients are often excluded from clinical trials. This retrospective study explores the potential of using electronic health record (EHR) data to inform safety profiles of repurposed COVID medication therapies on pregnancy outcomes using pre-COVID data. We conducted a medication-wide association study (MWAS) on prescription medication exposures during pregnancy and the risk of cesarean section, preterm birth, and stillbirth, using EHR data between 2010–2017 on deliveries at PennMedicine. Repurposed drugs studied for treatment of COVID-19 were extracted from ClinicalTrials.gov (n = 138). We adjusted for known comorbidities diagnosed within 2 years prior to birth. Using previously developed medication mapping and delivery-identification algorithms, we identified medication exposure in 2,830 of a total 63,334 deliveries; from 138 trials, we found 31 medications prescribed and included in our cohort. We found 21 (68%) of the 31 medications were not positively associated with increased risk of the outcomes examined. With caution, these medications warrant potential for inclusion of pregnant individuals in future studies, while drugs found to be associated with pregnancy outcomes require further investigation. MWAS facilitates hypothesis-driven evaluation of drug safety across all prescription medications, revealing potential drug candidates for further research."
+  },
+  {
+    "objectID": "papers/2022-11-24-mwas-repurposed-covid19-meds/index.html#abstract",
+    "href": "papers/2022-11-24-mwas-repurposed-covid19-meds/index.html#abstract",
+    "title": "A medication-wide association study (MWAS) on repurposed drugs for COVID-19 with Pre-pandemic prescription medication exposure and pregnancy outcomes",
+    "section": "",
+    "text": "Information on effects of medication therapies during pregnancy is lacking as pregnant patients are often excluded from clinical trials. This retrospective study explores the potential of using electronic health record (EHR) data to inform safety profiles of repurposed COVID medication therapies on pregnancy outcomes using pre-COVID data. We conducted a medication-wide association study (MWAS) on prescription medication exposures during pregnancy and the risk of cesarean section, preterm birth, and stillbirth, using EHR data between 2010–2017 on deliveries at PennMedicine. Repurposed drugs studied for treatment of COVID-19 were extracted from ClinicalTrials.gov (n = 138). We adjusted for known comorbidities diagnosed within 2 years prior to birth. Using previously developed medication mapping and delivery-identification algorithms, we identified medication exposure in 2,830 of a total 63,334 deliveries; from 138 trials, we found 31 medications prescribed and included in our cohort. We found 21 (68%) of the 31 medications were not positively associated with increased risk of the outcomes examined. With caution, these medications warrant potential for inclusion of pregnant individuals in future studies, while drugs found to be associated with pregnancy outcomes require further investigation. MWAS facilitates hypothesis-driven evaluation of drug safety across all prescription medications, revealing potential drug candidates for further research."
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "My website is released under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact ",
+    "section": "",
+    "text": "Contact \nYou can also contact me via kv9898@rubuky.com \n        \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message"
+  },
+  {
+    "objectID": "blog/2023-06-05-ccd-sips/index.html",
+    "href": "blog/2023-06-05-ccd-sips/index.html",
+    "title": "Philly Center City District Sips 2023: An Interactive Map",
+    "section": "",
+    "text": "Expand to see web analytics\n\n\n\n\n\n1,760 unique visitors in the United States visited this post 2,330 times between June 7th and August 30th, 2023!\n\n\n\n\nTest. Philly’s Center City District posted a list of restaurants and bars participating in Philly’s 2023 CCD Sips. CCD Sips is a series of summer Wednesday evenings (5-7pm) filled with happy hour specials, between June 7th and August 30th.\nI prefer to take in this information as a map instead of a list, so I scraped some information from the website and made one! You can click or tap on the circle map markers to see information about each restaurant/bar along with a direct link to their posted happy hour specials.\nCheck out the link at the top of this post for a larger version of the interactive map below, or take a look at CCD Sips maps from 2022 and 2019.\n\n\n\n\n\n\n\nReuseCC BY-SA 4.0"
+  },
+  {
+    "objectID": "accessibility.html",
+    "href": "accessibility.html",
+    "title": "Accessibility commitment",
+    "section": "",
+    "text": "Travel back to the home page or about page."
+  },
+  {
+    "objectID": "accessibility.html#feedback",
+    "href": "accessibility.html#feedback",
+    "title": "Accessibility commitment",
+    "section": "Feedback",
+    "text": "Feedback\nI welcome any feedback on the accessibility of my site and/or the educational materials I create. Please let me know if you encounter any accessibility barriers by using my contact form and I’ll do my best to respond promptly.\nThank you for visiting my site and for taking the time to read this page"
+  },
+  {
+    "objectID": "accessibility.html#accessibility-practices",
+    "href": "accessibility.html#accessibility-practices",
+    "title": "Accessibility commitment",
+    "section": "Accessibility practices",
+    "text": "Accessibility practices\nThis site has been designed with the following features in mind:\n\nA color palette that meets WCAG 2.1 AA standards for contrast\nAlternative text for all informative images\nReadable font faces, specifically to avoid impostor letter shapes and mirroring. This site primarily uses Red Hat Text which is freely available and has been found to be relatively accessible to users with dyslexic traits and poor near vision.1\nA table of contents in the blog post sidebar for easier navigation\n\nI’m aware there is much more to inclusive and accessible design and I’m learning how to implement better accessibility practices in the content I create. I’m not a web developer but my plan is to regularly audit my site for accessibility failures and learn how to remedy them as best I can. I’ll be using the following evaluation tools:\n\nWAVE Web Accessibility Evaluation Tool\n\nIn addition, I’ll document the failures and any corrective actions as issues in the GitHub repository housing the files used to build this site."
+  },
+  {
+    "objectID": "accessibility.html#work-related-to-accessibility",
+    "href": "accessibility.html#work-related-to-accessibility",
+    "title": "Accessibility commitment",
+    "section": "Work related to accessibility",
+    "text": "Work related to accessibility\n\nTalk: Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community\nBlog post: Resources for Data Viz Accessibility\nBlog post: Auditing for Web Accessibility"
+  },
+  {
+    "objectID": "accessibility.html#footnotes",
+    "href": "accessibility.html#footnotes",
+    "title": "Accessibility commitment",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor more on font accessibility, I recommend the talk Don’t Believe the Type! by The Readability Group.↩︎"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Silvia Canelón",
+    "section": "",
+    "text": "Hey, I’m happy you’re here\n\nThanks for stopping by!\nI’m a data analyst in the Urban Health Lab at the University of Pennsylvania. My research interests include applications of biomedical and spatial data science in the public and population health fields.\nI work on projects that use electronic health record (EHR) and geospatial data to explore how the neighborhood environment and access to urban nature can impact the health of individuals in Philadelphia. Learn more about my research interests in publications.\nGet in touch by sending me a note!"
+  },
+  {
+    "objectID": "about/index.html#about-me",
+    "href": "about/index.html#about-me",
+    "title": "Silvia Canelón",
+    "section": "About me",
+    "text": "About me\n\n\nBiomedical engineer turned informaticist, curious about all intersections of data and society.\nI enjoy using R to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I’m certified as an RStudio Tidyverse Instructor and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my blog and presentations in talks.\n\n\nTidyverse Instructor Certification ∙ RStudio, PBC ∙ 2020\n\n\n\n\nPrior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I’m particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.\n\n\nCertificate in Biomedical Informatics ∙ University of Pennsylvania ∙ 2019\n\n\nPh.D. in Biomedical Engineering ∙ Purdue University ∙ 2018\n\n\nB.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012"
+  },
+  {
+    "objectID": "about/index.html#lately",
+    "href": "about/index.html#lately",
+    "title": "Silvia Canelón",
+    "section": "Lately …",
+    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nPhilly Center City District Sips 2023: An Interactive Map\n\n\nAn interactive map showing restaurants participating in CCD Sips 2023\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nPapers\n\n\n\nSee all →"
+  },
+  {
+    "objectID": "blog/2020-05-26-dark-mode-custom-with-atom/index.html",
+    "href": "blog/2020-05-26-dark-mode-custom-with-atom/index.html",
+    "title": "Customizing Hugo Academic’s Dark Mode with Help from Atom",
+    "section": "",
+    "text": "With Alison Hill’s Up and Running with Blogdown post! Super helpful, though because I came to it 2.5 years late, it was more like ‘up and running with lots of water breaks’ because I had to stop and account for changes made to the Hugo Academic theme in the meantime.\n\nFor example, prior to Academic version 4.6, custom CSS was added using the plugins_css option in params.toml, but in current version 4.8, the theme supports SCSS (a superset of CSS) and a custom.scss file is added in the assets/scss/ folder.\n\nThe going futher section in Alison’s post specifically talks about customizing the out-of-the-box theme and Alison directly links to her custom CSS file, which I closely referred to when changing colors in my custom SCSS file.\nAlison’s CSS helped me customize everything from text colors and fonts to alert colors and borders for Academic’s light mode. At this point I had the light mode looking the way I wanted but the dark mode still used out-of-the-box colors for the most part and they just didn’t go.\n\nSo I decided not to enable the dark-mode option in params.toml until I could figure out how to customize my stylesheet accordingly. That time has come because it turns out it’s pretty straightforward!\nThe Blogdown book does an excellent job summarizing what you need to know about CSS. This post builds on that a little by incorporating features made possible by SCSS including variables."
+  },
+  {
+    "objectID": "blog/2020-05-26-dark-mode-custom-with-atom/index.html#basics-of-dark-theme-design",
+    "href": "blog/2020-05-26-dark-mode-custom-with-atom/index.html#basics-of-dark-theme-design",
+    "title": "Customizing Hugo Academic’s Dark Mode with Help from Atom",
+    "section": "Basics of dark theme design",
+    "text": "Basics of dark theme design\n\nThe primary surface color for dark themes should be dark gray, rather than black. The recommended color is #121212\nAs you layer components, surfaces with a higher elevation (closer to the hypothetical ‘light source’) should be lighter than those below it to create a visual hierarchy. This can be achieved by applying a semi-transparent white overlay to the primary dark gray surface.\n\n\n\nThe primary text color for dark themes should not be 100% opaque white (i.e. #FFFFFF) because it can appear to bleed or blur against dark backgrounds and be difficult to read.\nText hierarchy is established by controlling the opacity, for example:\n\nHigh emphasis text is white with 87% opacity:rgba(255, 255, 255, 0.87)\nMedium emphasis is white with 60% opacity:rgba(255, 255, 255, 0.60)\nDisabled text is white with 38% opacity:rgba(255, 255, 255, 0.38)\n\nTo meet WCAG AA standard, there must be a 4.5:1 contrast level between the body text and the dark theme surface at the highest/lightest elevation. The contrast level is 7:1 for the WCAG AAA standard."
+  },
+  {
+    "objectID": "blog/2020-05-26-dark-mode-custom-with-atom/index.html#tools-to-explore-palettes",
+    "href": "blog/2020-05-26-dark-mode-custom-with-atom/index.html#tools-to-explore-palettes",
+    "title": "Customizing Hugo Academic’s Dark Mode with Help from Atom",
+    "section": "Tools to explore palettes",
+    "text": "Tools to explore palettes\nMaterial Design has a color palette generator and a color tool that can be used to dark and light variants of a color. I used the color tool to find a dark and light variant of my primary and secondary colors. The accessibility feature of the color tool is helpful to determine the minimum opacity for white text to ensure enough contrast. The Coolors color contrast checker is another great tool."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Meeting People Where They R",
+    "section": "",
+    "text": "Philly Center City District Sips 2023: An Interactive Map\n\n\nAn interactive map showing restaurants participating in CCD Sips 2023 \n\n\n\nR\n\n\nmaps\n\n\nwebscraping\n\n\nrobotstxt\n\n\nrvest\n\n\nleaflet\n\n\ntidygeocoder\n\n\n\n\n\n\nJun 5, 2023\n\n\nSilvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nCustomizing Hugo Academic’s Dark Mode with Help from Atom\n\n\nTutorial on how to customize the dark mode in Hugo’s Academic theme with help from the Atom text editor package Pigments.\n\n\n\nWebsite\n\n\nTutorial\n\n\nAtom\n\n\nblogdown\n\n\nHugo\n\n\nCSS\n\n\n\n\n\n\nJun 16, 2020\n\n\nSilvia Canelón\n\n\n\n\n\n\nNo matching items\n\nReuseCC BY-SA 4.0"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dianyi Yang",
+    "section": "",
+    "text": "I’m a graduate of the London School of Economics and Political Science. At the LSE, I studied Political Science and Political Economy as an MSc student, and Politics and International Relations as a BSc student. I’m interested in fiscal-monetary interactions, public opinion and international conflicts.\nREAD MORE →"
+  },
+  {
+    "objectID": "papers/2022-07-21-ten-simple-rules-inclusive-conference/index.html",
+    "href": "papers/2022-07-21-ten-simple-rules-inclusive-conference/index.html",
+    "title": "Ten simple rules to host an inclusive conference",
+    "section": "",
+    "text": "Conferences are spaces to meet and network within and across academic and technical fields, learn about new advances, and share our work. They can help define career paths and create long-lasting collaborations and opportunities. However, these opportunities are not equal for all. This article introduces 10 simple rules to host an inclusive conference based on the authors’ recent experience organizing the 2021 edition of the useR! statistical computing conference, which attracted a broad range of participants from academia, industry, government, and the nonprofit sector. Coming from different backgrounds, career stages, and even continents, we embraced the challenge of organizing a high-quality virtual conference in the context of the Coronavirus Disease 2019 (COVID-19) pandemic and making it a kind, inclusive, and accessible experience for as many people as possible. The rules result from our lessons learned before, during, and after the organization of the conference. They have been written mainly for potential organizers and selection committees of conferences and contain multiple practical tips to help a variety of events become more accessible and inclusive. We see this as a starting point for conversations and efforts towards building more inclusive conferences across the world. * Translated versions of the English abstract and the list of rules are available in 10 languages in S1 Text: Arabic, French, German, Italian, Japanese, Korean, Portuguese, Spanish, Tamil, and Thai.\n\n\n\nSchematic diagram of the rules organized in 3 groups: foundation (Rules 1 to 3), design (Rules 4 to 9), and continuity (Rule 10)."
+  },
+  {
+    "objectID": "papers/2022-07-21-ten-simple-rules-inclusive-conference/index.html#abstract",
+    "href": "papers/2022-07-21-ten-simple-rules-inclusive-conference/index.html#abstract",
+    "title": "Ten simple rules to host an inclusive conference",
+    "section": "",
+    "text": "Conferences are spaces to meet and network within and across academic and technical fields, learn about new advances, and share our work. They can help define career paths and create long-lasting collaborations and opportunities. However, these opportunities are not equal for all. This article introduces 10 simple rules to host an inclusive conference based on the authors’ recent experience organizing the 2021 edition of the useR! statistical computing conference, which attracted a broad range of participants from academia, industry, government, and the nonprofit sector. Coming from different backgrounds, career stages, and even continents, we embraced the challenge of organizing a high-quality virtual conference in the context of the Coronavirus Disease 2019 (COVID-19) pandemic and making it a kind, inclusive, and accessible experience for as many people as possible. The rules result from our lessons learned before, during, and after the organization of the conference. They have been written mainly for potential organizers and selection committees of conferences and contain multiple practical tips to help a variety of events become more accessible and inclusive. We see this as a starting point for conversations and efforts towards building more inclusive conferences across the world. * Translated versions of the English abstract and the list of rules are available in 10 languages in S1 Text: Arabic, French, German, Italian, Japanese, Korean, Portuguese, Spanish, Tamil, and Thai.\n\n\n\nSchematic diagram of the rules organized in 3 groups: foundation (Rules 1 to 3), design (Rules 4 to 9), and continuity (Rule 10)."
+  },
+  {
     "objectID": "papers/2023-11-30-FemaleOfficer/index.html",
     "href": "papers/2023-11-30-FemaleOfficer/index.html",
     "title": "A Reproduction of ‘Do Female Officers Police Differently? Evidence from Traffic Stops’ (American Journal of Political Science, 2021)",

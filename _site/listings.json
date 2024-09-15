@@ -1,0 +1,38 @@
+[
+  {
+    "listing": "/talk/index.html",
+    "items": [
+      "/talk/2023-03-09-penn-community-scholars/index.html"
+    ]
+  },
+  {
+    "listing": "/project/index.html",
+    "items": [
+      "/project/2021-07-07-presentable-user2021/index.html"
+    ]
+  },
+  {
+    "listing": "/papers/index.html",
+    "items": [
+      "/papers/2023-11-30-FemaleOfficer/index.html",
+      "/papers/2022-11-24-mwas-repurposed-covid19-meds/index.html",
+      "/papers/2022-07-21-ten-simple-rules-inclusive-conference/index.html"
+    ]
+  },
+  {
+    "listing": "/about/index.html",
+    "items": [
+      "/blog/2023-06-05-ccd-sips/index.html",
+      "/blog/2020-05-26-dark-mode-custom-with-atom/index.html",
+      "/talk/2023-03-09-penn-community-scholars/index.html",
+      "/project/2021-07-07-presentable-user2021/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2023-06-05-ccd-sips/index.html",
+      "/blog/2020-05-26-dark-mode-custom-with-atom/index.html"
+    ]
+  }
+]

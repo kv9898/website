@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Dianyi Yang</title>
+<link>https://rubuky.com/blog/</link>
+<atom:link href="https://rubuky.com/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>This is my blog where I practice sharing my curiosity about R.
+It includes notes and tutorials for my future self and hopefully also for you.
+[Subscribe via RSS](/index.xml)
+</description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Mon, 05 Jun 2023 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Philly Center City District Sips 2023: An Interactive Map</title>
+  <dc:creator>Silvia Canelón</dc:creator>
+  <link>https://rubuky.com/blog/2023-06-05-ccd-sips/</link>
+  <description><![CDATA[ 
+
+<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
+<!-- <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title"> -->
+
+
+
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Expand to see web analytics
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>1,760 unique visitors in the United States visited this post 2,330 times between June 7th and August 30th, 2023!</p>
+<p><img src="https://rubuky.com/blog/2023-06-05-ccd-sips/umami-dashboard.png" class="img-fluid" alt="2,330 views, 1,760 visitors, 87% bounce rate, average visit time of 3 minutes and 17 seconds. Column chart shows peaks on Wednesdays and valleys on the weekends"></p>
+</div>
+</div>
+</div>
+<p>Test. Philly’s Center City District posted a list of restaurants and bars participating in Philly’s 2023 <a href="https://centercityphila.org/explore-center-city/ccdsips">CCD Sips</a>. CCD Sips is a series of summer Wednesday evenings (5-7pm) filled with <strong>happy hour specials</strong>, between June 7th and August 30th.</p>
+<p>I prefer to take in this information as a <strong>map</strong> instead of a list, so I scraped some information from the website and made one! You can click or tap on the circle map markers to see information about each restaurant/bar along with a direct link to their posted happy hour specials.</p>
+<p>Check out the link at the top of this post for a larger version of the interactive map below, or take a look at CCD Sips maps from <a href="../..\blog/2022-05-31-ccd-sips">2022</a> and <a href="../..\blog/2019-08-04-ccd-sips">2019</a>.</p>
+<!--https://dannyda.com/2021/06/09/how-to-make-html-iframe-responsive-iframe-height-equal-to-viewport-screen-height/-->
+<style>
+iframe {
+display: block;
+background: #FFFFFF;
+border: none; /* Reset default border */
+height: 70vh; /* Viewport-relative units */
+width: 100%;
+}
+</style>
+<iframe src="map.html" scrolling="no">
+</iframe>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>maps</category>
+  <category>webscraping</category>
+  <category>robotstxt</category>
+  <category>rvest</category>
+  <category>leaflet</category>
+  <category>tidygeocoder</category>
+  <guid>https://rubuky.com/blog/2023-06-05-ccd-sips/</guid>
+  <pubDate>Mon, 05 Jun 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://rubuky.com/blog/2023-06-05-ccd-sips/featured.png" medium="image" type="image/png" height="75" width="144"/>
+</item>
+<item>
+  <title>Customizing Hugo Academic’s Dark Mode with Help from Atom</title>
+  <dc:creator>Silvia Canelón</dc:creator>
+  <link>https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/</link>
+  <description><![CDATA[ 
+
+<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
+<!-- <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title"> -->
+
+
+
+<style>.color-preview {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 0 0.33em;
+  vertical-align: middle;
+  transition: transform 100ms ease-in-out;
+}
+.color-preview:hover {
+  cursor: pointer;
+  transform: scale(2);
+  transform-origin: 50% 50%;
+}</style>
+<!--`<span class="color-preview" style="background-color: 414073"></span><code>414073</code>`{=html}
+<span class="color-preview" style="background-color: #414073"></span><code>#414073</code>-->
+<section id="where-i-started" class="level1">
+<h1>Where I started</h1>
+<p>With Alison Hill’s <a href="https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/">Up and Running with Blogdown</a> post! <strong>Super helpful</strong>, though because I came to it 2.5 years late, it was more like ‘up and running with lots of water breaks’ because I had to stop and account for changes made to the Hugo Academic theme in the meantime.</p>
+<ul>
+<li>For example, prior to Academic version 4.6, custom CSS was added using the <code>plugins_css</code> option in <code>params.toml</code>, but <a href="https://sourcethemes.com/academic/docs/customization/#customize-style-css">in current version 4.8</a>, the theme supports SCSS (a superset of CSS) and a <strong>custom.scss</strong> file is added in the <code>assets/scss/</code> folder.</li>
+</ul>
+<p>The <a href="https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/#going-further">going futher</a> section in Alison’s post specifically talks about customizing the out-of-the-box theme and Alison directly links to her custom CSS file, which I closely referred to when changing colors in <a href="https://github.com/spcanelon/silvia/blob/master/assets/scss/custom.scss">my custom SCSS file</a>.</p>
+<p>Alison’s CSS helped me customize everything from text colors and fonts to alert colors and borders for Academic’s light mode. At this point I had the light mode looking the way I wanted but the dark mode still used out-of-the-box colors for the most part and they <strong><em>just didn’t go</em></strong>.</p>
+<p><img src="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/img/academic-minimal-dark-theme.png" title="Out-of-the-box colors included an eggplant page background with a light purple foreground. The issue I perceived was that these colors clashed with the navy blue and gold color changes I had made and was happy with in the light mode. I particularly was bothered by a cyan color highlight for code text" alt="Out-of-the-box colors included an eggplant page background with a light purple foreground. The issue I perceived was that these colors clashed with the navy blue and gold color changes I had made and was happy with in the light mode. I particularly was bothered by a cyan color highlight for code text" width="50%" style="display: block; margin: auto;"></p>
+<p>So I decided not to enable the dark-mode option in <strong>params.toml</strong> until I could figure out how to customize my stylesheet accordingly. That time has come because it turns out <a href="https://github.com/gcushen/hugo-academic/issues/988#issuecomment-475896178">it’s pretty straightforward</a>!</p>
+<p>The <a href="https://bookdown.org/yihui/blogdown/css.html">Blogdown book</a> does an excellent job summarizing what you need to know about CSS. This post builds on that a little by incorporating <a href="https://sass-lang.com/guide">features made possible by SCSS</a> including <strong>variables</strong>.</p>
+</section>
+<section id="choose-your-own-adventure" class="level1">
+<h1>Choose your own adventure</h1>
+<ol type="1">
+<li><strong>Check out the SCSS file</strong> linked above <i class="fas fa-hand-point-up"></i> to see how I customized my theme.</li>
+<li><strong>Keep reading</strong> to follow along and learn with me <i class="fas fa-user-friends"></i>.</li>
+</ol>
+</section>
+<section id="why-atom" class="level1">
+<h1>Why Atom?</h1>
+<p><a href="https://atom.io/">Atom</a> is a text editor that I like to use to <em>modify</em> any files in my website directory. I say modify because I much prefer to <em>create</em> content for posts like this one using the <a href="https://bookdown.org/yihui/blogdown/rstudio-ide.html">Blogdown addins in RStudio</a>. It’s such a breeze! But here’s why I think Atom is a fantastic companion to the RStudio IDE:</p>
+<ol type="1">
+<li><strong>Seeing your directory files is made friendly in Tree View</strong> when you open your website folder as a ‘project folder.’ You can just click on the file once to preview it and double-click if you want to actually open it. I find this to be really helpful when I can’t remember which file contains what I’m looking for because I don’t have to actually open each file to see what’s in it.</li>
+<li><strong>Searching for something specific is easy with the built-in search tool</strong>. I’ve used this many times when I can’t remember where that specific parameter (e.g.&nbsp;fonts) or file type (e.g.&nbsp;<code>.scss</code>) is located within my directory. I also find it super handy to find specific HTML color codes or color variables. This brings me to my most favorite feature in Atom…</li>
+<li><strong>The <a href="https://atom.io/packages/pigments">pigments</a> package!</strong> Like R, Atom has a universe of handy packages and <code>pigments</code> will <strong>display colors</strong> behind the code text that represents it. It’s kind of magical and has been a real game changer for me. Having this package will make customizing your scss file much easier on the eyes and brain.</li>
+</ol>
+<ul>
+<li>You may also choose to install the <a href="https://atom.io/packages/highlight-selected">highlight-selected</a> package to make highlighted text easier to spot throughout your file and the <a href="https://atom.io/packages/file-icons">file-icons</a> package to make it easier to discern between different file types in your tree view. You can install packages in <em>Atom &gt; Preferences &gt; Install</em>.</li>
+</ul>
+</section>
+<section id="adding-dark-mode-definitions-to-stylesheet" class="level1">
+<h1>Adding dark mode definitions to stylesheet</h1>
+<p>Looking through GitHub issues I found that including two sub-themes, one for light mode and one for dark mode, <a href="https://github.com/gcushen/hugo-academic/issues/995">may be considered for Academic in the future but is not a priority</a>. A related issue shared that if you use a custom CSS, you can <a href="https://github.com/gcushen/hugo-academic/issues/988">define <code>.dark .&lt;SELECTOR-NAME&gt; {...}</code> for dark mode</a>.</p>
+<p>Not knowing what all of the options were for dark mode, I took a look at the <strong>dark.scss</strong> dark mode stylesheet built in to Academic in <code>themes/hugo-academic/assets/scss/academic/</code> folder. You can see the <code>pigments</code> package in action here! It makes it easier to identify elements with colors that you want to change. I’m looking at you inline code text color <code>rgb(139, 233, 253)</code><span class="color-preview" style="background-color: rgb(139, 233, 253)"></span></p>
+<details>
+<summary>
+CSS code
+</summary>
+<p>Note that in SCSS syntax <code>//</code> indicates comments and <code>#</code> indicates hex codes</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">.dark</span> pre<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">.dark</span> code {</span>
+<span id="cb1-3">  <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">color</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">:</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rgb(</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">139</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">233</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">253</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> <span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">// cyan code text color</span></span>
+<span id="cb1-4">  <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">background-color</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">:</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rgb(</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">68</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">71</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">90</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> <span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">// light purple code background</span></span>
+<span id="cb1-5">}</span></code></pre></div>
+</details>
+<p><img src="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/img/atom-inline-text-color.png" title="CSS code chunk styling inline code. The Atom editor enables viewers to see the color that hex and rgb color codes correspond to, as the background of the color code text. This screenshot demonstrates that the inline code text color was cyan and the inline code background was light purple." alt="CSS code chunk styling inline code. The Atom editor enables viewers to see the color that hex and rgb color codes correspond to, as the background of the color code text. This screenshot demonstrates that the inline code text color was cyan and the inline code background was light purple." width="726" style="display: block; margin: auto;"></p>
+<p>Another way to find the css for the element you want to change is to use your browser’s web inspector tool. In the screenshot below from Hugo Academic’s <a href="https://web.archive.org/web/20200512194921/https://sourcethemes.com/academic/docs/customization/">customization documentation (available in the Internet Archive)</a> I right-clicked on <strong>themes/academic/data/themes/minimal.toml</strong> and then clicked on “inspect element.” The element code was <code>.dark pre, .dark code</code> which you might recognize from the code in <strong>dark.scss</strong>.</p>
+<p><img src="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/img/web-element-inspector.png" title="A view of the Firefox web inspector inspecting some inline code available on the Hugo Academic documentation site which used the out-of-the-box dark mode colors. The inspector reveals that the selected text was styled by the CSS code chunk included earlier and includes color previews so you can visually identify elements by color." alt="A view of the Firefox web inspector inspecting some inline code available on the Hugo Academic documentation site which used the out-of-the-box dark mode colors. The inspector reveals that the selected text was styled by the CSS code chunk included earlier and includes color previews so you can visually identify elements by color." width="700px" style="display: block; margin: auto;"></p>
+<p>You can copy and paste this new <code>.dark</code> theme code into a new (or existing) <strong>custom.scss</strong> file saved in the <code>assets/scss/</code> folder of your directory to start seeing how changes you make affect the look of your site.</p>
+</section>
+<section id="choosing-dark-theme-colors" class="level1">
+<h1>Choosing dark theme colors</h1>
+<p>Alright. Now that we have some new dark theme code in our custom file, we can move on to the exciting task of <strong>choosing colors</strong>! If you’re looking for some inspiration, <a href="https://coolors.co/palettes/trending/dark">Coolors has some dark color palettes</a>:</p>
+<p><img src="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/img/coolors-dark-palettes.png" title="Six different palettes available under the &quot;Dark&quot; category in the Coolors galleries, which feature deeper colors" alt="Six different palettes available under the &quot;Dark&quot; category in the Coolors galleries, which feature deeper colors" width="732" style="display: block; margin: auto;"></p>
+<p>Coolors is also a great place to save colors into custom palettes. Here’s a basic example of mine:</p>
+<p><img src="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/img/coolors-my-basic-palette.png" title="My palette saved in Coolors, featuring a navy blue primary color with a darker and lighter variant, a gold secondary color also with variants, and a neutral off-white color between them" alt="My palette saved in Coolors, featuring a navy blue primary color with a darker and lighter variant, a gold secondary color also with variants, and a neutral off-white color between them" width="700px" style="display: block; margin: auto;"></p>
+<p>If you’re like me and want to design a dark theme that uses the primary and secondary colors you picked for your light theme, keep reading! I’m gonna share highlights from what I learned about dark theme design and how to ensure your color combinations meet <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG)</a>.</p>
+<p>The bulk of what I learned came from the extensive Material Design resources, including (of course) the <a href="https://www.material.io/design/color/dark-theme.html">dark theme foundational material</a>, which will look familiar if you’ve ever used an Android device.</p>
+<section id="basics-of-dark-theme-design" class="level2">
+<h2 class="anchored" data-anchor-id="basics-of-dark-theme-design">Basics of dark theme design</h2>
+<ul>
+<li><p>The primary <strong>surface color</strong> for dark themes should be dark gray, rather than black. The recommended color is <code>#121212</code><span class="color-preview" style="background-color: #121212"></span></p></li>
+<li><p>As you layer components, surfaces with a higher elevation (closer to the hypothetical ‘light source’) should be lighter than those below it to create a visual hierarchy. This can be achieved by applying a semi-transparent white overlay to the primary dark gray surface.</p></li>
+</ul>
+<p><img src="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/img/material-surface-overlays.png" title="Ten different dark mode overlay examples from Material Design. The darkest/base layer contains 0% white overlay, elevation level 01 has 5% of a white overlay, level 02 has 7%, level 04 has 8%, level 05 has 9%, level 06 has 11%, level 08 has 12%, level 12 has 14%, level 16 has 15%, and level 24 has 16%" alt="Ten different dark mode overlay examples from Material Design. The darkest/base layer contains 0% white overlay, elevation level 01 has 5% of a white overlay, level 02 has 7%, level 04 has 8%, level 05 has 9%, level 06 has 11%, level 08 has 12%, level 12 has 14%, level 16 has 15%, and level 24 has 16%" width="524" style="display: block; margin: auto;"></p>
+<ul>
+<li>The primary <strong>text color</strong> for dark themes should not be 100% opaque white (i.e.&nbsp;<code>#FFFFFF</code><span class="color-preview" style="background-color: #FFFFFF; border: 2px solid gray;"></span>) because it can appear to bleed or blur against dark backgrounds and be difficult to read.</li>
+<li>Text hierarchy is established by controlling the opacity, for example:
+<ul>
+<li>High emphasis text is white with 87% opacity:<br><code>rgba(255, 255, 255, 0.87)</code><span class="color-preview" style="background-color: rgba(255, 255, 255, 0.87); border: 2px solid gray;"></span></li>
+<li>Medium emphasis is white with 60% opacity:<br><code>rgba(255, 255, 255, 0.60)</code><span class="color-preview" style="background-color: rgba(255, 255, 255, 0.60); border: 2px solid gray;"></span></li>
+<li>Disabled text is white with 38% opacity:<br><code>rgba(255, 255, 255, 0.38)</code><span class="color-preview" style="background-color: rgba(255, 255, 255, 0.38); border: 2px solid gray;"></span></li>
+</ul></li>
+<li>To meet WCAG AA standard, there must be a 4.5:1 contrast level between the body text and the dark theme surface at the highest/lightest elevation. The contrast level is 7:1 for the WCAG AAA standard.</li>
+</ul>
+</section>
+<section id="tools-to-explore-palettes" class="level2">
+<h2 class="anchored" data-anchor-id="tools-to-explore-palettes">Tools to explore palettes</h2>
+<p>Material Design has a <a href="https://material.io/design/color/the-color-system.html#tools-for-picking-colors">color palette generator</a> and a <a href="https://material.io/resources/color/">color tool</a> that can be used to dark and light variants of a color. I used the color tool to find a dark and light variant of my primary and secondary colors. The accessibility feature of the color tool is helpful to determine the minimum opacity for white text to ensure enough contrast. The <a href="https://coolors.co/contrast-checker">Coolors color contrast checker</a> is another great tool.</p>
+</section>
+</section>
+<section id="color-variables" class="level1">
+<h1>Color variables</h1>
+<p>One of the cool features of SCSS is the ability to use variables defined by prefix <code>$</code> (i.e.&nbsp;<code>$spc-primary: #122140;</code>. You can set your variables at the top of your SCSS file and use the variable name throughout the file. This makes it super easy to try out different dark mode colors without having to use find-and-replace. If you’re using the <code>pigments</code> package in Atom, it’ll even show you the variable colors in a dropdown!</p>
+<blockquote class="blockquote">
+<strong>Tip:</strong> I like using a bright color like
+
+<span style="background-color:#FDF4F4; color:#A90533">red </span>
+
+<p>to test color changes for different CSS elements because stands out and makes it easier to see what was modified.</p>
+</blockquote>
+<p>I defined my primary colors and variants, text colors, and various background colors as variables. And although dark gray (#121212) is recommended as a standard dark theme background, you can also create a custom background color by mixing it with your primary color. In my case I used <code>mix(#122140, #121212, 40)</code> to create a color that was 40% my primary color and 60% dark gray.</p>
+<blockquote class="blockquote">
+<p>I controlled white text opacity by using <code>rgba()</code> in CSS which accepts an alpha value between 0 and 1.</p>
+</blockquote>
+<p>Now, ideally I’d be able to define the result of this <code>mix()</code> as a color variable, but some CSS properties like <code>background-color</code> don’t recognize it. So I had to convert the result to a color code and define that as a variable instead. <code>pigments</code> made this conversion easy when I toggled the menu (Shift+Command+P on a Mac) and searched for the <code>pigments: convert</code> options.</p>
+<p><img src="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/img/atom-pigments-menu.png" title="The command palette in the Atom editor lets you search for packages and functions. When you type &quot;pigments: convert&quot; you can see the options like &quot;Pigments: Convert To Hex&quot;, &quot;Pigments: Convert to Rgba&quot;, etc." alt="The command palette in the Atom editor lets you search for packages and functions. When you type &quot;pigments: convert&quot; you can see the options like &quot;Pigments: Convert To Hex&quot;, &quot;Pigments: Convert to Rgba&quot;, etc." width="700px" style="display: block; margin: auto;"></p>
+<p>This <code>mix()</code> function also came in handy when defining background surfaces with semi-transparent white overlays.</p>
+<details>
+<summary>
+CSS code
+</summary>
+<p>Note that in SCSS syntax <code>//</code> indicates comments and <code>#</code> indicates hex codes</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode scss code-with-copy"><code class="sourceCode scss"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// COLOR CALCULATIONS</span></span>
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// below from mix($spc-primary, $spc-bkg-dark-std, 25)</span></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// custom bkg</span></span>
+<span id="cb2-4"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$spc-bkg-dark</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#12151d</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// below from mix($spc-primary, $spc-bkg-dark-std, 40)</span></span>
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// 00dp surface</span></span>
+<span id="cb2-7"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$spc-00dp</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#121824</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span>     </span>
+<span id="cb2-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// below from mix($spc-00dp, white, 95)</span></span>
+<span id="cb2-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// 00dp with 5% white overlay</span></span>
+<span id="cb2-10"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$spc-01dp</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#1d232e</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb2-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// below from mix($spc-00dp, white, 93)</span></span>
+<span id="cb2-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// 00dp with 7% white overlay</span></span>
+<span id="cb2-13"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$spc-02dp</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#222833</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb2-14"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// below from mix($spc-00dp, white, 92)</span></span>
+<span id="cb2-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// 00dp with 8% white overlay</span></span>
+<span id="cb2-16"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$spc-03dp</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#242a35</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb2-17"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// below from mix($spc-00dp, white, 91)</span></span>
+<span id="cb2-18"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// 00dp with 9% white overlay</span></span>
+<span id="cb2-19"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$spc-04dp</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#272c37</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span></code></pre></div>
+</details>
+<p><img src="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/img/atom-background-color-definitions.png" title="Atom editor showing the color variables I assigned to different elevation levels of my base background color. The mix() SCSS function let me mix by base dark color with white to create the effect of a white overlay as recommended by Material Design." alt="Atom editor showing the color variables I assigned to different elevation levels of my base background color. The mix() SCSS function let me mix by base dark color with white to create the effect of a white overlay as recommended by Material Design." width="700px" style="display: block; margin: auto;"></p>
+<p><strong>And that’s a wrap</strong>. Have fun building your new custom dark theme!</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-canelón2020" class="csl-entry quarto-appendix-citeas">
+Canelón, Silvia. 2020. <span>“Customizing Hugo Academic’s Dark Mode with
+Help from Atom.”</span> June 16, 2020. <a href="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/">https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/</a>.
+</div></div></section></div> ]]></description>
+  <category>Website</category>
+  <category>Tutorial</category>
+  <category>Atom</category>
+  <category>blogdown</category>
+  <category>Hugo</category>
+  <category>CSS</category>
+  <guid>https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/</guid>
+  <pubDate>Tue, 16 Jun 2020 04:00:00 GMT</pubDate>
+  <media:content url="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>
