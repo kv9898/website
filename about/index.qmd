@@ -1,5 +1,5 @@
 ---
-title: "Silvia Canelón"
+title: "Dianyi Yang"
 subtitle: Data Analyst,<br>Urban Health Lab @Penn
 image: sidebar/avatar.png
 image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
@@ -10,22 +10,33 @@ about:
   image-shape: rounded
   id: hero-heading
   links:
-    - text: "{{< fa universal-access >}}"
-      aria-label: "Accessibility statement"
-      href: accessibility.md
-    - icon: mastodon
-      href: https://fosstodon.org/@spcanelon
     - icon: github
       aria-label: GitHub
-      href: https://github.com/spcanelon
+      href: https://github.com/kv9898
+    - icon: youtube
+      aria-label: "Youtube"
+      href: https://www.youtube.com/@dianyiyang5977
+    - icon: instagram
+      aria-label: "Instagram"
+      href: https://www.instagram.com/yangdianyi
     - text: "{{< ai orcid >}}"
-      href: https://orcid.org/0000-0003-1709-1394
+      aria-label: "ORCID"
+      href: https://orcid.org/0009-0004-4652-3429
+    - text: "{{< ai researchgate >}}"
+      aria-label: "ResearchGate"
+      href: https://www.researchgate.net/profile/Dianyi-Yang
+    - text: "{{< ai ssrn >}}"
+      aria-label: "SSRN"
+      href: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5789803
     - text: "{{< ai google-scholar >}}"
       aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
-    - icon: linkedin
-      aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
+      href: https://scholar.google.com/citations?hl=en&user=lBLufI8AAAAJ
+    - text: "{{< fa brands bilibili >}}"
+      aria-label: "Bilibili"
+      href: https://space.bilibili.com/34634614
+    - text: "{{< fa brands zhihu >}}"
+      aria-label: "Zhihu"
+      href: https://www.zhihu.com/people/yang-dian-yi-9
 listing: 
 - id: blog
   contents: 

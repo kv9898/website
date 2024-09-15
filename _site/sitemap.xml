@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rubuky.com/talk/index.html</loc>
-    <lastmod>2023-09-15T04:02:57.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/project/index.html</loc>
-    <lastmod>2023-09-15T04:02:57.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/papers/index.html</loc>
-    <lastmod>2024-09-15T04:00:20.999Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/papers/2022-11-24-mwas-repurposed-covid19-meds/index.html</loc>
-    <lastmod>2024-09-15T03:30:30.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/license.html</loc>
-    <lastmod>2024-09-15T01:46:20.967Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/contact.html</loc>
-    <lastmod>2024-09-15T01:40:53.675Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/blog/2023-06-05-ccd-sips/index.html</loc>
-    <lastmod>2024-09-15T03:12:52.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/accessibility.html</loc>
-    <lastmod>2023-09-15T04:02:57.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/about/index.html</loc>
-    <lastmod>2024-09-15T05:44:41.997Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/index.html</loc>
-    <lastmod>2024-09-15T03:21:37.419Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/blog/index.html</loc>
-    <lastmod>2024-09-15T04:02:04.889Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/index.html</loc>
-    <lastmod>2024-09-15T01:27:00.722Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/papers/2022-07-21-ten-simple-rules-inclusive-conference/index.html</loc>
-    <lastmod>2023-09-15T04:02:57.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://rubuky.com/papers/2023-11-30-FemaleOfficer/index.html</loc>
     <lastmod>2024-09-15T05:57:51.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/project/2021-07-07-presentable-user2021/index.html</loc>
-    <lastmod>2023-09-15T04:02:57.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rubuky.com/talk/2023-03-09-penn-community-scholars/index.html</loc>
-    <lastmod>2023-09-15T04:02:57.000Z</lastmod>
   </url>
 </urlset>
