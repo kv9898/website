@@ -32,7 +32,14 @@ $title-metadata.html()$
 $if(links)$
 <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
 $for(links)$
-<a href="$links.url$" class="btn btn-secondary text-capitalize"><i class="bi bi-$links.icon$ me-1"></i> $links.name$</a>
+<a href="$links.url$" class="btn btn-secondary text-capitalize">
+
+$if(links.icon_pack)$
+  <i class="$links.icon_pack$ $links.icon_pack$-$links.icon$ me-1"></i> $links.name$</a>
+$else$
+  <i class="bi bi-$links.icon$ me-1"></i> $links.name$</a>
+$endif$
+
 $endfor$
 </div>
 $endif$
