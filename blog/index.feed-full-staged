@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Dianyi Yang</title>
+<link>https://rubuky.com/blog/</link>
+<atom:link href="https://rubuky.com/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>All of my mind-blowing ideas that are not publishable are hidden here.
+While my papers are focused on explanation, as most of the mainstream academic papers do,
+my blogs conceive of alternative realities with my “lunatic” policy designs.
+</description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Thu, 12 Sep 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/blog/2024-09-12-Bankrun/index.html}</title>
+  <dc:creator>Dianyi Yang</dc:creator>
+  <link>https://rubuky.com/blog/2024-09-12-Bankrun/</link>
+  <description>{B4F502887207:/blog/2024-09-12-Bankrun/index.html}</description>
+  <category>monetary policy</category>
+  <category>monetary policy</category>
+  <category>bank run</category>
+  <category>moral hazard</category>
+  <guid>https://rubuky.com/blog/2024-09-12-Bankrun/</guid>
+  <pubDate>Thu, 12 Sep 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://rubuky.com/blog/2024-09-12-Bankrun/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/2023-02-23-IMP/index.html}</title>
+  <dc:creator>Dianyi Yang</dc:creator>
+  <link>https://rubuky.com/blog/2023-02-23-IMP/</link>
+  <description>{B4F502887207:/blog/2023-02-23-IMP/index.html}</description>
+  <category>monetary policy</category>
+  <category>stagflation</category>
+  <category>inequality</category>
+  <category>deleveraging</category>
+  <guid>https://rubuky.com/blog/2023-02-23-IMP/</guid>
+  <pubDate>Thu, 23 Feb 2023 05:00:00 GMT</pubDate>
+  <media:content url="https://rubuky.com/blog/2023-02-23-IMP/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
