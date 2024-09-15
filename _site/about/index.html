@@ -105,35 +105,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-talk .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-talk'] = new List('listing-talk', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publication .list');
+    const listingTargetEl = window.document.querySelector('#listing-papers .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -142,39 +114,11 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publication'] = new List('listing-publication', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-project .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-project'] = new List('listing-project', options);
+    window['quarto-listings']['listing-papers'] = new List('listing-papers', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -382,8 +326,26 @@ No matching items
 </section>
 <section id="papers" class="level4 g-col-3">
 <h4 data-anchor-id="papers">Papers</h4>
-<div id="papers">
-
+<div id="listing-papers" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-categories="public administration,police-citizen interaction,feminism,public administration,public opinion,United States" data-listing-file-modified-sort="1726379147369" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<a href="../papers/2023-11-30-FemaleOfficer/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../papers/2023-11-30-FemaleOfficer/featured.jpg" class="thumbnail-image card-img" style="height: 200;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A Reproduction of ‘Do Female Officers Police Differently? Evidence from Traffic Stops’ (American Journal of Political Science, 2021)
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 <p><a href="../papers" class="about-links subtitle">See all →</a></p>
 </section>
@@ -394,60 +356,7 @@ No matching items
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-talk">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Education" data-listing-date-sort="1678401000000" data-listing-file-modified-sort="1694750577000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../talk/2023-03-09-penn-community-scholars/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../talk/2023-03-09-penn-community-scholars/featured.png" class="thumbnail-image card-img" style="height: 200;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Analytics 101
-</h5>
-<div class="card-subtitle listing-subtitle">
-Practical talk highlighting how data can be leveraged to support community-academic partnerships
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><div class="quarto-listing quarto-listing-container-grid" id="listing-publication">
-<div class="list grid quarto-listing-cols-1">
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><div class="quarto-listing quarto-listing-container-grid" id="listing-project">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="R,xaringan,R,Education" data-listing-date-sort="1625630400000" data-listing-file-modified-sort="1694750577000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<a href="../project/2021-07-07-presentable-user2021/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../project/2021-07-07-presentable-user2021/featured.png" class="thumbnail-image card-img" style="height: 200;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Professional, Polished, Presentable
-</h5>
-<div class="card-subtitle listing-subtitle">
-Making Great Slides with xaringan
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
