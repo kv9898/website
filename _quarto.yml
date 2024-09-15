@@ -1,6 +1,9 @@
 project:
   type: website
   render:
+    - "*.qmd"
+    - "*.ipynb"
+    - "*.Rmd"
     - "!*.md"
   post-render: 
     - "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
