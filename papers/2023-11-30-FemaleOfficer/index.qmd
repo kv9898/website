@@ -3,6 +3,7 @@ author: Dianyi Yang and Leike Huang
 subtitle: adapted from GV330 project
 title: A Reproduction of 'Do Female Officers Police Differently? Evidence from Traffic Stops' (American Journal of Political Science, 2021)
 citation: false
+image: featured.jpg
 categories:
 - public administration 
 - police-citizen interaction
