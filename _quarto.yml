@@ -14,7 +14,7 @@ website:
       repo-id: R_kgDOMoo-dg
       category: general
       category-id: DIC_kwDOMoo-ds4CiDTF
-      mapping: pathname
+      mapping: title
       reactions-enabled: true
       theme:
         light: light
