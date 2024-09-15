@@ -40,20 +40,20 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
-- id: talk
-  contents: 
-    - "../talk/*/index.qmd"
-    - "../talk/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: publication
+#- id: talk
+#  contents: 
+#    - "../talk/*/index.qmd"
+#    - "../talk/*/index.markdown"
+#  sort: date desc
+#  type: grid
+#  grid-columns: 1
+#  categories: false
+#  sort-ui: false
+#  filter-ui: false
+#  fields: [title, subtitle, image]
+#  max-items: 1
+#  image-height: "200"
+- id: papers
   contents: 
     - "../papers/*/index.qmd"
     - "../papars/*/index.markdown"
@@ -66,20 +66,20 @@ listing:
   fields: [title, image]
   max-items: 1
   image-height: "200"
-  image-placeholder: ../publication/featured.jpg
-- id: project
-  contents: 
-    - "../project/*/index.qmd"
-    - "../project/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
+  image-placeholder: ../papers/featured.jpg
+#- id: project
+#  contents: 
+#    - "../project/*/index.qmd"
+#    - "../project/*/index.markdown"
+#  sort: date desc
+#  type: grid
+#  grid-columns: 1
+#  categories: false
+#  sort-ui: false
+#  filter-ui: false
+#  fields: [title, subtitle, image]
+#  max-items: 1
+#  image-height: "200"
 page-layout: article
 format: 
   html: 
