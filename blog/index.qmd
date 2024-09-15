@@ -23,6 +23,7 @@ listing:
   feed: true
 citation: false
 page-layout: article
+comments: false
 format: 
   html: 
     grid:

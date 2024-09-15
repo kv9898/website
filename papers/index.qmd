@@ -17,6 +17,7 @@ listing:
   # image-height: 10em
   page-size: 5
 page-layout: article
+comments: false
 format: 
   html: 
     grid:

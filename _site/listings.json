@@ -2,22 +2,9 @@
   {
     "listing": "/papers/index.html",
     "items": [
+      "/papers/2023-11-30-FemaleOfficer/index.html",
       "/papers/2022-11-24-mwas-repurposed-covid19-meds/index.html",
-      "/papers/2022-07-21-ten-simple-rules-inclusive-conference/index.html",
-      "/papers/2022-06-07-mwas-multiple-birth/index.html",
-      "/papers/2022-03-09-ppd-ontology/index.html",
-      "/papers/2021-11-24-sct-stillbirth/index.html",
-      "/papers/2021-08-11-ehr-environmental-exposure-pfas/index.html",
-      "/papers/2021-05-11-geospatial-analysis-pregnancy-outcomes/index.html",
-      "/papers/2021-04-08-smm-individual-neighborhood/index.html",
-      "/papers/2020-12-10-csections-emergency-admissions/index.html",
-      "/papers/2020-08-02-maddie-ehr-delivery-episode-algorithm/index.html",
-      "/papers/2020-05-06-preprint-hydroxychloroquine-pregnancy/index.html",
-      "/papers/2020-03-05-climate-change-menarche/index.html",
-      "/papers/2019-11-20-amia-annual-symposium/index.html",
-      "/papers/2019-12-01-bapn-substrate-strain/index.html",
-      "/papers/2018-05-01-dissertation/index.html",
-      "/papers/2016-11-06-bapn-morphology/index.html"
+      "/papers/2022-07-21-ten-simple-rules-inclusive-conference/index.html"
     ]
   },
   {
@@ -64,26 +51,7 @@
       "/blog/2023-06-05-ccd-sips/index.html",
       "/blog/2020-05-26-dark-mode-custom-with-atom/index.html",
       "/talk/2023-03-09-penn-community-scholars/index.html",
-      "/talk/2022-11-10-thinking-big/index.html",
-      "/talk/2022-09-29-ccd-sips/index.html",
-      "/talk/2022-04-27-dbei-research-day/index.html",
-      "/talk/2022-02-11-tdw-ehr-lessons/index.html",
-      "/talk/2021-07-07-presentable-user2021/index.html",
-      "/talk/2021-05-04-data-viz-accessibility/index.html",
-      "/talk/2021-03-23-amia-informatics-summit/index.html",
-      "/talk/2021-03-16-xaringan-deploy-demo/index.html",
-      "/talk/2021-02-18-r-teaching-panel/index.html",
-      "/talk/2020-12-17-introduccion-xaringan/index.html",
-      "/talk/2020-11-03-xaringan-basics-and-beyond/index.html",
-      "/talk/2020-08-31-tour-of-the-tidyverse/index.html",
-      "/project/2021-07-07-presentable-user2021/index.html",
-      "/project/2021-05-04-tidy-tuesday-alt-text/index.html",
-      "/project/2021-01-01-useR-2021/index.html",
-      "/project/2020-12-28-teaching-tech-together-es/index.html",
-      "/project/2020-12-09-xaringan/index.html",
-      "/project/2020-11-03-xaringan-nhs-r/index.html",
-      "/project/2020-10-29-nhsrtheme/index.html",
-      "/project/2020-03-25-data-hack-opioid/index.html"
+      "/project/2021-07-07-presentable-user2021/index.html"
     ]
   }
 ]
