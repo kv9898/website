@@ -1,0 +1,126 @@
+---
+author: Dianyi Yang
+title: How allowing individuals to save with the central bank can prevent bank runs
+date: '2024-09-12'
+categories:
+  - monetary policy
+  - monetary policy
+  - bank run
+  - moral hazard
+image: featured.jpg
+
+---
+In the aftermath of the failures in the 2007-2008 Global Financial Crisis (GFC), there were attempts to overhaul the financial system. Hence, we got Basel III, which imposes capital requirements for systematically important institutions no higher than that reported by Lehman the day before it failed (see [Boone and Johnson, 2011](https://www.piie.com/commentary/op-eds/future-banking-more-regulation-needed)), amazing.
+
+It is therefore not surprising that we saw bank runs again in 2023 which contributed to the collapse of the Silicon Valey Bank (SVB), Silvergarte Bank and Signature Bank. Absurdly enough, the Fed's response to these failures was to create the Bank Term Funding Program (BTFP) which allowed the surviving banks to borrow cheaply, and deposit the borrowed funds with the Fed at a higher interest rate for a profit (see Lee and Wessel's [post](https://www.brookings.edu/articles/what-did-the-fed-do-after-silicon-valley-bank-and-signature-bank-failed/)).
+
+![image](svb.jpg "The Collapse of the SVB")
+
+Could we have done better than that? I have a plan - let people save the money with the central bank, for real.
+
+Urghhh, that's not what central banks are meant to do! Urghhhh, this has severe political and financial repercussions! Urghhhhh, you are destroying the current banking sytem! Heyy heyy, don't be pre-occupied with the mainstream economic dogma which has made macro-economics so pathetic today. I'm a political science student myself and I know that this plan is politically controversial and the duty of taking deposits from the public is not on the current central banks' mandates. But let's think of the future, shall we? It's better for me to have a quixotic plan rather than for the policy-makers to have no alternatives when they are looking for a solution after the next crisis. After all, when you delve in the details my plan, it is not as radical as you may think.
+
+Here's a summary:
+- Central banks should allow the public to make *demand* deposits with them and receive interests *daily* at the policy deposit rate.
+- To compensate for the commercial banks' lost deposits, the commercail banks may borrow from the central bank *without collateral* at the policy lending rate, and lend to borrowers at a higher rate.
+- Central banks cannot be "run" by depositors as it can only exchange one form of its liability (deposit) to another (cash or commercial bank reserves)
+- As long as the central banks do not withdraw their "savings" from the commercial banks - they can't by design, by the way; the commercial banks would be immune from bank runs.
+- Central banks under this setting can be intuitively understood as a firewall between the (demand) depositors and commercial banks.
+- Commercial bank reserves deposited at central banks will be deprecated.
+
+Let me walk you through this process with some graphical illustrations of balance sheets：
+
+We start with a commercial bank, let's say, Pony (no allusion to Lloyds), which initially has a balance sheet that looks something like this:
+
+![image](commercial1.png "Pony's initial balance sheet")
+
+The central bank's balance sheet would look like this:
+
+![image](cb1.png "Central Bank's initial balance sheet")
+
+The new policy allows despositors to save with the central bank - very safe as we will discuss later, and receive daily interests a the policy deposit rate (which is slightly below the lending rate, the spread serves as an insurance). Why do I emphasize that interests are paid daily (after a maintenance period) at the policy rate? Because they are the terms that commercial banks and the government enjoy for their deposits with the central bank, we should *democratise* this privilege to the people.
+
+This should attract some depositors. If some depositors start moving their demand deposits to the central bank, this will not change the *size* but the *composition* of the balance sheet of the central bank. Namely, some central bank reserves become individual deposits at the central bank:
+
+![image](cb2.png "Central Bank's balance sheet after conversion")
+
+As a consequence, our Pony bank is in a difficult position where the depositors' switch to the central bank is effectively a run on the Pony! Pony's reserves are drained and liquidity is needed.
+
+![image](commercial2.png "Pony's balance sheet after conversion")
+
+Therefore, it is necessary for the central bank to allow Pony to borrow from it, *without collateral*. It it required collateral, Pony would fail due to drained asssets. This is also key to the failures of the SVB and Signature Bank - The Fed requried them to provide collateral before it can lend them through the Discount Window facility (see Wessel's [commentary](https://www.brookings.edu/articles/how-to-fix-what-ails-the-feds-discount-window/)). However, borrowing through the facility is a *stigma* for banks (i.e. it is a signal that you are in a big trouble, which itself triggers bank runs), this means that commercial banks are more likely to pursue self-rescue by selling assets for cash before seeking help from the central bank. By the time they turn to the central bank, they are likely left with no collateral, putting the emergency facility in vain.
+
+In my design, the commercial banks like Pony are allowed to borrow *as much as they want* from the central bank without collateral, at the policy lending rate (which is slightly above the deposit rate). What? the central bank is now taking risks? But who else is in a better position to take such risks, other than the institution responsible for prudential regulation, the central bank itself? Why should poor depositors who are uninformed about the intricate banking system bear such risks? Oh, you mentioned the deposite insurance? EXACTLY, we also have an insurance in this design - the deposit-lending rate spread, so why is the fuss about this additional risk, when we have an insurance in design? Moreover, as I will demonstrate later, this design eliminates the *systemic* risk by avoiding bank runs, so on the whole the risk level is lower.
+
+Let's say Pony borrows the exact amount of lost deposits from the central bank, its balance sheet will recover:
+
+![image](commercial3.png "Pony's balance sheet after loan")
+
+Accordingly, the Central Bank's balance sheet changes as follows:
+
+![image](cb3.png "Central Bank's balance sheet after loan")
+
+Over time, when more and more depositors switch to the central bank, Pony's balance sheet will end up like this:
+
+![image](commercial4.png "Pony's balance sheet before eliminating reserves")
+
+While the central bank's balance sheet will be like:
+
+![image](cb4.png "Central Bank's balance sheet before eliminating reserves")
+
+Now commercial bank reserves with the central bank look silly right? Why would the commercial banks borrow from and deposit at the central bank at the same time when it is not profitable? Also, the reserves lose their point - if there is no risk of bank run and cash is easily obtainable from the central bank, why keeping reserves? At the end of the day, reserves cancel out with central bank loans. For Pony,
+
+![image](commercial5.png "Pony's balance sheet without reserves")
+
+For Central Bank:
+
+![image](cb5.png "Central Bank's balance sheet without reserves")
+
+Welcome to a world of save deposits and no bank run.
+
+# Why are central banks immune to bank runs?
+
+>  You don't know the power of the dark side.
+>
+> &mdash; Darth Vader
+
+Simple answer: central banks cannot bu "run" by depositors because they can only exchange one form of their liability (deposit) to another (cash or commercial bank reserves).
+
+Let's first consider the case where depositors transfer their funds to commercial banks (Pony) in a silly panic. In this case, the some individual deposits become bank reserves (see diagram below), leaving the size of the balance sheet intact. The central bank does not need to sell any assets for cash like commercial banks do. This is because, commercial bank reserves with the central bank are also a form of its liability that can be issued freely by the central bank. More importantly, this does not affect the central bank's profitability - because the interest rate paid on reserves is the same as that paid on individual deposits, the policy deposit rate.
+
+![image](cb6.png "Central Bank's balance sheet after transfers to Pony")
+
+"What about taking out cash from the central bank?" Oh, the central bank would have laughed at this idea. This is because, cash is also a form of its liability - it is essentially an "IOU" written by the central bank. Maybe even worse than that, it will only be repaid with other forms of "IOU". But why is withdrawing cash even a good thing for the central bank? Because the central bank doesn't pay cashholders any interest. The central bank's balance sheet will be like this: 
+
+![image](cb7.png "Central Bank's balance sheet after cash withdrawals")
+
+It can be seen that, with the size of the balance sheet intact, the central bank is more profitable by having the same return on the assets on the left hand side, and paying less interest on the liabilities on the right hand side due to a higher proportion of cash. In fact, this profit generated from non-interest bearing cash is called seigniorage (see [Downes & Vaez-Zadeh, 1991](https://www.elibrary.imf.org/display/book/9781557751850/9781557751850.xml)).
+
+# A Ceiling System?
+
+Those who are familiar with monetary policy implementation sytems would know that there are different policy interest rates set by the central bank. Specifically, the central bank determines the interest rates at which it lends (against collateral) to commcercial banks (known as the lending rate) pays on commercial bank reserves (known as the deposit rate). The overnight interbank rate is bounded by the lending rate as the upper limit and the deposit rate as the lower limit. This is because, there is no point (assuming no stigma) borrowing above the lending rate from another bank when you can borrow from the central bank, or lending below the deposit rate when you can enjoy the same interest rate when despositing at the central bank savely.
+
+Prior to Quantitative Easing (QE), central banks operated in a so-called "corridor system" whereby the central bank buys and sells short-term Treasury securities to adjust the supply of reserves so that the the interbank rate is between the lending rate and the deposit rate. This is called Open Market Operations (OMO). This is shown in the diagram below:
+
+![image](corridor.jpg "Corridor system")
+
+*Source: [Reserve Bank of Australia](https://www.rba.gov.au/publications/bulletin/2022/jun/an-international-perspective-on-monetary-policy-implementation-systems.html)*
+
+After QE, there has been a plethora of reserves. As a result, overnight interbank rate equilibrates at the deposit rate. This is known as the floor system.
+
+![image](floor.jpg "Floor system")
+
+*Source: [Reserve Bank of Australia](https://www.rba.gov.au/publications/bulletin/2022/jun/an-international-perspective-on-monetary-policy-implementation-systems.html)*
+
+In contrast, our policy suggestion implies the opposite of the floor system, i.e. the ceiling system. This is because, contrary to the floor system where commercial banks abound with reserves, under our new policy, they are net debtors to the central bank. In this case, the interbank rate would equilibrate at its ceiling of the *lending rate* (without collateral). The reason behind this is that, those commercial banks indebted to the central bank would not lend to other banks at an interest lower than their own marginal cost of borrowing (the policy lending rate); those that are not debtor to the central bank would not keep any reserves either - it is more profitable to lend this extra cash to other banks and the latter would agree to borrow at the ceiling of the lending rate.
+
+# Frequently Asked Questions
+
+Q1: Does it require a lot of extra infrastructure on the part of the central bank?
+A1: In practice, the central bank can delegate the duty of current/checking account management to commercial banks. Moreover, since everything is going digital today, and central banks themselves are responsible for payment clearing as the clearing house, it is just a matter of database management. After all, many of us are customers of virtual banks anyway, right?
+
+Q2: Who are the winners and losers under this new policy?
+A2: The winners are depositors who now receive lower interest rates than the policy deposit rate on their demand deposit accounts, and small banks who struggle to find savers. The losers are big commercial banks who exploit their current/checking account customers by paying zero or low interest rates. They will face a higher cost of financing. It should be noted that the major banks have benefited from the excess reserves under the floor system and the recent high interest rates - it is virtually free money handed to them from the taxpayers' pockets. The new policy transfers this perquisite to the general public.
+
+Q3: Will it cause any financial instability as it is a *de facto* tax on the major banks?
+A3: Yes, but we can mitigate that in various ways. First, we can phase-in the transition by limiting the the size of deposits the general public can make at the central bank in the beginning of the policy and gradually lifting the limits. Second, we can pay public depositors lower interest rates in the beginning of the policy. Third, we can use this policy as a substitute for rate hikes in the next inflationary period, because by raising the cost of borrowing of the banks and increasing the interests received by public depositors, it has the same effect as a rate hike.
