@@ -1,0 +1,87 @@
+project:
+  type: website
+  post-render: 
+    - "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
+
+website:
+  title: "Dianyi Yang"
+  site-url: https://rubuky.com
+  favicon: "assets/dianyi/name.ico"
+  description: "Political Economy/Causal Inference/Game Theory."
+  comments: 
+    giscus:
+      repo: kv9898/website
+      repo-id: R_kgDOMoo-dg
+      category: general
+      category-id: DIC_kwDOMoo-ds4CiDTF
+      mapping: pathname
+      reactions-enabled: true
+      theme:
+        light: light
+        dark: dark_dimmed
+      language: en
+  navbar:
+    # logo: assets/dianyi/name.ico
+    tools:
+    #- icon: github
+    #  href: https://www.github.com/kv9898/website
+    right:
+      - text: About
+        aria-label: "About Me"
+        href: about/index.qmd
+      - text: Blog
+        aria-label: "My Blogs"
+        href: blog/index.qmd
+      #- text: Talks
+      #  aria-label: "Invited Talks"
+      #  href: talk/index.qmd  
+      - text: Papers
+        aria-label: "Papers"
+        href: papers/index.qmd
+      - text: CV
+        aria-label: "CV"
+        href: cv/CV_Dianyi.pdf
+      #- text: Projects
+      #  aria-label: "Project Portfolio"
+      #  href: project/index.qmd
+  
+  page-footer:  
+    left: >-
+     &#169; 2024 Dianyi Yang  &#8729; Made with [Quarto](https://quarto.org).<br>Based on [Silvia Canelón's](https://silviacanelon.com/) template.
+    center: |
+      <a class="link-dark me-1" href="https://github.com/kv9898" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://www.youtube.com/@dianyiyang5977" title="youtube" target="_blank" rel="noopener">{{< fa brands youtube >}}</a>
+      <a class="link-dark me-1" href="https://www.instagram.com/yangdianyi" title="instagram" target="_blank" rel="noopener">{{< fa brands instagram >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0009-0004-4652-3429" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a> 
+      <a class="link-dark me-1" href="https://www.researchgate.net/profile/Dianyi-Yang" title="ResearchGate" target="_blank" rel="noopener">{{< ai researchgate >}}</a>
+      <a class="link-dark me-1" href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5789803" title="SSRN" target="_blank" rel="noopener">{{< ai ssrn >}}</a>
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?hl=en&user=lBLufI8AAAAJ" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+      <a class="link-dark me-1" href="https://space.bilibili.com/34634614" title="Bilibili" target="_blank" rel="noopener">{{< fa brands bilibili >}}</a>
+      <a class="link-dark me-1" href="https://www.zhihu.com/people/yang-dian-yi-9" title="Zhihu" target="_blank" rel="noopener">{{< fa brands zhihu >}}</a>
+    
+    right: 
+      - text: "License"
+        aria-label: "License Details"
+        href: license.qmd
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      
+
+format: 
+  html:
+    theme:
+      light:
+        - cosmo
+        - assets/dianyi/dianyi-theme-light.scss
+        - assets/dianyi/colors-light.scss
+        - assets/silvia/fonts.scss
+      dark:
+        - cosmo
+        #- assets/dianyi-theme-dark.scss
+        #- assets/silvia/colors-light.scss
+        #- assets/silvia/fonts.scss
+    highlight-style: a11y
+
+execute: 
+  freeze: auto

@@ -1,0 +1,5 @@
+*.md linguist-detectable
+*.qmd linguist-detectable
+*.Qmd linguist-detectable
+*.rmd linguist-detectable
+*.Rmd linguist-detectable
