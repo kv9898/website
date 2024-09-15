@@ -18,5 +18,8 @@ jobs:
       - name: Render and Publish 
         uses: quarto-dev/quarto-actions/publish@v2
         with:
+          cache-version: 2
+          extra-packages: |
+            any::rmarkdown
           target: netlify
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
