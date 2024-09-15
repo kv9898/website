@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>Dianyi Yang</title>
-<link>https://rubuky.com/blog/</link>
-<atom:link href="https://rubuky.com/blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://benevolent-paprenjak-7af166.netlify.app/blog/</link>
+<atom:link href="https://benevolent-paprenjak-7af166.netlify.app/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>This is my blog where I practice sharing my curiosity about R.
 It includes notes and tutorials for my future self and hopefully also for you.
 [Subscribe via RSS](/index.xml)
@@ -17,7 +17,7 @@ It includes notes and tutorials for my future self and hopefully also for you.
 <item>
   <title>{B4F502887207:/blog/2023-06-05-ccd-sips/index.html}</title>
   <dc:creator>Silvia Canelón</dc:creator>
-  <link>https://rubuky.com/blog/2023-06-05-ccd-sips/</link>
+  <link>https://benevolent-paprenjak-7af166.netlify.app/blog/2023-06-05-ccd-sips/</link>
   <description>{B4F502887207:/blog/2023-06-05-ccd-sips/index.html}</description>
   <category>R</category>
   <category>maps</category>
@@ -26,14 +26,14 @@ It includes notes and tutorials for my future self and hopefully also for you.
   <category>rvest</category>
   <category>leaflet</category>
   <category>tidygeocoder</category>
-  <guid>https://rubuky.com/blog/2023-06-05-ccd-sips/</guid>
+  <guid>https://benevolent-paprenjak-7af166.netlify.app/blog/2023-06-05-ccd-sips/</guid>
   <pubDate>Mon, 05 Jun 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://rubuky.com/blog/2023-06-05-ccd-sips/featured.png" medium="image" type="image/png" height="75" width="144"/>
+  <media:content url="https://benevolent-paprenjak-7af166.netlify.app/blog/2023-06-05-ccd-sips/featured.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>{B4F502887207:/blog/2020-05-26-dark-mode-custom-with-atom/index.html}</title>
   <dc:creator>Silvia Canelón</dc:creator>
-  <link>https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/</link>
+  <link>https://benevolent-paprenjak-7af166.netlify.app/blog/2020-05-26-dark-mode-custom-with-atom/</link>
   <description>{B4F502887207:/blog/2020-05-26-dark-mode-custom-with-atom/index.html}</description>
   <category>Website</category>
   <category>Tutorial</category>
@@ -41,9 +41,9 @@ It includes notes and tutorials for my future self and hopefully also for you.
   <category>blogdown</category>
   <category>Hugo</category>
   <category>CSS</category>
-  <guid>https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/</guid>
+  <guid>https://benevolent-paprenjak-7af166.netlify.app/blog/2020-05-26-dark-mode-custom-with-atom/</guid>
   <pubDate>Tue, 16 Jun 2020 04:00:00 GMT</pubDate>
-  <media:content url="https://rubuky.com/blog/2020-05-26-dark-mode-custom-with-atom/featured.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://benevolent-paprenjak-7af166.netlify.app/blog/2020-05-26-dark-mode-custom-with-atom/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>
