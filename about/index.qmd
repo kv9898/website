@@ -1,8 +1,8 @@
 ---
 title: "Dianyi Yang"
-subtitle: Data Analyst,<br>Urban Health Lab @Penn
+subtitle: Currently preparing for GRE
 image: sidebar/avatar.png
-image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
+image-alt: "Literally the same picture as on the main page"
 comments: false
 about:
   template: trestles
@@ -105,43 +105,35 @@ resources:
 ---
 
 ::: {#hero-heading}
-<div class="h1">Hey, I'm happy you're here</div>
+<div class="h1">Hello, this is Dianyi! Nice to meet you.</div>
 
-Thanks for stopping by!
-
-I'm a data analyst in the [Urban Health Lab](https://www.urbanhealthlab.org/) at the University of Pennsylvania. My research interests include applications of biomedical and spatial data science in the public and population health fields. 
-
-I work on projects that use electronic health record (EHR) and geospatial data to explore how the neighborhood environment and access to urban nature can impact the health of individuals in Philadelphia. Learn more about my research interests in [publications](/publication).
-
-Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
+I'm so far interested in the following areas:
+<ul>
+  <li>Political Economy</li>
+  <li>Monetary Policy</li>
+  <li>Public Opinion</li>
+  <li>Causal Inference</li>
+  <li>Game Theory</li>
+  <li>Data Science</li>
+  <li>Machine Learning</li>
+  <li>Text Analysis</li>
+</ul>
 
 :::
 
-## About me
+## More about my thoughts
 
 ::: {.grid}
 
 ::: {.g-col-6 #about-me-1}
 
-Biomedical engineer turned informaticist, curious about all intersections of data and society.
-
-I enjoy using [R](https://www.r-project.org/about.html) to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I'm certified as an [RStudio Tidyverse Instructor](https://education.rstudio.com/trainers/people/canelon+silvia/) and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my [blog](/blog) and presentations in [talks](/talk).
-
-<ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://education.rstudio.com/trainers/people/canelon+silvia/">Tidyverse Instructor Certification</a> ∙ RStudio, PBC ∙ 2020</li>
-</ul>
+I belive that monetary policy is the most important part of sovereignty for nation states in the 21st century, to the extent that it should no longer be considered a purely "economic" subject, but an inherent political topic. At the end of the day, money printing, despite some limits, is like a cheat code of the game, right? Sadly, central banks and governments are, one could say, very bad at using this power. In this regard, I agree with the Modern Monetary Thoery (MMT) on the underutilisation of monetary policy (although I do not agree with their stance on fiscal policy as a feasible tool to tackle inflation). I (crazily) think central banks should be operating in the *stock market*, for profit, both as a monetary tool and as a fiscal tool to tax the rich. The investments can serve as a sovereign wealth fund which benefits all citizens. Sounds like socialism? I think that's the right way forward. More importantly, I think the public should be better informed about monetary policy as an additional check on the central banks, in the era of central bank independence (CBI).
 
 :::
 
 ::: {.g-col-6 #about-me-2}
 
-Prior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I'm particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.
-
-<ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://www.med.upenn.edu/mbmi/certificate.html">Certificate in Biomedical Informatics</a> ∙ University of Pennsylvania ∙ 2019</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Biomedical Engineering ∙ Purdue University ∙ 2018</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012</li>
-</ul>
+I used to be a Marxist. However, I later distanced myself from from the ideology for its inherent totalitarian tendencies, as Popper points out. Moreover, I do not think a proletarian revolution that overthrows will eventually happen. In my understanding of the dialectical process, a *new* class, not existing classes under the capitalist system (bourgeoisie or proletariat) will send capitalism to its grave. For me, it seems that the new class is the *technocrats* equipped with the new data science techniques. I think, at the end of the day, data will replace capital as the main means/factor of production. An AGI revolution for the new stage (socialism?) will echo the industrial revolution for capitalism. Will it bring a better life? Not necessarily. While I think an AI revolution will improve the *material* aspects of standards of living, it leads us to question the purpose of our lives. Greek teleology, huh? I think many people will commit suicide for losing their "purpose of life", and only those who are happy to "lie flat" (躺平) can survive. I'm striving to become the latter and this is my personal philosophy :)
 
 :::
 
