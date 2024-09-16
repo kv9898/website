@@ -137,7 +137,7 @@ As discussed above, existing tightening monetary tools (e.g. higher interest rat
 
 The continuation of the equity sales is a legacy tool from the previous leveraging period. It could be used as a device to “cool down” an overheated financial market and “prick” a financial bubble without using more harmful methods, such as higher interest rates.
 
-Selling treasury bonds/bills could be a substitute for rate hikes as discussed before [@Wei2022]. The cases against using quantitative easing as a substitute for higher interest rates, as @Economist2022 suggests, are that empirically the first round of QT in the US starting in 2017 did not show much impact on long-term interest rates and that more QT would signal reduced rate rises, not more, so could cause bond yields to fall — both are disputable. Firstly, the QT round starting in 2017 was passive, i.e. the Fed only stopped reinvesting the proceeds from maturing bonds; it did not involve actively selling bonds held by the Fed. Secondly, the scale of the QT between 2017 and 2020 was too small — it was only $710bn; in contrast, @Wei2022 suggests $2.2 trillion dollars over three years for an impact equivalent to a 22 basis points rate hike. Thirdly, @Economist2022 argument that yields might instead rise as a result of QT due to market expectation of reduced rate hikes is an evidence that the scale of the QT is not big enough, and the central bank fails to provide convincing forward guidance — had the central bank communicated to the market about its goal in terms of bond yields (e.g. “we aim to push up the 10-year yield to 5%”), rather than a “quantitative” commitment in terms of the size of the balance sheet reduction, the impact might have been much bigger.
+Selling treasury bonds/bills could be a substitute for rate hikes as discussed before [@Wei2022]. The cases against using quantitative easing as a substitute for higher interest rates, as @Economist2022 suggests, are that empirically the first round of QT in the US starting in 2017 did not show much impact on long-term interest rates and that more QT would signal reduced rate rises, not more, so could cause bond yields to fall — both are disputable. Firstly, the QT round starting in 2017 was passive, i.e. the Fed only stopped reinvesting the proceeds from maturing bonds; it did not involve actively selling bonds held by the Fed. Secondly, the scale of the QT between 2017 and 2020 was too small — it was only \$710bn; in contrast, @Wei2022 suggests \$2.2 trillion dollars over three years for an impact equivalent to a 22 basis points rate hike. Thirdly, @Economist2022 argument that yields might instead rise as a result of QT due to market expectation of reduced rate hikes is an evidence that the scale of the QT is not big enough, and the central bank fails to provide convincing forward guidance — had the central bank communicated to the market about its goal in terms of bond yields (e.g. “we aim to push up the 10-year yield to 5%”), rather than a “quantitative” commitment in terms of the size of the balance sheet reduction, the impact might have been much bigger.
 
 Once the central bank has depleted its short-term treasury bond/bills and considers its balance sheet to be at a level below which there could be significant systemic risks in the economy, and if the inflation goal has still not been achieved, it could use interest rate hikes as the last resort of tightening device. At this stage, the central bank should just continue its normal interest rate decisions and open-market operations (OMO) until the inflation target is met.
 
@@ -231,10 +231,84 @@ As discussed above, under stagnation, the government would be in the direst fisc
 
 In such a case, it would be akin to the helicopter money, which is defined by @Reis2022 as an increase in the monetary base (when neglecting the simultaneous sales of bonds) and a direct increase in the nominal after-tax income of some private agents. The first criterion is satisfied as on the central banks’ balance sheet. It is a conversion of the bank’s equity to one of its liabilities (government deposits). The second criterion is satisfied as it is used to subsidise the energy sector (increasing the income of energy providers). The difference would be that in this case the extra money is created to lower, not raise inflation to the target.
 
-## Transparency and perfect knowledge
+## Transparency and perfect knowledge {#sec-transparency}
 
 Transparency of the central bank’s operations is not at odds with the IMP. Nevertheless, misunderstandings of the central bank’s intentions or wrong expectations of the reality by private agents would cause a movement along the dome-shaped trade-off frontiers: underestimating the scale of the central bank’s policies or overestimating the volatility of the business cycle could shift the point close to the red axis (more profits and better fiscal health, at the cost of macroeconomic stability); conversely, overestimating the scale of the central bank’s policies or underestimating the volatility of the business cycle could shift the point close to the blue axis (more stable business cycles but with less profits for the central bank).
 
 After all, bad knowledge should not cause a loss in Pareto efficiency (defined as an outcome point inside rather than on the frontier) if it only leads to a movement on the frontier as argued above. Again, this is an untested hypothesis.
+
+# Defying the theory — the case against the Wallace’s Neutrality
+
+Neil @Wallace1979 famously applies the Midigliani-Miller theorem to government finance, claiming that open-market operations do not have an impact on asset prices, real allocations in the economy or even inflation under certain conditions. @Curdia2011 summarises these conditions into two assumptions: assets in question are valued only for their pecuniary returns; all investors can purchase arbitrary quantities of the same assets at the same market prices. This is known as the Wallace Neutrality.
+
+Under the assumptions of Wallace Neutrality, any market price of any asset should be determined by the present value of the random returns, calculated using an asset pricing kernel with stochastic discount factors derived from the representative household’s marginal utility of income in different future states of the world [@CohenSetton2016].
+
+A simplified illustration of this which overlooks the stochasticity and the marginal utility of income is as follows:
+
+The core of the pricing kernel is the Discount Cash Flow method (DCF) proposed by @Fisher1930 and @Williams1938. Nevertheless, the Discounted Cash Flow method only evaluates the present value of cash flows for a certain period of time, that is, the Net Present Value (NPV); this has to be combined with a calculation of the Terminal Value when the investor exits. The Terminal Value could be calculated using the Gordon Growth Model.
+
+For the original model using Free Cash Flow to Equity and the Gordon Growth Model:
+
+$$
+P_0(\text{Expected present value})=\sum_{t=1}^n\frac{FCFE_t}{(1+r)^t}+\frac{FCFE_n(1+g)}{(r-g)(1+r)^n}
+$$
+
+Where $FCFE_t$ denotes the Free Cash Flow to Equity in the tth time period (year), $n$ denotes the time of the number of time periods to “maturity” or exit, $g$ is the long-term average of growth rate, $r$ is the discount rate, for which I will use the required rate of return.
+
+I would introduce variable discount rates instead of fixed discount rates, and the formula would become[^1]:
+
+$$
+P_0(\text{Expected present value})=\sum_{t=1}^n\frac{FCFE_t}{\prod_{\alpha=1}^t(1+r_\alpha)}+\frac{FCFE_n(1+g)}{(r-g)\prod_{\alpha=1}^n(1+r_\alpha)}
+$$
+
+[^1]: This formula is very similar to the one put forward by @Adamczyk2017 [p.14]. Nevertheless, I think they have made a mistake in multiplying the discount rates to the $n$th period to when discounting the future cash flows of any period. I addressed this issue by multiplying to the $t$th period when discounting the future cash flow of $t$th period.
+
+Where $r_\alpha$ denotes the discount rate for the time period $a$ and $r$ denotes the long-term average of the required rate of return.
+
+The Discounted Cash Flow is normally combined with the CAPM or WACC techniques in calculating the required rate of return/cost of capital. Nevertheless, the CAPM and WACC require the knowledge of market return/premium, which are unknown variables in the setting of my model. Therefore, the Arbitrage Pricing theory, proposed by @Ross1976, which directly accounts for the change in risk-free rate of return, is adopted. @Jagannathan2005 have empirically demonstrated with data for the period 1954–2003 that the Arbitrage Pricing Theory (APT) is superior to the traditional Capital Asset Pricing Model (CAPM).
+
+According to the APT,
+
+$$
+\mathbb{E}(R_p)=R_f+\beta_1F_1+\beta_2F_2+\dots+\beta_n F_n
+$$
+
+Where $\mathbb{E}(R_p)$ denotes the expected return or the required rate of return ($r$) in the adjusted model; $\beta_n$ denotes the sensitivity to the $n$th factor; $F_n$ denotes the $n$th factor price, and Rf denotes the risk-free rate of return, which is directly influenced by the interest rates set by central banks.
+
+Therefore, this implies a perfectly elastic supply of this asset at price P0 (evaluated price), assuming perfect knowledge of the future economic conditions and future central bank decisions. As @fig-flat shows, even if the central bank buys an asset, it will not affect the price of that asset. However, empirically, the success of quantitative easing has invalidated this claim as it exactly relies on changing the price of bonds to affect the yield and hence the interest rates. @Charoenwong2020 also review the massive equity purchase scheme of the Bank of Japan since 2011. They have found that BOJ purchases lift valuations, increase share issuances and increase total assets.
+
+![The price of the asset is unaffected by the central bank’s purchases/sales.](pictures/flat.webp){#fig-flat}
+
+If the prices of assets do not change, the returns on assets and interest rates will not change, and the real allocations of the economy would be unaffected by the central bank’s balance sheet policies.
+
+Moreover, the value of the asset at the start of the next period will be:
+
+$$
+P_1=\sum_{t=2}^n\frac{FCFE_t}{\prod_{\alpha=2}^t(1+r_\alpha)}+\frac{FCFE_n(1+g)}{(r-g)\prod_{\alpha=2}^n(1+r_\alpha)}
+$$
+
+Therefore, the return of the first period is $\frac{P_1- P_0}{P0}+\frac{FCFE1}{P0}= r_1$, and the return of any period is, accordingly, the required return of that period ($r_a$). In this case, the central bank is unable to generate supernormal returns (i.e. higher than the market return $r_m$).
+
+Also, the Wallace Neutrality argues that the central bank cannot make the risk disappear from the economy [@CohenSetton2016]. This is because the losses borne by the central bank will translate into less income for the government (see the last paragraph of [Introduction] for explanation), which will then raise taxes and transfer the risk back to the private sector, given the fiscal constraint.
+
+So, what could invalidate the Wallace Neutrality in favour of the IMP in practice?
+
+Firstly, the market might misevaluate the central bank’s determination and future economic outlooks — this may cause a movement along the trade-off frontier, as explained in @sec-transparency.
+
+Secondly, the animal spirits might lead to overvaluation during an economic boom and undervaluation during an economic downturn — this generates more profits for the central bank.
+
+Thirdly, the cost of “borrowing” to the central bank is no higher than the interest it pays on bank reserves — this is always lower than the cost that normal investors bear when investing — implying more profits for the central bank.
+
+Fourthly, the assumption that all investors can purchase arbitrary quantities of the same assets is not upheld in reality — smaller investors are restricted by the availability of cash and loans and face higher borrowing costs than big investors, especially during recessions. This again benefits the central bank, whose borrowing is virtually unlimited.
+
+Fifthly, the private placement scheme dilutes the value of existing shares — this impact is difficult to take into account in reality.
+
+Sixthly, a model by @Farmer2016 shows that assumptions of finite lives with overlapping generations, multiple equilibria and a belief function that is heuristic in forecasting based on data could make unconventional monetary policy work “in theory”.
+
+Lastly, assets are not held only for pecuniary returns in reality. This is especially important for equities as transactions by major shareholders may have implications for market confidence, the control of the firm and so on.
+
+# Concluding remarks
+
+The IMP policy framework incorporates previous monetary policy tools and introduces new tools (private placement); these tools are reorganised in a four-period policy cycle to achieve objectives such as tackling stagflation, cooling/heating the economy, increasing government revenue, deleveraging the economy, etc. Adjusting the timing and the scale of these tools allows policy-makers to choose an optimal policy outcome between three objectives under normal business cycles or stagflation. One caveat is that some preconditions are required before implementing the IMP to achieve the optimal outcome, which is usually met in developed economies. However, this framework defies the conventional baseline model of the Wallace Neutrality. Instead, it relies on the deviation of reality from this model to function. Future research could centre on mathematically modelling this framework and prove/disprove it with an improved model based on the Wallace Neutrality while considering the factors I mentioned. Moreover, I did not take into account the international dimension — the effects of capital flight and exchange rate policies could have huge implications on the IMP. The international factors are unlikely to completely invalidate this framework, though. After all, other major economies might just follow suit. It would be an interesting field to investigate what would happen if this is not the case. My intuition is that the exchange rate fluctuations will work toward the inflation and (normal) business cycle objectives of IMP, not against them. The capital flows of equity and hot money will offset each other to an extent. Finally, if this framework gets to be implemented in reality one day, empirical research on its effects could follow.
 
 # References {.unnumbered}
