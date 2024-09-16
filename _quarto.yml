@@ -13,6 +13,7 @@ website:
   site-url: https://rubuky.com
   favicon: "assets/dianyi/name.ico"
   description: "Political Economy/Causal Inference/Game Theory."
+  google-analytics: "G-J9JHQ6RJV3"
   comments: 
     giscus:
       repo: kv9898/website
