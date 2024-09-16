@@ -23,6 +23,7 @@ execute:
   warning: false
   error: false
   message: false
+citation: false
 ---
 
 # Abstract

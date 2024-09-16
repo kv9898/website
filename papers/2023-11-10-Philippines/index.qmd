@@ -9,7 +9,6 @@ author:
 date: 2023-11-10
 title: "Economic Impact of the South China Sea Dispute in China-Philippines Relations from 2012 to 2016: A DM-LFM analysis"
 subtitle: adapted from Leike's BSc dissertation
-citation: false
 image: featured.jpg
 categories:
 - international conflict
@@ -30,6 +29,13 @@ links:
     icon_pack: ai
     name: ResearchGate
     url: https://www.researchgate.net/publication/373655724_Economic_Impact_of_the_South_China_Sea_Dispute_in_China-Philippines_Relations_from_2012_to_2016_A_DM-LFM_Analysis
+citation:
+  type: article-journal
+  container-title: SSRN Electronic Journal
+  issn: 1556-5068
+  doi: "10.2139/ssrn.4623476"
+  number: 4623476
+  publisher: Elsevier BV
 ---
 
 # Abstract
@@ -37,16 +43,3 @@ links:
 The relationship between China and the Philippines has seen dramatic fluctuations in recent years, with the South China Sea dispute becoming increasingly prominent in bilateral relations. Grounded in the theoretical debate between realist-liberal International Relations (IR) theorists, this study seeks to empirically measure the economic impact of the South China Sea dispute between China and the Philippines from 2012 to 2016. To do so, we use the Dynamic Multilevel Latent Factor Model (DM-LFM) and monthly trade data between the two countries to quantitatively assess the impact of the dispute on bilateral trade. We found no significant negative treatment effect, either in the immediate aftermath of the conflict or in the long run. Additionally, by qualitatively analyzing the differing responses by the two countries and changes in attitudes over time, we attempt to offer some potential explanations behind the actions taken by the two countries amidst the conflict, which may explain the quantitative results. In sum, we argue that both theories are potentially limited in explaining the resilience of bilateral trade amidst the ongoing conflict. Contrary to liberal predictions, we propose that a combination of political and economic considerations may have motivated both countries to contain the spillover effect on bilateral economic activities. Future research can work on gathering more substantive evidence to prove this relationship.
 
 The replication files for this paper are available at [https://doi.org/10.7910/DVN/ZJ6DPQ](https://doi.org/10.7910/DVN/ZJ6DPQ).
-
-```{}
-@Article{Kong2023,
-  author    = {Kong, Sherry Tao and Huang, Leike and Yang, Dianyi},
-  journal   = {SSRN Electronic Journal},
-  title     = {Economic Impact of the South China Sea Dispute in China-Philippines Relations from 2012 to 2016: A DM-LFM analysis},
-  year      = {2023},
-  issn      = {1556-5068},
-  number    = {4623476},
-  doi       = {10.2139/ssrn.4623476},
-  publisher = {Elsevier BV},
-}
-```

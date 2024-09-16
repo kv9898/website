@@ -6,7 +6,8 @@ execute:
 title-block-banner: false
 
 # Default fields for citation
-citation: false
+citation: true
+csl: ../assets/dianyi/apa.csl
 
 # Wrap overflow code
 format: 

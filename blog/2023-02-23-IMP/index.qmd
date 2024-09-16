@@ -22,6 +22,7 @@ execute:
   message: false
 bibliography: references.bib
 csl: extra/apa.csl
+google-scholar: true
 ---
 
 # Abstract {.unnumbered}

@@ -7,7 +7,6 @@ author:
 date: 2023-11-30
 subtitle: adapted from GV330 project
 title: A Reproduction of 'Do Female Officers Police Differently? Evidence from Traffic Stops' (American Journal of Political Science, 2021)
-citation: false
 image: featured.jpg
 categories:
 - public administration 
@@ -28,6 +27,12 @@ links:
     icon_pack: ai
     name: ResearchGate
     url: https://www.researchgate.net/publication/376076713_A_Reproduction_of_Do_Female_Officers_Police_Differently_Evidence_from_Traffic_Stops_American_Journal_of_Political_Science_2021
+citation:
+  type: article-journal
+  container-title: I4R Discussion Paper Series
+  number: 127
+  doi: "10.2139/ssrn.4632847"
+  publisher: The Institute for Replication (I4R)
 ---
 # Abstract
 
@@ -35,14 +40,3 @@ We reproduce Shoub, Kelsey, Katelyn E. Stauffer, and Miyeon Song ([May 2021](htt
 
 The replication files for this paper are available at [https://doi.org/10.7910/DVN/8XQ1ZB](https://doi.org/10.7910/DVN/8XQ1ZB).
 
-```{}
-@Article{Yang2023,
-  author    = {Yang, Dianyi and Huang, Leike},
-  journal   = {I4R Discussion Paper Series},
-  title     = {A Replication of “Do Female Officers Police Differently? Evidence from Traffic Stops” (American Journal of Political Science, 2021)},
-  year      = {2023},
-  number    = {127},
-  doi       = {10.2139/ssrn.4632847},
-  publisher = {The Institute for Replication (I4R)},
-}
-```
