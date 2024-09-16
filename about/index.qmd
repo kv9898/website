@@ -131,14 +131,14 @@ I used to be a Marxist. However, I later distanced myself from from the ideology
 
 :::: {.grid}
 
-::: {.g-col-3}
+::: {.g-col-6}
 #### Blog
 ::: {#blog}
 :::
 [See all &rarr;](../blog){.about-links .subtitle}
 :::
 
-::: {.g-col-3}
+::: {.g-col-6}
 #### Papers
 ::: {#papers}
 :::
