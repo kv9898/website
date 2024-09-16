@@ -101,4 +101,46 @@ Now we should be in a situation where stagflation has ended — we are now in a 
 
 Nevertheless, it would be beneficial for central banks to purchase long-term treasury bonds before they lower their interest rates to avoid losses and maximise profits — the prices of bonds with longer maturities are more sensitive to interest rate changes. The sequence of buying short-term bills and lowering the interest rates does not matter — the formal is a tool to achieve the latter as under normal Open-Market Operations.
 
+## The Leveraging Period
+
+Now the economy should be in a robust recovery, and it is time for the central bank to realise its profit by reversing what it did in the deleveraging period.
+
+The central bank could achieve this goal by doing the following steps:
+
+1.  Buying Treasury bonds/bills (as in a normal easing period)
+
+2.  Lowering interest rates (as in a normal easing period)
+
+3.  Selling equities or other non-debt assets it previously bought.
+
+In a way mirroring the deleveraging period, buying treasury bonds before extensively lowering the interest rates helps maximise the profits for the central bank while achieving the same policy goals.
+
+At this point the stock prices should be high, fuelled both by the low-interest rates and by the recovery of the economy. The central bank should now be selling its holding equities back to the firms or the market.
+
+As shown in @fig-leverage-cb, the higher stock prices are reflected in the inflated Assets side of the balance sheet of the central bank. By selling the equities now, the central bank could realise a gain from a higher market value of its holdings than when it purchased them. After compensating for previous losses (offsetting the deferred assets) and self-recapitalisation, the rest of the profits could be transferred to the government according to the local central bank laws.
+
+![Change in Central Bank’s Balance Sheet After Rate Cuts.](pictures/leveraging_cb.webp){#fig-leverage-cb fig-alt="The central bank's assets gain value after interest rate cuts."}
+
+Note that there would be trade-offs between the objectives, for instance, economic growth/stability on the one hand and public finances; on the other hand, that a central bank could achieve with IMP. Spreading the share sales more evenly across the leveraging period would entail selling a significant portion of the portfolio at an early stage for lower prices — less profits for the central bank and the government, but the business cycle would be more stable and the risks in the private sector would be less. Conversely, choosing to sell shares primarily in the later stages for higher prices would mean more profits for the government but a more volatile business cycle and more risks in the private sector.
+
+## The Tightening Period
+
+Now we should be in an economic expansion where the economy is overheated — unemployment is low and inflation is above target. This would mean monetary tightening is needed.
+
+As discussed above, existing tightening monetary tools (e.g. higher interest rates, quantitative tightening) as well as equity sales need to be implemented, but in a different order to avoid losses and ensure stability:
+
+1.  (Selling equities or other non-debt assets it previously bought).
+
+2.  Selling Treasury bonds/bills (as in a normal tightening period)
+
+3.  Raising interest rates (as in a normal tightening period)
+
+The continuation of the equity sales is a legacy tool from the previous leveraging period. It could be used as a device to “cool down” an overheated financial market and “prick” a financial bubble without using more harmful methods, such as higher interest rates.
+
+Selling treasury bonds/bills could be a substitute for rate hikes as discussed before [@Wei2022]. The cases against using quantitative easing as a substitute for higher interest rates, as @Economist2022 suggests, are that empirically the first round of QT in the US starting in 2017 did not show much impact on long-term interest rates and that more QT would signal reduced rate rises, not more, so could cause bond yields to fall — both are disputable. Firstly, the QT round starting in 2017 was passive, i.e. the Fed only stopped reinvesting the proceeds from maturing bonds; it did not involve actively selling bonds held by the Fed. Secondly, the scale of the QT between 2017 and 2020 was too small — it was only $710bn; in contrast, @Wei2022 suggests $2.2 trillion dollars over three years for an impact equivalent to a 22 basis points rate hike. Thirdly, @Economist2022 argument that yields might instead rise as a result of QT due to market expectation of reduced rate hikes is an evidence that the scale of the QT is not big enough, and the central bank fails to provide convincing forward guidance — had the central bank communicated to the market about its goal in terms of bond yields (e.g. “we aim to push up the 10-year yield to 5%”), rather than a “quantitative” commitment in terms of the size of the balance sheet reduction, the impact might have been much bigger.
+
+Once the central bank has depleted its short-term treasury bond/bills and considers its balance sheet to be at a level below which there could be significant systemic risks in the economy, and if the inflation goal has still not been achieved, it could use interest rate hikes as the last resort of tightening device. At this stage, the central bank should just continue its normal interest rate decisions and open-market operations (OMO) until the inflation target is met.
+
+## The Overall Picture
+
 # References {.unnumbered}
