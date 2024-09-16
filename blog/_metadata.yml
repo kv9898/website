@@ -15,7 +15,8 @@ toc-location: right
 
 # Default fields for citation
 citation: true
-appendix-cite-as: display
+csl: ../assets/dianyi/apa.csl
+#appendix-cite-as: display
 
 # Wrap overflow code
 format: 
