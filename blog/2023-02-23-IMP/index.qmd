@@ -23,6 +23,7 @@ execute:
 bibliography: references.bib
 csl: extra/apa.csl
 ---
+
 # Abstract {.unnumbered}
 
 The existing literature has shown that current monetary tools are insufficient to address the current issue of stagflation and have contributed to the pre-existing problems of wealth inequality and high debt levels. Therefore, I propose a new set of monetary tools, namely the “Inverted Monetary Policy” (IMP), as part of the solution to these mentioned problems. I argue that this new set of tools has a disinflationary impact in the short term and redistributive effects in the medium to long term. In a nutshell, this policy “borrows from the future” to suppress current prices, and the cost is paid mostly by the high-income class. Extra fiscal revenue might come as a side effect of this policy. Nevertheless, the policy would involve reforms of the monetary institutions and the fiscal-monetary relationship, and policy-makers need to face trade-offs between different policy objectives.
@@ -43,6 +44,61 @@ Another problem associated with expansionary monetary policies is increased weal
 
 Moreover, significant losses made by central banks are a new feature associated with contractionary monetary policy after massive quantitative easing. Such losses add a burden to public finance. Significant losses to the central banks arise when they raise the interest rates and sell the assets at lower prices, which they previously bought at high prices with lower interest rates; higher interest rates also mean more interests are paid on the reserves held with the central bank. As both asset purchases/sales and interest rates are decided by central banks conducting monetary policy, this is a “self-inflicted harm”. Nevertheless, the losses made by monetary authorities are paid directly or indirectly by the taxpayers. The burden is heavier in places where the “negative dividend rule” applies (i.e. Treasury pays a “negative dividend” to the central bank when it runs a negative net income), such as the UK. On 22 Nov 2022, the Treasury of the UK bailed out the Bank of England for the first losses of £828mn from rate hikes after quantitative easing; the OBR estimated that the Treasury would need to pay the BoE £133bn over the next five years, which outweighs the cumulative profits of £122bn remitted to the Treasury [@Giles2022]. The impact is lower in places where the loss is paid by the central bank itself with future profits, such as the US, Australia, Switzerland, Czech Republic [@Reis2015; @Chaboud2013]. Many economies, such as the Eurozone and South Korea, take a middle approach whereby governments are only required to recapitalise the central banks to when the losses are large enough to deplete the central banks’ reserves [@Chaboud2013]. Therefore, public finances are ultimately burdened by the losses made by central banks in terms of direct payment from the treasury to the central bank or reduced remittances from the central bank to the government. Many media outlets (including The Economist and Financial Times) portray this loss for a public authority as harmless, invoking the duty of a central bank being maintaining price stability and minimising unemployment instead of profits, and losses do not impair their ability to conduct monetary policy. But if this loss could be avoided by changing the sequence of the policy tools without affecting the policy outcome (as demonstrated later) — why not?
 
-# The Four-Period Cycle and Inverted Monetary Policy
+# The Four-Period Cycle and Inverted Monetary Policy {#sec-four-period}
+
+This paper proposes a Four-Period monetary policy cycle in response to the business cycle (See @tbl-four-policy). Among the four periods, two of them (easing and tightening) are considered “traditional”, i.e. existing combinations of policy instruments. For example, the easing period entails the central bank cutting interest rates, purchasing treasury bonds/bills of various maturities through Open Market Operations such as QE or reverse repurchase agreements (reverse repos) and buying domestic equities (e.g. Bank of Japan), not to mention less common tools such as lowering the reserve ratio or currency devaluation through purchasing foreign currencies. The tightening period, on the other hand, is the opposite of the easing period mentioned above.
+
+| Period | [Deleveraging]{style="color:red;"} | Easing | [Leveraging]{style="color:red;"} | Tightening |
+|---------------|---------------|---------------|---------------|---------------|
+| **Interest rates** | [2 Raising]{style="color:red;"} | 3 Reducing | [2 Reducing]{style="color:red;"} | 3 Raising |
+| **Bonds** | [1 Selling]{style="color:red;"} | 2 Buying | [1 Buying]{style="color:red;"} | 2 Selling |
+| **Equities** | [3 Buying]{style="color:red;"} | 1 Buying | [3 Selling]{style="color:red;"} | 1 Selling |
+| **Inverted** | [Inverted]{style="color:red;"} | Normal | [Inverted]{style="color:red;"} | Normal |
+
+: Four-period Policy Cycle {#tbl-four-policy}
+
+*Note: the numbers denote the sequence of policy actions in the period.*
+
+The novelty is centred around the periods of deleveraging and leveraging, which involve the combination of seemingly contradictory monetary policy tools. These periods exist primarily for addressing uncommon issues such as stagflation and high debt levels and are, therefore, not commonly used for prolonged periods of time in normal business cycles.
+
+## The Deleveraging Period
+
+Suppose we are in a situation where a tighter monetary policy is inevitable, but the side effects of such hikes are unpalatable (e.g. during stagflation or when private debt levels are too high). Under these circumstances, the economy is not “overheated” with higher-than-trend growth or unsustainably low unemployment. Therefore the central bank would be in a dilemma between leaving high inflation and debt levels unresolved or creating an artificial recession by raising the interest rates.
+
+Nevertheless, this dilemma could be alleviated by the central bank doing the following steps:
+
+1.  Selling Treasury bonds/bills (as in a normal tightening period).
+
+2.  Raising interest rates (as in a normal tightening period).
+
+3.  Buying equities or other non-debt assets.
+
+When buying equities, private placements and debt-for-equity swaps are preferable to buying outstanding stocks from existing shareholders since the former two ways help to improve the firms’ financial situation directly, whereas the latter mainly benefit the shareholders and only indirectly help the firms (when they issue new stocks).
+
+During this process, the tightening steps (bond sales and rate hikes) and equity purchases seem contradictory (we are both reducing and increasing the money supply). Nevertheless, they are reciprocal in achieving lower corporate debt levels (deleveraging): higher interest rates pressurise firms to deleverage through issuing new shares; the central bank’s purchases of newly issued stocks provide injections of new funds into the firms, which mitigates some of the negative effects of rate hikes. Namely, firms no longer need to reduce their balance sheets to service the debt, as they can simply adjust the composition of the liabilities side of their balance sheets (See @fig-deleverage).
+
+![Deleveraging of a firm with the help of central bank equity purchase scheme.](pictures/deleveraging.webp){#fig-deleverage fig-alt="The firm deleverages through repaying debts with funds raised through equity sales."}
+
+To address the two concerns about the central bank exercising voting rights as a major shareholder and being exposed to higher risks as they engage in equity purchases, the preferred stock could be a viable solution to both concerns. Preferred stocks do not bear voting rights; the dividends paid on preferred stocks are more stable and safer than common stocks. Moreover, preferred stocks can be converted to common stocks if the central bank favours this decision over later exiting (selling). To help the commercial banks in a crisis, the central bank could consider buying Basel III compliant bonds, which also count as additional capital for the commercial bank.
+
+For the central bank, rate hikes imply that higher interest rates are paid on bank reserves and the assets it holds are losing value, both of which contribute to a lower net income if not a loss for the central bank. This could affect public finance directly or indirectly as illustrated in the Introduction.
+
+Therefore, the central bank could consider quantitative tightening (QT) before raising the policy interest rate to avoid losses. @Wei2022 from the Atlanta Fed estimates with a simple “preferred habit” model that the impact of active sales of 2.2 trillion USD in 3 years is equivalent to an immediate increase of 22 basis points in the current federal funds rate. The impact is lower in normal crisis conditions than in crisis market conditions. This means that QT before rate hikes minimises central bank losses in two ways — the bond prices are higher before rate hikes, and they could sell more bonds than in a post-rate hike environment for the same policy effect. If central banks would like to exit their quantitative easing programmes, the preferred timing of exit should be before the increase in interest rates. The case for QT as a primary substitute for higher policy interest rates is discussed more in the 2.4 Tightening Period section.
+
+Nevertheless, buying equities in a tightening period would lower the net income of the central bank, if not contributing to a negative net income for a period of time. As illustrated in @fig-deleverage-cb, helping the firms deleverage by buying equities from them entails issuing more interest-bearing bank reserves (same as under normal quantitative easing). However, the dividends that the central bank receives during this period might not cover the interest paid on the newly created reserves, hence lower net income or even a loss. There is a trade-off between profits for the central bank (hence public finance) and economic growth at this stage — buying shares from firms at an earlier stage at higher prices could mean more losses to the central bank now and less profits later, but the severity of the recession would be less (fewer bankruptcies); buying shares at a later stage when prices are lower would result in higher profits for the central bank (and the government) overall but add to the burden of the private sector, which intensifies risks in the next recession. In case of stagflation, the central bank should willingly accept a loss that is financially bearable to the central bank and could be recovered in the deleveraging period, as discussed later.
+
+![Central Bank’s Balance Sheet.](pictures/deleveraging_cb.webp){#fig-deleverage-cb fig-alt="The central bank sells bonds and buys equities."}
+
+Over this course, inflation should be curbed by higher interest rates. The larger-than-usual balance sheet due to equity purchases alone does not affect the inflation-curbing impact of higher interest rates as long as interests are paid on reserves [@Curdia2011]. With the use of non-traditional policy tools such as quantitative easing, the traditional theory of multiplier is unlikely to hold in economies such as the US — changes in reserves are unrelated to changes in lending; the lower level of interest rates is the culprit of higher demands [@Carpenter2012].
+
+However, structurally this combination of policy tools avoids clusters of bankruptcies of some firms, which can potentially be profitable and competitive in the future once the debt burdens are relieved, which underpins future recovery — an improvement compared with tackling stagflation with tightening only.
+
+As a result, the corporate debt levels are reduced and inflation is curbed, paid for by reduced profits if not losses to the central bank. Nevertheless, the economy would be in a mild recession, but the severity of the recession should be less significant than if the central bank tightened monetary policy without the equity purchase scheme, as there would be fewer bankruptcies.
+
+## The Easing Period
+
+Now we should be in a situation where stagflation has ended — we are now in a mild recession with low inflation, and the economy needs to be reignited. As illustrated at the beginning of @sec-four-period, the central banks should engage in easing policies as in conventional practice.
+
+Nevertheless, it would be beneficial for central banks to purchase long-term treasury bonds before they lower their interest rates to avoid losses and maximise profits — the prices of bonds with longer maturities are more sensitive to interest rate changes. The sequence of buying short-term bills and lowering the interest rates does not matter — the formal is a tool to achieve the latter as under normal Open-Market Operations.
 
 # References {.unnumbered}
