@@ -143,4 +143,50 @@ Once the central bank has depleted its short-term treasury bond/bills and consid
 
 ## The Overall Picture
 
+The overall picture of a full 4-period monetary policy cycle involving the IMP is as follows in @fig-full:
+
+![The full picture of a 4-period monetary policy cycle, including IMP.](pictures/full.webp){#fig-full fig-alt="Policies alternate in waves."}
+
+*Note: Red = selling/tightening, Green = buying/easing.*
+
+The deleveraging period matches the peak and early recession in a normal business cycle and could be used whenever stagflation is present or the private sector needs deleveraging. When the economy is strong or the goal is deleveraging, the central bank could start its equity-purchasing scheme in the later stages for a higher profit. However, when dealing with stagnation, the central bank might need to subsidise the economy with its potential profits by starting its equity-purchasing scheme early — but a potential caveat is that the central bank should avoid bailing out inefficient firms and rent-seeking during this process. Details are discussed in the practicality section. Overall, the central bank should be able and is expected to suffer a loss in this period, as long as it could be recovered in the leveraging period.
+
+The leveraging period is when the losses of the central bank are recovered, and trade-offs need to be made. After boosting the share prices by buying bonds and lowering interest rates, the central bank could sell its shares in possession to cover its previous losses and build a capital buffer (recapitalise) itself for the next period. There would practically be no point transferring all of the profits to the government in this period as government revenue would also be increasing and borrowing costs would be low.
+
+A trade-off needs to be made between financial/economic stability and fiscal health. The central bank extracting more profits by buying/selling shares later in the leveraging/tightening periods and more extreme tightening/easing policies would exacerbate the business cycle rather than smoothen it. This trade-off is reflected in @fig-tradeoff-stab-fis.
+
+![The trade-off between business cycle stability and fiscal health under IMP.](pictures/tradeoff_stab_fis.webp){#fig-tradeoff-stab-fis fig-alt="A concave frontier between business cycle stability and fiscal health under IMP."}
+
+However, I propose a hypothesis that this frontier would have a concave shape (i.e. the marginal rate of transformation increases in absolute size as one moves from the top left of the PPF to the bottom right of the PPF), which needs to be tested with empirical evidence or well-designed models in the future. One way of understanding this is that the marginal cost (in terms of lost profits) of smoothing the business cycle is increasing. — the intuition behind this is that to smooth the business cycle, the central bank must advance the starting times of its equity transactions (purchases and sales), rather than by increasing the scale of its operations. Although the transactions per se have a stabilising effect on the business cycle as the central bank is buying in downturns and selling in booms, there is a limit to the volumes of such transactions — buying/selling too much would result in the markets soaring/plunging. However, as the central bank advances the starting times of the transactions, the loss in profits increase exponentially — early equity purchases imply higher prices for all later purchases and more interests paid on reserves; early equity sales imply lower prices for all later sales and forgiving more dividends. Another way of interpreting this is the effects of interest rate and government bond operations. Assuming fixed effects of these operations on business cycle, the marginal benefit of increasing the scales of these operations in terms of profits decreases. Larger scales of rate hikes/government bond sales increases the profits for the central bank by pushing the purchasing prices of equities lower, but the marginal benefit of doing so decreases as the interests paid on reserves are higher, the sale prices of bonds are lower, and the economy is more damaged, which reduces future share prices. Conversely, larger scales of rate cuts/government bond purchases increases the profits by raising the sale prices of equities higher, but the marginal benefit of doing so decreases as inflation dilutes the return and the purchasing prices of government bonds become higher.
+
+The actual shape and position of this frontier, in reality, depends on the third dimension, which is different when the economy is in a normal business cycle or in a recession. In such cases, the action of the government needs to be taken into account; the definition of fiscal health is defined as extra government revenue provided by IMP less the extra government spending in either providing welfare for the poor (under a normal business cycle) or subsidising energy (under stagflation).
+
+### Three-dimensional trade-offs under a normal business cycle
+
+Under a normal business cycle, the third dimension is redistribution, in addition to the previous dimensions of business cycle stability and fiscal health. Inflation instability is not a concern here as it would be pro-cyclical — under a normal business cycle there are no negative supply-side shocks and inflation is determined by aggregate demand.
+
+A three-dimensional trade-off frontier under a normal business cycle with IMP conceived by me would look like this:
+
+![The three-dimensional trade-off frontier in a normal business cycle with IMP.](pictures/3D_normal.webp){#fig-tradeoff-3d-normal fig-alt="A 3D-concave frontier between business cycle stability, equality and fiscal health."}
+
+The rationale is that the third axis, representing both income and wealth equality, has a concave shape with the two other axes when the third is held constant. The concave shape between equality and fiscal health arises from the fact that profits are primarily extracted from the rich and this inherently has a redistributive effect. The concave shape between equality and business cycle stability is supported by the fact that ceteris paribus, a stronger fiscal intervention could also help smooth the business cycle through the fiscal stabiliser, and as discussed above, lower inequality improves the effectiveness of monetary policy in maintaining a smooth business cycle[@Silva2022].
+
+Given the “dome-shape” of the frontier, it is, therefore, possible for the monetary policy maker to find a “sweet spot” of the Inverted Monetary Policy.
+
+### Three-dimensional trade-offs under stagflation
+
+Under stagflation, the emphasis of government fiscal intervention (spending) is on curbing inflation (subsidising energy, etc.).
+
+The new trade-offs are as follows:
+
+![The three-dimensional trade-off frontier under stagflation with IMP.](pictures/3D_stagflation.webp){#fig-tradeoff-3d-stagflation fig-alt="A 3D-concave frontier between business cycle stability, price stability and fiscal health."}
+
+There would be a trade-off between fiscal health and price stability: the government could spend more on subsidising energy imports (which is usually the cause of stagflation). This is already being implemented in countries such as the UK [@Atkinson2022]. I argue that this trade-off also has a concave shape as long as we assume the diminishing marginal benefits of disinflationary subsidies — when the subsidies are limited to the provision of energy, the reduction in the (currently high) inflation would be significant; nevertheless, if subsidies exist on a large scale across the whole economy, it will boost aggregate demand and devalue the currency which would offset the disinflationary effort.
+
+The concave trade-off frontier between business cycle stability and price stability is understood as a flipped short-run Philips curve.
+
+![The trade-off between Business Cycle Stability and Price Stability is just a flipped Philips Curve.](pictures/philips.webp){#fig-philips}
+
+# Preconditions of IMP
+
 # References {.unnumbered}
