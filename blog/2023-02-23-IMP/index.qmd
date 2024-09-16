@@ -189,4 +189,52 @@ The concave trade-off frontier between business cycle stability and price stabil
 
 # Preconditions of IMP
 
+## High degree of financialisation
+
+This is defined by me as high values of non-debt financial markets compared to the size of the economy (market-value-to-GDP ratio). The non-debt financial markets must be large enough to withstand the IMP operations, which will be huge in terms of value to become a reliable source of revenue.
+
+Also, since the private placement scheme involved in the IMP only helps the public listed firms and disadvantages non-listed firms, it is therefore crucial that the former constitutes a relatively high share of the economy.
+
+## High degree of institutionalisation and well-established regulation of the financial system
+
+A high degree of institutionalisation includes but is not limited to, the independence of the central bank. This condition is to prevent rent-seeking during IMP operations.
+
+## Strong anti-corruption institutions and the rule of law.
+
+To prevent rent-seeking during IMP operations.
+
+## A need for a rate hike, whether that be high inflation (most preferable) or a deleveraging strategy
+
+Since the rate hike is inevitably damaging to the economy in terms of growth and unemployment, despite the alleviation by the IMP, since our policy relies on a temporary financial market dip/crash, which in itself is an undesirable outcome, it is best to do it when it is necessary so that the benefits outweigh the costs.
+
+Otherwise, there could be a watered-down version of the IMP whereby the size of the asset purchases is much smaller, and the operation cycles can be shorter (see 2.5 for trade-offs between business cycle stability and other objectives).
+
+# Practicality
+
+## Avoiding bailouts of inefficient firms
+
+The question of avoiding bailing out inefficient firms is extremely crucial as @Acharya2019 show that conventional quantitative easing by the European Central Bank to lower the cost of capital through excess government bond purchases without a targeted recapitalisation programme and/or forced bank closures have exacerbated the prevalence of Zombie firms, which could lead to economic stagnation. With the IMP, direct equity financing from the central bank might cause more moral hazard problems than indirect financing through the conventional QE.
+
+The central bank could delegate the asset purchase scheme to existing investment banks — for two reasons: Firstly, this could reduce (but not necessarily avoid) rent-seeking behaviour, which is a source of inefficiency — e.g. central bank officials may offer preferential conditions to those with personal connections, etc. Secondly, the central bank might not be capable of implementing this massive scheme on its own — outsourcing to existing investment banks, which are professionals in this job, could be more efficient.
+
+## Central Bank Insolvency
+
+@Reis2015 distinguishes among three types of central bank insolvency when the central bank does not have the full fiscal support from the government: intertemporal insolvency, when the present value of dividends is negative; rule insolvency, when the central bank cannot stay committed to the rule for dividends in its charter without reserves exploding; and period insolvency when there is one period of negative net income.
+
+The full fiscal support should be precluded firstly as it is in itself undesirable (explained in the introduction) as the government would have to make remittances back to the central bank when the government itself is in the worst possible financial situation — when the interest rate is high, and government spending is politically forced to be high (to support poorest families and subsidise energy during stagflation). Secondly, the IMP requires the combination of an expected loss to the central bank during the deleveraging period and a simultaneous remittance to the government at the same time, which is contradictory to full fiscal support.
+
+Therefore, the rule of the central bank should be changed in such a way that allows the central bank to suffer a significant loss in the deleveraging period, given that it could be recovered in the leveraging period. In this way, the rule insolvency and intertemporal insolvency are protected, but the period insolvency is inevitable.
+
+## Government indebtedness
+
+As discussed above, under stagnation, the government would be in the direst fiscal situation. It is therefore plausible for the central bank to transfer funds to the government during this period to avoid government over-indebtedness, despite the guaranteed loss to the central bank during this period. It is crucial that the central bank is independent when deciding the size of the transfer to the government.
+
+In such a case, it would be akin to the helicopter money, which is defined by @Reis2022 as an increase in the monetary base (when neglecting the simultaneous sales of bonds) and a direct increase in the nominal after-tax income of some private agents. The first criterion is satisfied as on the central banks’ balance sheet. It is a conversion of the bank’s equity to one of its liabilities (government deposits). The second criterion is satisfied as it is used to subsidise the energy sector (increasing the income of energy providers). The difference would be that in this case the extra money is created to lower, not raise inflation to the target.
+
+## Transparency and perfect knowledge
+
+Transparency of the central bank’s operations is not at odds with the IMP. Nevertheless, misunderstandings of the central bank’s intentions or wrong expectations of the reality by private agents would cause a movement along the dome-shaped trade-off frontiers: underestimating the scale of the central bank’s policies or overestimating the volatility of the business cycle could shift the point close to the red axis (more profits and better fiscal health, at the cost of macroeconomic stability); conversely, overestimating the scale of the central bank’s policies or underestimating the volatility of the business cycle could shift the point close to the blue axis (more stable business cycles but with less profits for the central bank).
+
+After all, bad knowledge should not cause a loss in Pareto efficiency (defined as an outcome point inside rather than on the frontier) if it only leads to a movement on the frontier as argued above. Again, this is an untested hypothesis.
+
 # References {.unnumbered}
