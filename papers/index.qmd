@@ -18,6 +18,7 @@ listing:
   page-size: 5
 page-layout: article
 comments: false
+citation: false
 format: 
   html: 
     grid:

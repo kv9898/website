@@ -8,7 +8,7 @@ categories:
   - bank run
   - moral hazard
 image: featured.jpg
-
+google-scholar: true
 ---
 In the aftermath of the failures in the 2007-2008 Global Financial Crisis (GFC), there were attempts to overhaul the financial system. Hence, we got Basel III, which imposes capital requirements for systematically important institutions no higher than that reported by Lehman the day before it failed (see [Boone and Johnson, 2011](https://www.piie.com/commentary/op-eds/future-banking-more-regulation-needed)), amazing.
 
