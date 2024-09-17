@@ -14,7 +14,7 @@ In the aftermath of the failures in the 2007-2008 Global Financial Crisis (GFC),
 
 It is therefore not surprising that we saw bank runs again in 2023 which contributed to the collapse of the Silicon Valey Bank (SVB), Silvergarte Bank and Signature Bank. Absurdly enough, the Fed's response to these failures was to create the Bank Term Funding Program (BTFP) which allowed the surviving banks to borrow cheaply, and deposit the borrowed funds with the Fed at a higher interest rate for a profit (see Lee and Wessel's [post](https://www.brookings.edu/articles/what-did-the-fed-do-after-silicon-valley-bank-and-signature-bank-failed/)).
 
-![image](svb.jpg "The Collapse of the SVB")
+![](svb.jpg "The Collapse of the SVB")
 
 Could we have done better than that? I have a plan - let people save the money with the central bank, for real.
 
@@ -32,21 +32,21 @@ Let me walk you through this process with some graphical illustrations of balanc
 
 We start with a commercial bank, let's say, Pony (no allusion to Lloyds), which initially has a balance sheet that looks something like this:
 
-![image](commercial1.png "Pony's initial balance sheet")
+![](commercial1.png "Pony's initial balance sheet")
 
 The central bank's balance sheet would look like this:
 
-![image](cb1.png "Central Bank's initial balance sheet")
+![](cb1.png "Central Bank's initial balance sheet")
 
 The new policy allows despositors to save with the central bank - very safe as we will discuss later, and receive daily interests a the policy deposit rate (which is slightly below the lending rate, the spread serves as an insurance). Why do I emphasize that interests are paid daily (after a maintenance period) at the policy rate? Because they are the terms that commercial banks and the government enjoy for their deposits with the central bank, we should *democratise* this privilege to the people.
 
 This should attract some depositors. If some depositors start moving their demand deposits to the central bank, this will not change the *size* but the *composition* of the balance sheet of the central bank. Namely, some central bank reserves become individual deposits at the central bank:
 
-![image](cb2.png "Central Bank's balance sheet after conversion")
+![](cb2.png "Central Bank's balance sheet after conversion")
 
 As a consequence, our Pony bank is in a difficult position where the depositors' switch to the central bank is effectively a run on the Pony! Pony's reserves are drained and liquidity is needed.
 
-![image](commercial2.png "Pony's balance sheet after conversion")
+![](commercial2.png "Pony's balance sheet after conversion")
 
 Therefore, it is necessary for the central bank to allow Pony to borrow from it, *without collateral*. It it required collateral, Pony would fail due to drained asssets. This is also key to the failures of the SVB and Signature Bank - The Fed requried them to provide collateral before it can lend them through the Discount Window facility (see Wessel's [commentary](https://www.brookings.edu/articles/how-to-fix-what-ails-the-feds-discount-window/)). However, borrowing through the facility is a *stigma* for banks (i.e. it is a signal that you are in a big trouble, which itself triggers bank runs), this means that commercial banks are more likely to pursue self-rescue by selling assets for cash before seeking help from the central bank. By the time they turn to the central bank, they are likely left with no collateral, putting the emergency facility in vain.
 
@@ -54,27 +54,27 @@ In my design, the commercial banks like Pony are allowed to borrow *as much as t
 
 Let's say Pony borrows the exact amount of lost deposits from the central bank, its balance sheet will recover:
 
-![image](commercial3.png "Pony's balance sheet after loan")
+![](commercial3.png "Pony's balance sheet after loan")
 
 Accordingly, the Central Bank's balance sheet changes as follows:
 
-![image](cb3.png "Central Bank's balance sheet after loan")
+![](cb3.png "Central Bank's balance sheet after loan")
 
 Over time, when more and more depositors switch to the central bank, Pony's balance sheet will end up like this:
 
-![image](commercial4.png "Pony's balance sheet before eliminating reserves")
+![](commercial4.png "Pony's balance sheet before eliminating reserves")
 
 While the central bank's balance sheet will be like:
 
-![image](cb4.png "Central Bank's balance sheet before eliminating reserves")
+![](cb4.png "Central Bank's balance sheet before eliminating reserves")
 
 Now commercial bank reserves with the central bank look silly right? Why would the commercial banks borrow from and deposit at the central bank at the same time when it is not profitable? Also, the reserves lose their point - if there is no risk of bank run and cash is easily obtainable from the central bank, why keeping reserves? At the end of the day, reserves cancel out with central bank loans. For Pony,
 
-![image](commercial5.png "Pony's balance sheet without reserves")
+![](commercial5.png "Pony's balance sheet without reserves")
 
 For Central Bank:
 
-![image](cb5.png "Central Bank's balance sheet without reserves")
+![](cb5.png "Central Bank's balance sheet without reserves")
 
 Welcome to a world of save deposits and no bank run.
 
@@ -88,11 +88,11 @@ Simple answer: central banks cannot bu "run" by depositors because they can only
 
 Let's first consider the case where depositors transfer their funds to commercial banks (Pony) in a silly panic. In this case, the some individual deposits become bank reserves (see diagram below), leaving the size of the balance sheet intact. The central bank does not need to sell any assets for cash like commercial banks do. This is because, commercial bank reserves with the central bank are also a form of its liability that can be issued freely by the central bank. More importantly, this does not affect the central bank's profitability - because the interest rate paid on reserves is the same as that paid on individual deposits, the policy deposit rate.
 
-![image](cb6.png "Central Bank's balance sheet after transfers to Pony")
+![](cb6.png "Central Bank's balance sheet after transfers to Pony")
 
 "What about taking out cash from the central bank?" Oh, the central bank would have laughed at this idea. This is because, cash is also a form of its liability - it is essentially an "IOU" written by the central bank. Maybe even worse than that, it will only be repaid with other forms of "IOU". But why is withdrawing cash even a good thing for the central bank? Because the central bank doesn't pay cashholders any interest. The central bank's balance sheet will be like this: 
 
-![image](cb7.png "Central Bank's balance sheet after cash withdrawals")
+![](cb7.png "Central Bank's balance sheet after cash withdrawals")
 
 It can be seen that, with the size of the balance sheet intact, the central bank is more profitable by having the same return on the assets on the left hand side, and paying less interest on the liabilities on the right hand side due to a higher proportion of cash. In fact, this profit generated from non-interest bearing cash is called seigniorage (see [Downes & Vaez-Zadeh, 1991](https://www.elibrary.imf.org/display/book/9781557751850/9781557751850.xml)).
 
@@ -102,13 +102,13 @@ Those who are familiar with monetary policy implementation sytems would know tha
 
 Prior to Quantitative Easing (QE), central banks operated in a so-called "corridor system" whereby the central bank buys and sells short-term Treasury securities to adjust the supply of reserves so that the the interbank rate is between the lending rate and the deposit rate. This is called Open Market Operations (OMO). This is shown in the diagram below:
 
-![image](corridor.jpg "Corridor system")
+![](corridor.jpg "Corridor system")
 
 *Source: [Reserve Bank of Australia](https://www.rba.gov.au/publications/bulletin/2022/jun/an-international-perspective-on-monetary-policy-implementation-systems.html)*
 
 After QE, there has been a plethora of reserves. As a result, overnight interbank rate equilibrates at the deposit rate. This is known as the floor system.
 
-![image](floor.jpg "Floor system")
+![](floor.jpg "Floor system")
 
 *Source: [Reserve Bank of Australia](https://www.rba.gov.au/publications/bulletin/2022/jun/an-international-perspective-on-monetary-policy-implementation-systems.html)*
 
