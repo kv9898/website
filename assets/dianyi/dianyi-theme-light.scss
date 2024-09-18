@@ -104,6 +104,7 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 // Social icons
 
 // footer
+
 .nav-footer-center i {
   color: $secondary !important;
   
@@ -212,6 +213,9 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 }
 
 // Footer
+.nav-footer {     //Dianyi: align the footers to the bottom
+  align-items: flex-end; 
+}
 
 // links on left side
 .nav-footer a {
@@ -222,12 +226,20 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
     }
 }
 
+// links in the middle
+.nav-footer-center {  //Dianyi: align the center footer to the bottom
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 // links on right side
 .nav-footer .nav-link {
     &:hover {
       text-decoration: underline;
     }
 }
+
 
 // Listing cards
 .card {
