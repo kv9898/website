@@ -337,6 +337,8 @@ details > summary {
     order: 1 !important;
     flex-basis: 100%;
     margin: 0 0 -1.2em 0;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .nav-footer-right {
