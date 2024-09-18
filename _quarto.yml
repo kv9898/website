@@ -11,7 +11,7 @@ project:
 website:
   title: "Dianyi Yang"
   site-url: https://rubuky.com
-  favicon: "assets/dianyi/name.ico"
+  favicon: "assets/dianyi/cabbage.ico"
   description: "Political Economy/Causal Inference/Game Theory."
   google-analytics: "G-J9JHQ6RJV3"
   comments: 
@@ -27,7 +27,7 @@ website:
         dark: dark_dimmed
       language: en
   navbar:
-    # logo: assets/dianyi/name.ico
+    logo: assets/dianyi/cabbage.png
     tools:
     #- icon: github
     #  href: https://www.github.com/kv9898/website
