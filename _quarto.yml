@@ -53,7 +53,7 @@ website:
   
   page-footer:  
     left: >-
-     &#169; 2024 Dianyi Yang  &#8729; Made with [Quarto](https://quarto.org).<br>Based on [Silvia Canelón's](https://silviacanelon.com/) template.
+     &#169; 2024 Dianyi Yang  &#8729; Made with [Quarto](https://quarto.org).<br>Based on [Silvia Canelón's](https://silviacanelon.com/) template.<br><a href="https://www.flaticon.com/free-icons/cabbage" title="cabbage icons">Cabbage icons created by Park Jisun - Flaticon</a>
     center: |
       <a class="link-dark me-1" href="https://github.com/kv9898" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
       <a class="link-dark me-1" href="https://www.youtube.com/@dianyiyang5977" title="youtube" target="_blank" rel="noopener">{{< fa brands youtube >}}</a>

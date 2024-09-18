@@ -9,6 +9,7 @@ Thumbs.db
 
 /.quarto/
 /_site/
+/site_libs/
 
 .hugo_build.lock
 
