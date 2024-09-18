@@ -231,6 +231,9 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  //.toc-actions {
+  //  margin-left: 20px;            /* Add space between the icons and any additional links */
+  //}
 }
 
 // links on right side
@@ -323,6 +326,8 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
     order: 1 !important;
     flex-basis: 100%;
     margin: 0 0 -1.2em 0;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .nav-footer-right {
