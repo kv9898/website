@@ -2,6 +2,7 @@
 comments: false
 date: "2021-06-01T10:00:00+00:00"
 title: "Accessibility commitment"
+repo-actions: false
 ---
 
 Travel back to the [home page](/) or [about page](/about).

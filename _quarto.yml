@@ -50,11 +50,16 @@ website:
       #- text: Projects
       #  aria-label: "Project Portfolio"
       #  href: project/index.qmd
-  
+
+  repo-url: https://github.com/kv9898/website
+  repo-actions: [source, issue]
+
   page-footer:  
     left: >-
-     &#169; 2024 Dianyi Yang  &#8729; Made with [Quarto](https://quarto.org).<br>Based on [Silvia Canelón's](https://silviacanelon.com/) template.<br><a href="https://www.flaticon.com/free-icons/cabbage" title="cabbage icons">Cabbage icons created by Park Jisun - Flaticon</a>
+     &#169; 2024 Dianyi Yang  &#8729; Made with [Quarto](https://quarto.org).<br>Based on [Silvia Canelón's](https://silviacanelon.com/) template.<br><a href="https://www.flaticon.com/free-icons/cabbage" title="cabbage icons">Cabbage icons from Park Jisun - Flaticon</a>.
     center: |
+      <br>
+      <br>
       <a class="link-dark me-1" href="https://github.com/kv9898" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
       <a class="link-dark me-1" href="https://www.youtube.com/@dianyiyang5977" title="youtube" target="_blank" rel="noopener">{{< fa brands youtube >}}</a>
       <a class="link-dark me-1" href="https://www.instagram.com/yangdianyi" title="instagram" target="_blank" rel="noopener">{{< fa brands instagram >}}</a>
@@ -66,10 +71,10 @@ website:
       <a class="link-dark me-1" href="https://www.zhihu.com/people/yang-dian-yi-9" title="Zhihu" target="_blank" rel="noopener">{{< fa brands zhihu >}}</a>
     
     right: 
-      - text: "License"
+      - text: <br><br> License
         aria-label: "License Details"
         href: license.qmd
-      - text: "Contact"
+      - text: <br><br> Contact
         aria-label: "Contact Form"
         href: "contact.qmd"
       
