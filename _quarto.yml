@@ -67,7 +67,6 @@ website:
       <a class="link-dark me-1" href="https://scholar.google.com/citations?hl=en&user=lBLufI8AAAAJ" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
       <a class="link-dark me-1" href="https://space.bilibili.com/34634614" title="Bilibili" target="_blank" rel="noopener">{{< fa brands bilibili >}}</a>
       <a class="link-dark me-1" href="https://www.zhihu.com/people/yang-dian-yi-9" title="Zhihu" target="_blank" rel="noopener">{{< fa brands zhihu >}}</a>
-    
     right: 
       - text: License
         aria-label: "License Details"

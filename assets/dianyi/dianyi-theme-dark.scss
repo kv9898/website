@@ -223,6 +223,9 @@ pre code {
 }
 
 // Footer
+.nav-footer {     //Dianyi: align the footers to the bottom
+  align-items: flex-end; 
+}
 
 // links on left side
 .nav-footer a {
@@ -231,6 +234,13 @@ pre code {
     &:hover {
       color: $secondary-light;
     }
+}
+
+// links in the middle
+.nav-footer-center {  //Dianyi: align the center footer to the bottom
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 // links on right side
