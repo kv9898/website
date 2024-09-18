@@ -9,6 +9,11 @@ title-block-banner: false
 citation: true
 csl: ../assets/dianyi/apa.csl
 
+# Default for table of contents
+toc: true
+toc-title: Table of contents
+toc-location: right
+
 # Wrap overflow code
 format: 
   html: 
