@@ -132,6 +132,9 @@ pre code {
 // social links
 .link-dark.me-1 i {
   color: $secondary !important;
+  &:hover {
+    color: $secondary-light !important;
+  }
 }
 
 //// custom substack embed
