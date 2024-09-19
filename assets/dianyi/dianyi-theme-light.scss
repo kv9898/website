@@ -233,7 +233,24 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 .nav-footer-center {  //Dianyi: align the center footer to the bottom
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center; // Center vertically (if needed)
+  text-align: center;      // Ensure text is centered
+  margin-bottom: -1em;
+}
+.nav-footer-center p {
+  margin: 0;
+}
+.nav-footer-center .toc-actions {
+  display: flex;
+  justify-content: center;  // Center horizontally
+  align-items: center; 
+  //justify-content: flex-end;
+  padding: 0;
+}
+.nav-footer-center .toc-actions .ul {
+  margin: 0;
+  padding: 0;
 }
 
 // links on right side
@@ -321,19 +338,18 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
   .nav-footer {
       flex-direction: row;
     }
-
-  .nav-footer-center {
+  .nav-footer-right {
     order: 1 !important;
     flex-basis: 100%;
-    margin: 0 0 -1.2em 0;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.3em;
   }
-
-  .nav-footer-right {
+  .nav-footer-center {
     order: 2 !important;
     flex-basis: 100%;
-    text-align: center;
+    margin: 0 0 -0.5em 0;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .nav-footer-left {

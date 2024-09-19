@@ -1,6 +1,5 @@
 ---
 title: "My blogs"
-repo-actions: false
 description: |
   All of my mind-blowing ideas that are not publishable are hidden here. 
   

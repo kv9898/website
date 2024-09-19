@@ -1,6 +1,5 @@
 ---
 title: "404"
-repo-actions: false
 ---
 
 # Oh no! That page is nowhere to be found <i class="fas fa-search pr2"></i>

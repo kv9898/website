@@ -2,7 +2,6 @@
 pagetitle: Contact
 # title: Send me a note
 name: Contact Form
-repo-actions: false
 page-layout: article
 format: 
   html: 

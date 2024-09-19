@@ -2,7 +2,6 @@
 title: "Papers" 
 description: |
   I hope I will publish in peer-reviewed journals soon…
-repo-actions: false
 listing: 
   contents: 
     - "**/index.qmd"
