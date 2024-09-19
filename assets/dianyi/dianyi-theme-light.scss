@@ -238,23 +238,25 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
   text-align: center;      // Ensure text is centered
   margin-bottom: -1em;
 }
-.nav-footer-center p {
+.nav-footer-center p { //Dianyi: remove margin
   margin: 0;
 }
-.nav-footer-center .toc-actions {
+.nav-footer-center .toc-actions { // Dianyi: reconfigure github repo actions
+  color: $secondary !important; // Dianyi: adjust color
   display: flex;
   justify-content: center;  // Center horizontally
   align-items: center; 
   //justify-content: flex-end;
   padding: 0;
 }
-.nav-footer-center .toc-actions .ul {
+.nav-footer-center .toc-actions .ul { //Dianyi: remove margin
   margin: 0;
   padding: 0;
 }
 
 // links on right side
 .nav-footer .nav-link {
+  color: $secondary !important; // Dianyi: adjust color
     &:hover {
       text-decoration: underline;
     }
@@ -338,16 +340,16 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
   .nav-footer {
       flex-direction: row;
     }
-  .nav-footer-right {
+  .nav-footer-right { //Dianyi: reorder the footers
     order: 1 !important;
     flex-basis: 100%;
     text-align: center;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.3em; //Dianyi: readjust margin
   }
   .nav-footer-center {
     order: 2 !important;
     flex-basis: 100%;
-    margin: 0 0 -0.5em 0;
+    margin: 0 0 -0.5em 0; //Dianyi: readjust margin
     flex-direction: column;
     justify-content: center;
   }
