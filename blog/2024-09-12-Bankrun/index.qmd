@@ -4,7 +4,6 @@ title: How allowing individuals to save with the central bank can prevent bank r
 date: '2024-09-12'
 categories:
   - monetary policy
-  - monetary policy
   - bank run
   - moral hazard
 image: featured.jpg
