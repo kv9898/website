@@ -11,8 +11,10 @@ Thumbs.db
 /_site/
 /site_libs/
 
+/talk/
+/project/
+
+
 .hugo_build.lock
 
 /.luarc.json
-
-/assets/silvia/
