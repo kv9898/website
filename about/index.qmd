@@ -78,6 +78,20 @@ listing:
   max-items: 1
   image-height: "200"
   image-placeholder: ../papers/featured.jpg
+- id: tool
+  contents: 
+    - "../tool/*/index.qmd"
+    - "../tool/*/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+  image-placeholder: ../tool/featured.jpg
 #- id: project
 #  contents: 
 #    - "../project/*/index.qmd"
