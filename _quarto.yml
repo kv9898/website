@@ -44,6 +44,9 @@ website:
       - text: Papers
         aria-label: "Papers"
         href: papers/index.qmd
+      - text: Tools
+        aria-label: "Tools"
+        href: tool/index.qmd
       - text: CV
         aria-label: "CV"
         href: cv/CV_Dianyi.pdf

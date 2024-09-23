@@ -1,0 +1,25 @@
+# Freeze computed outputs
+execute: 
+  freeze: true
+
+# Enable banner style title blocks
+title-block-banner: true
+
+# Default fields for citation
+citation: true
+csl: ../assets/dianyi/apa.csl
+
+# License
+license: "CC BY-SA"
+
+# Default for table of contents
+toc: true
+toc-title: Table of contents
+toc-location: right
+
+# Wrap overflow code
+format: 
+  html: 
+    code-overflow: wrap
+    template-partials: 
+      - ../_partials/title-block-link-buttons/title-block.html
