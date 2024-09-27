@@ -7,7 +7,7 @@ author:
 - name: Dianyi Yang
   orcid: 0009-0004-4652-3429
 date: 2024-09-23
-image: img/featured.png
+image: featured.png
 categories:
 - switch challenge
 - shinylive
