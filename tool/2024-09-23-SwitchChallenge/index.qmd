@@ -68,11 +68,11 @@ def compute(formula):
     return(a)
 
 app_ui = ui.page_fluid(
-    ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")),
-    ui.output_ui("result"),
     ui.input_text("fml", "Formula:", ""),
     ui.output_text_verbatim("text"),
-    ui.input_dark_mode(id="theme_mode"),
+    ui.input_dark_mode(id="theme_mode", style="display: none;"),
+    ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")),
+    ui.output_ui("result"),
 )
 
 def server(input, output, session):
