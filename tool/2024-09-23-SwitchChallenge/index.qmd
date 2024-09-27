@@ -73,14 +73,15 @@ app_ui = ui.page_fluid(
     ui.input_dark_mode(id="theme_mode", style="display: none;"),
     ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")),
     ui.output_ui("result"),
+    ui.tags.script("window.parent.postMessage('TellMeColor', '*');"),
 )
 
 def server(input, output, session):
     @reactive.effect
     def _():
-        if input.parent_mode()=="dark" and input.theme_mode()=="light":
+        if input.parent_mode()=="dark":
             ui.update_dark_mode("dark")
-        elif input.parent_mode()=="light" and input.theme_mode()=="dark":
+        elif input.parent_mode()=="light":
             ui.update_dark_mode("light")
     @render.ui
     def result():
@@ -105,7 +106,6 @@ window.parent.addEventListener('light', function() {
 window.parent.addEventListener('dark', function() {
     Shiny.setInputValue('parent_mode', 'dark');
 })
-window.parent.postMessage('TellMeColor', '*');
 ```
 
 # How to Use the Switch Challenge Solver

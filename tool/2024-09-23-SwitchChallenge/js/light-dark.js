@@ -28,11 +28,6 @@ updateAppTheme();
 
 window.onmessage = function(e) {
   if (e.data == 'TellMeColor') {
-    var bodyClass = window.document.body.classList;
-    if (bodyClass.contains('quarto-light')) {
-        window.dispatchEvent(LightEvent);
-    } else if (bodyClass.contains('quarto-dark')) {
-        window.dispatchEvent(DarkEvent);
-    }
+    updateAppTheme();
   }
 };
