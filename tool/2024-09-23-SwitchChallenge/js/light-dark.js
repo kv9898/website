@@ -1,18 +1,16 @@
-const DarkEvent = new Event("dark");
+const DarkEvent = new Event("dark"); // add new events
 const LightEvent = new Event("light");
 
-function updateAppTheme() {
+function updateAppTheme() { // dispatch events when theme needs updating
     var bodyClass = window.document.body.classList;
     if (bodyClass.contains('quarto-light')) {
         window.dispatchEvent(LightEvent);
     } else if (bodyClass.contains('quarto-dark')) {
-        //Shiny.setInputValue("theme_mode", "light", {priority: "event"});
-        //alert("light-parent");
         window.dispatchEvent(DarkEvent);
     }
   }
   
-var observer = new MutationObserver(function(mutations) {
+var observer = new MutationObserver(function(mutations) { // listen for theme changes
     mutations.forEach(function(mutation) {
       if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
         updateAppTheme();
@@ -20,13 +18,13 @@ var observer = new MutationObserver(function(mutations) {
     });
   });
   
-observer.observe(window.document.body, {
+observer.observe(window.document.body, { // enable observer
     attributes: true
 });
 
-updateAppTheme();
+// updateAppTheme();
 
-window.onmessage = function(e) {
+window.onmessage = function(e) { // update theme when receives querry
   if (e.data == 'TellMeColor') {
     updateAppTheme();
   }

@@ -70,21 +70,23 @@ def compute(formula):
 app_ui = ui.page_fluid(
     ui.input_text("fml", "Formula:", ""),
     ui.output_text_verbatim("text"),
-    ui.input_dark_mode(id="theme_mode", style="display: none;"),
+    ui.input_dark_mode(id="theme_mode", style="display: none;"), 
+        # add an invisible dark mode toggle 
     ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")),
-    ui.output_ui("result"),
-    ui.tags.script("window.parent.postMessage('TellMeColor', '*');"),
+        # include the event listener and custom message handler
+    ui.output_ui("custom_dark_bg"), # add a custom dark mode background color
 )
 
 def server(input, output, session):
     @reactive.effect
-    def _():
+    async def _():
+        await session.send_custom_message("QueryColor", {'a': '1'})
         if input.parent_mode()=="dark":
             ui.update_dark_mode("dark")
         elif input.parent_mode()=="light":
             ui.update_dark_mode("light")
     @render.ui
-    def result():
+    def custom_dark_bg():
         if input.theme_mode()=="dark":
             return ui.tags.style("body {background-color: #16242f}")
     @output
@@ -102,10 +104,15 @@ app = App(app_ui, server)
 ## file: light-dark.js
 window.parent.addEventListener('light', function() {
     Shiny.setInputValue('parent_mode', 'light');
-})
+}) // add an event listener to parent page for light mode
 window.parent.addEventListener('dark', function() {
     Shiny.setInputValue('parent_mode', 'dark');
-})
+}) // add an event listener to parent page for dark mode
+Shiny.addCustomMessageHandler("QueryColor",
+    function(message) {
+        window.parent.postMessage('TellMeColor', '*');
+    }
+); // add custom message handler to send color query to parent
 ```
 
 # How to Use the Switch Challenge Solver
