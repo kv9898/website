@@ -23,7 +23,7 @@ observer.observe(window.document.body, { // enable observer
 });
 
 window.onmessage = function(e) { // update theme when receives querry
-  if (e.data == 'TellMeColor') {
+  if (e.data == 'ShinyColorQuery') {
     updateAppTheme();
   }
 };

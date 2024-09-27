@@ -70,25 +70,10 @@ def compute(formula):
 app_ui = ui.page_fluid(
     ui.input_text("fml", "Formula:", ""),
     ui.output_text_verbatim("text"),
-    ui.input_dark_mode(id="theme_mode", style="display: none;"), 
-        # add an invisible dark mode toggle 
     ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")),
-        # include the event listener and custom message handler
-    ui.output_ui("custom_dark_bg"), # add a custom dark mode background color
 )
 
 def server(input, output, session):
-    @reactive.effect
-    async def _(): # query color from parent and update dark mode
-        await session.send_custom_message("QueryColor", {'a': '1'})
-        if input.quarto_mode()=="dark":
-            ui.update_dark_mode("dark")
-        elif input.quarto_mode()=="light":
-            ui.update_dark_mode("light")
-    @render.ui
-    def custom_dark_bg(): # add a custom dark mode background color
-        if input.theme_mode()=="dark":
-            return ui.tags.style("body {background-color: #16242f}")
     @output
     @render.text
     def text():
@@ -103,17 +88,15 @@ app = App(app_ui, server)
 ## file: requirements.txt
 ## file: light-dark.js
 window.parent.addEventListener("quarto-color-mode", function(event) {
-    Shiny.setInputValue('quarto_mode', event.detail.mode);
-    // document.documentElement.dataset.bsTheme = event.detail.mode;
-    //if (event.detail.mode === "dark") {
-    //    document.body.style.backgroundColor = "#16242f";
-    //} 
-});
-Shiny.addCustomMessageHandler("QueryColor",
-    function(message) {
-        window.parent.postMessage('TellMeColor', '*');
+    // Shiny.setInputValue('quarto_mode', event.detail.mode);
+    document.documentElement.dataset.bsTheme = event.detail.mode;
+    if (event.detail.mode === "dark") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#16242f");
+    }  else if (event.detail.mode === "light") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#f9fffe");
     }
-);
+})
+window.parent.postMessage('ShinyColorQuery', '*');
 ```
 
 # How to Use the Switch Challenge Solver
