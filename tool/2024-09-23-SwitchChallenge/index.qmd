@@ -79,14 +79,14 @@ app_ui = ui.page_fluid(
 
 def server(input, output, session):
     @reactive.effect
-    async def _():
+    async def _(): # query color from parent and update dark mode
         await session.send_custom_message("QueryColor", {'a': '1'})
         if input.parent_mode()=="dark":
             ui.update_dark_mode("dark")
         elif input.parent_mode()=="light":
             ui.update_dark_mode("light")
     @render.ui
-    def custom_dark_bg():
+    def custom_dark_bg(): # add a custom dark mode background color
         if input.theme_mode()=="dark":
             return ui.tags.style("body {background-color: #16242f}")
     @output
