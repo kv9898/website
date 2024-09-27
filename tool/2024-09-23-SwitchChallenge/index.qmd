@@ -81,9 +81,9 @@ def server(input, output, session):
     @reactive.effect
     async def _(): # query color from parent and update dark mode
         await session.send_custom_message("QueryColor", {'a': '1'})
-        if input.parent_mode()=="dark":
+        if input.quarto_mode()=="dark":
             ui.update_dark_mode("dark")
-        elif input.parent_mode()=="light":
+        elif input.quarto_mode()=="light":
             ui.update_dark_mode("light")
     @render.ui
     def custom_dark_bg(): # add a custom dark mode background color
@@ -102,17 +102,18 @@ app = App(app_ui, server)
 
 ## file: requirements.txt
 ## file: light-dark.js
-window.parent.addEventListener('light', function() {
-    Shiny.setInputValue('parent_mode', 'light');
-}) // add an event listener to parent page for light mode
-window.parent.addEventListener('dark', function() {
-    Shiny.setInputValue('parent_mode', 'dark');
-}) // add an event listener to parent page for dark mode
+window.parent.addEventListener("quarto-color-mode", function(event) {
+    Shiny.setInputValue('quarto_mode', event.detail.mode);
+    // document.documentElement.dataset.bsTheme = event.detail.mode;
+    //if (event.detail.mode === "dark") {
+    //    document.body.style.backgroundColor = "#16242f";
+    //} 
+});
 Shiny.addCustomMessageHandler("QueryColor",
     function(message) {
         window.parent.postMessage('TellMeColor', '*');
     }
-); // add custom message handler to send color query to parent
+);
 ```
 
 # How to Use the Switch Challenge Solver

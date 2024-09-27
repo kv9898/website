@@ -1,5 +1,5 @@
-const DarkEvent = new Event("dark"); // add new events
-const LightEvent = new Event("light");
+const DarkEvent = new CustomEvent("quarto-color-mode", { detail: { mode: "dark" }});
+const LightEvent = new CustomEvent("quarto-color-mode", { detail: { mode: "light" }});
 
 function updateAppTheme() { // dispatch events when theme needs updating
     var bodyClass = window.document.body.classList;
