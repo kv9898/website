@@ -215,6 +215,15 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
     }
 }
 
+// Appendices
+.quarto-appendix-bibtex {
+  background-color: $spc-bg-1 !important; /* Background for Bibtex */
+}
+
+.quarto-appendix-citeas {
+  background-color: $spc-bg-1; /* Background for Citation */
+}
+
 // Footer
 .nav-footer {     //Dianyi: align the footers to the bottom
   align-items: flex-end; 
