@@ -44,8 +44,8 @@ $table-group-separator-color: lighten($primary, 40%);
 $table-caption-color:         $body-secondary;
 
 // Code blocks
-$code-block-bg:              rgb(198, 51, 51);
-$code-block-border:          #ebebeb;
+$code-block-bg:               $spc-bg-1;
+$code-block-border:           $body-bg;
 
 // Inline code
 $code-color:                  $primary-dark;

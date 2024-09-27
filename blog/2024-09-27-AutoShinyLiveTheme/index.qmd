@@ -1,0 +1,125 @@
+---
+author: Dianyi Yang
+title: How to sync Shinylive dark mode with Quarto
+subtitle: adapted from a Github comment
+filters:
+  - shinylive
+date: 2024-09-27
+categories:
+-  Quarto
+-  Shinylive
+image: featured.jpg
+number-sections: false
+links:
+  - icon: github
+    #icon_pack: fab
+    name: Github Thread
+    url: https://github.com/quarto-dev/quarto-cli/discussions/10862
+execute:
+  echo: false
+  warning: false
+  error: false
+  message: false
+google-scholar: false
+include-after-body:
+  text: |
+    <script type="application/javascript" src="js/light-dark.js"></script>
+---
+
+This tutorial aims to show you how to build a shiny app like the one below, the dark mode of which is synchronized with the Quarto page.
+
+```{shinylive-python}
+#| standalone: true
+#| components: [editor, viewer]
+## file: app.py
+from shiny import *
+from pathlib import Path
+
+app_ui = ui.page_fluid(
+    "This is a Shinylive app with dark theme synced with Quarto", # other ui inputs that you like
+    ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")),
+)
+
+app = App(app_ui, None)
+
+## file: light-dark.js
+window.parent.addEventListener("quarto-color-mode", function(event) {
+    document.documentElement.dataset.bsTheme = event.detail.mode;
+    if (event.detail.mode === "dark") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#16242f"); // custom dark background color
+    }  else if (event.detail.mode === "light") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#f9fffe"); // custom light background color
+    }
+})
+window.parent.postMessage('ShinyColorQuery', '*'); // request Quarto theme color when Shinyapp is loaded
+```
+
+First, in the Quarto Website Page, we need to add a JavaScript (script?) to communicate with the ShinyLive app, which is in iframe. The adding is done by:
+
+```{.yaml}
+include-after-body:
+  text: |
+    <script type="application/javascript" src="js/light-dark.js"></script>
+```
+
+The actual light-dark.js file is inspired by @mcanouil 's [blog post](https://mickael.canouil.fr/posts/2023-05-30-quarto-light-dark/) and needs to contain:
+
+```{.js}
+const DarkEvent = new CustomEvent("quarto-color-mode", { detail: { mode: "dark" }}); // add new events
+const LightEvent = new CustomEvent("quarto-color-mode", { detail: { mode: "light" }});
+
+function updateAppTheme() { // dispatch events when theme needs updating
+    var bodyClass = window.document.body.classList;
+    if (bodyClass.contains('quarto-light')) {
+        window.dispatchEvent(LightEvent);
+    } else if (bodyClass.contains('quarto-dark')) {
+        window.dispatchEvent(DarkEvent);
+    }
+  }
+  
+var observer = new MutationObserver(function(mutations) { // listen for theme changes
+    mutations.forEach(function(mutation) {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+        updateAppTheme();
+      }
+    });
+  });
+  
+observer.observe(window.document.body, { // enable observer
+    attributes: true
+});
+
+window.onmessage = function(e) { // update theme when receives querry
+  if (e.data == 'ShinyColorQuery') {
+    updateAppTheme();
+  }
+};
+```
+
+Back to the ShinyLive app, it also needs to add a JS script to communicate with the parent page. The compete ShinyLive app code looks like this:
+
+```{.python}
+#| standalone: true
+#| components: [editor, viewer]
+## file: app.py
+from shiny import *
+from pathlib import Path
+
+app_ui = ui.page_fluid(
+    "This is a Shinylive app with dark theme synced with Quarto", # other ui inputs that you like
+    ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")),
+)
+
+app = App(app_ui, None)
+
+## file: light-dark.js
+window.parent.addEventListener("quarto-color-mode", function(event) {
+    document.documentElement.dataset.bsTheme = event.detail.mode;
+    if (event.detail.mode === "dark") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#16242f"); // custom dark background color
+    }  else if (event.detail.mode === "light") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#f9fffe"); // custom light background color
+    }
+})
+window.parent.postMessage('ShinyColorQuery', '*'); // request Quarto theme color when Shinyapp is loaded
+```
