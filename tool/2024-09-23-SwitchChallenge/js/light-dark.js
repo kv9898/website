@@ -22,8 +22,6 @@ observer.observe(window.document.body, { // enable observer
     attributes: true
 });
 
-// updateAppTheme();
-
 window.onmessage = function(e) { // update theme when receives querry
   if (e.data == 'TellMeColor') {
     updateAppTheme();
