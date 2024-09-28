@@ -298,6 +298,9 @@ span.input-group-text {
 img {
   background: $spc-bg-1 !important;
 }
+img.navbar-logo {
+  background-color: transparent !important; // exception for the logo
+}
 
 // Listing cards
 .card {
