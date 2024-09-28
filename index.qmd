@@ -2,9 +2,8 @@
 title: "Dianyi Yang"
 pagetitle: "Dianyi Yang"
 subtitle: "Political Economy/Causal Inference/Game Theory"
-image: assets/dianyi/avatar.jpeg
+image: assets/dianyi/avatar.png
 image-alt: "My avatar"
-
 twitter-card:
     title:  Dianyi Yang
     description: |
