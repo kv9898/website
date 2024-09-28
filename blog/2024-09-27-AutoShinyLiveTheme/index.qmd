@@ -96,7 +96,7 @@ window.onmessage = function(e) { // update theme when receives querry
 };
 ```
 
-Back to the ShinyLive app, it also needs to add a JS script to communicate with the parent page. The compete ShinyLive app code looks like this:
+Back to the ShinyLive app, it also needs to add a JS script to communicate with the parent page. A minimal working ShinyLive app code looks like this:
 
 ```{.python}
 #| standalone: true
