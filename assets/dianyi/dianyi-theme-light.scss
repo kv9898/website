@@ -215,7 +215,16 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
     }
 }
 
-// Appendices
+// Listing actions added by Dianyi
+select{
+  background-color: $spc-bg-1 !important;
+}
+
+input.search.form-control {
+  background-color: $spc-bg-1;
+}
+
+// Appendices added by Dianyi
 .quarto-appendix-bibtex {
   background-color: $spc-bg-1 !important; /* Background for Bibtex */
 }

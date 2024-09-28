@@ -225,7 +225,20 @@ pre code {
     }
 }
 
-// Appendices
+// Listing actions added by Dianyi
+select{
+  background-color: $spc-bg-1 !important;
+}
+
+input.search.form-control {
+  background-color: $spc-bg-1;
+}
+
+span.input-group-text {
+  background-color: $spc-button; /* Example color: blue */
+}
+
+// Appendices added by Dianyi
 .quarto-appendix-bibtex {
   background-color: $spc-bg-1 !important; /* Background for Bibtex */
 }

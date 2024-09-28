@@ -14,8 +14,8 @@ listing:
   sort: "date desc"
   type: default
   categories: true
-  sort-ui: false
-  filter-ui: false
+  sort-ui: true
+  filter-ui: true
   fields: [title, author, categories, date, image]
   image-placeholder: sidebar.jpg
   image-align: right
