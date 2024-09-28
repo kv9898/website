@@ -283,7 +283,7 @@ input.search.form-control {
 
 // Listing cards
 .card {
-  background: transparent;
+  background: $spc-bg-1 !important;
   border: none;
   border-radius: 4px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
