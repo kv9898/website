@@ -97,7 +97,7 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 
 // Blockquotes
 .blockquote {
-  color: lighten($primary, 15%);
+  color: darken($primary, 20%); //lighten($primary, 15%);
   font-style: oblique;
 }
 
