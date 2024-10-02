@@ -1,0 +1,130 @@
+---
+title: "Switch Challenge Solver"
+subtitle: a tool designed to help you familiarise yourself with the Switch Challenge for AON and P&G assessments
+filters:
+  - shinylive
+author: 
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+date: 2024-09-23
+image: featured.png
+categories:
+- switch challenge
+- shinylive
+links:
+  - icon: github
+    name: Code
+    url: https://github.com/kv9898/switch_challenge_solver
+include-after-body:
+  text: |
+    <script type="application/javascript" src="js/light-dark.js"></script>
+---
+```{shinylive-python}
+#| standalone: true
+## file: app.py
+from shiny import *
+from pathlib import Path
+
+def compute(formula):
+    fml, outcome = formula.split("=")
+    fml = fml.split("+")
+
+    def IsColor(input_string):
+        r = "r" in input_string
+        g = "g" in input_string
+        b = "b" in input_string
+        y = "y" in input_string
+        return (r or g or b or y)
+
+    def get_outcome(input_sequence, output_sequence):
+        map = {i:n for n,i in enumerate(input_sequence)}
+        outcome = [map[o]+1 for o in output_sequence]
+        return("".join(str(x) for x in outcome))
+
+    # if outcome and the first element of fml contains any of "y", "b", "g", "red",
+    # then we need to execute get_outcome()
+    if IsColor(outcome) and IsColor(fml[0]):
+        outcome = get_outcome(fml[0], outcome)
+        fml = fml[1:]
+
+    #answers = ["".join([str(x) for x in list(a)]) for a in permutations([1, 2, 3, 4])]
+    answers = ['1234', '1243', '1324', '1342', '1423', '1432', '2134', '2143', '2314', '2341', 
+            '2413', '2431', '3124', '3142', '3214', '3241', '3412', '3421', '4123', '4132', 
+            '4213', '4231', '4312', '4321']
+
+    def switch(a, b):
+        a = {o:i for o,i in enumerate(a)}
+        new = [a[int(n)-1] for n in b]
+        return("".join(str(x) for x in new))
+
+    for a in answers:
+        # replace x in fmlwith a
+        fml_temp = list(map(lambda x: x.replace('x', a), fml))
+        out = "1234"
+        for i in range(len(fml_temp)):
+            out = switch(out, fml_temp[i])
+        if out == outcome:
+            break
+    return(a)
+
+app_ui = ui.page_fluid(
+    ui.input_text("fml", "Formula:", ""),
+    ui.output_text_verbatim("text"),
+    ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")),
+)
+
+def server(input, output, session):
+    @output
+    @render.text
+    def text():
+        if "=" in input.fml() and len(input.fml().split("=")[1].strip())==4:
+            return compute(input.fml())
+        else:
+            return ""    
+
+
+app = App(app_ui, server)
+
+## file: requirements.txt
+## file: light-dark.js
+window.parent.addEventListener("quarto-color-mode", function(event) {
+    // Shiny.setInputValue('quarto_mode', event.detail.mode);
+    document.documentElement.dataset.bsTheme = event.detail.mode;
+    if (event.detail.mode === "dark") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#16242f");
+    }  else if (event.detail.mode === "light") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#f9fffe");
+    }
+})
+window.parent.postMessage('ShinyColorQuery', '*');
+```
+
+# How to Use the Switch Challenge Solver
+
+This online version requires the user to translate the problem to a "formula" and enter it into the text box. For the GUI version, please refer to the [Github repository](https://github.com/kv9898/switch_challenge_solver).
+
+There are two ways of using the full formula, long form and short form.
+
+In the long form, you enter the input and output colors.
+
+Let's use the hard case as an example, the formula would be:
+
+`ybgr+1324+x+3241=gbyr`
+
+::: {layout="[[30,70]]"}
+![Problem](img/problem.png)
+
+![Long Formula](img/lf.png)
+:::
+
+The gist of the short formula form is that you encode the outcome (number after `=`) in such a way that it is a single switch from the input to the output. Note that you cannot use the short formula for the easiest problems (you solve it with your brain).
+
+Let's use the same case as an example:
+
+::: {layout="[[30,70]]"}
+![Problem](img/problem.png)
+
+![Short Formula](img/sf.png)
+:::
+
+Please leave a comment below or give me a star🌟 at the [Github repository](https://github.com/kv9898/switch_challenge_solver) if you find this useful.
