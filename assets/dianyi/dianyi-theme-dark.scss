@@ -301,6 +301,9 @@ img {
 img.navbar-logo {
   background-color: transparent !important; // exception for the logo
 }
+.quarto-title-author-orcid img {
+  background-color: transparent !important; // exception for the orcid
+}
 
 // Listing cards
 .card {
