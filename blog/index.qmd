@@ -16,19 +16,19 @@ listing:
   categories: true
   sort-ui: true
   filter-ui: true
-  fields: [title, author, categories, date, image]
+  fields: [title, author, categories, date, reading-time, image]
   image-placeholder: sidebar.jpg
   image-align: right
   page-size: 5
   feed: true
 citation: false
-page-layout: article
 comments: false
 format: 
   html: 
-    grid:
-      sidebar-width: 0px
-      margin-width: 0px 
+    page-layout: full
+    #grid:
+    #  sidebar-width: 0px
+    #  margin-width: 0px 
 title-block-banner: true
 
 header-includes: >

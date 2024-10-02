@@ -16,14 +16,14 @@ listing:
   image-align: right
   # image-height: 10em
   page-size: 5
-page-layout: article
 comments: false
 citation: false
 format: 
   html: 
-    grid:
-      sidebar-width: 0px
-      margin-width: 0px
+    page-layout: full
+    #grid:
+      #sidebar-width: 0px
+      #margin-width: 0px
 title-block-banner: true
 
 header-includes: >
