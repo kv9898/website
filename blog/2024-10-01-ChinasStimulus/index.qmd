@@ -1,0 +1,88 @@
+---
+author:
+- name: Jackson Huang
+  orcid: 0009-0009-9108-5436
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+title: Reasons for optimism in China’s unprecedented stimulus package
+subtitle: reposted from ThinkChina
+date: '2024-10-01'
+categories:
+  - monetary policy
+  - China
+image: featured.jpg
+google-scholar: false
+citation:
+  url: https://www.thinkchina.sg/economy/reasons-optimism-chinas-unprecedented-stimulus-package
+links:
+  - icon: newspaper
+    #icon_pack: fab
+    name: ThinkChina's original post
+    url: https://www.thinkchina.sg/economy/reasons-optimism-chinas-unprecedented-stimulus-package
+---
+**Researchers Jackson Huang and Dianyi Yang say that even though some call China’s latest stimulus package too little too late, it is still an important sign that the leadership in Beijing now understands the need to boost demand more decisively. **
+
+![People at Hongqiao railway station in Shanghai on 27 September 2024. (Hector Retamal/AFP)](hongqiao.jpg)
+
+On 24 September, numerous stimulus measures aimed at boosting the country’s stock market and property sector were announced by the heads of China’s central bank and financial regulators at a press conference held by the State Council.
+
+The package includes important measures such as cutting the interest rate on existing mortgages, lowering the minimum down-payment ratio for second home purchases, and monetary policy such as cutting key policy interest rates and reducing the reserve ratio requirement (RRR). Additionally, it introduces new tools aimed at increasing liquidity in the financial and stock markets.
+
+# What has been announced and what remains in doubt
+
+The stimulus package is primarily aimed at revitalising the economy by boosting the country’s stock market and property sector. For [the property sector, measures include](https://www.thinkchina.sg/economy/can-chinas-latest-stimulus-package-save-its-economy) cutting the interest rate on existing mortgages by 0.5 percentage points; lowering the minimum down-payment ratio for second home purchases from 25% to 15%; and increasing the central bank’s funding support ratio for the refinancing programme for affordable housing from 60% to 100%. 
+
+For the stock market, the People’s Bank of China (PBOC) will cut interest rates and reduce the RRR for financial institutions by 0.5 percentage points, adding about 1 trillion RMB (US$142.6 billion) in long-term liquidity to the financial market. Furthermore, the PBOC has also injected at least 800 billion RMB into the stock market by introducing two new monetary policy tools for liquidity support. 
+
+The latest stimulus package, though unprecedented in scale, has been viewed by many observers as both delayed and insufficient. China’s economic recovery has been sluggish since its re-opening from Covid-19 lockdowns in late 2022, with key indicators such as industrial production, domestic consumption and youth employment falling short of expectations continuously. 
+
+Despite calls from economists and policymakers, both domestic and international, the central government has remained cautious about taking more aggressive measures, such as direct cash handouts, to restore market confidence.
+
+> Overall, the “cocktail therapy” of monetary policy provides direct support for the stock market and the property sector, which has long been urgently needed. The package also helps to prop up the macroeconomy...
+
+![Headquarters of the People’s Bank of China (PBOC), the central bank, is pictured in Beijing, China, on 28 September 2018. (Jason Lee/Reuters)](featured.jpg)
+
+Furthermore, the size of the current stimulus package is significantly smaller than the 10 to 18 trillion RMB that Chinese and international experts estimate is needed to reignite market optimism.
+
+However, contrary to these concerns, this commentary highlights several reasons for optimism by an analysis of the immediate and long-term implications.
+
+Overall, the “cocktail therapy” of monetary policy provides direct support for the stock market and the property sector, which has long been urgently needed. The package also helps to prop up the macroeconomy, but more coordination from the fiscal policy, especially that of the central government, is needed to bolster growth and employment. 
+
+More importantly, this unexpected “gift” signals the beginning of the Chinese government’s departure from its previous emphasis on the long-term, supply-side economics to a more candid and pragmatic attitude to the short-term, demand side and its determination to use more aggressive policy tools to prop up the economy.
+
+# Immediate implications and market reaction
+
+In terms of the immediate short term, the reduction in the RRR is expected to pump around 1 trillion RMB of long-term liquidity into the financial system. On top of that, the newly created swap facilities for securities, funds and insurance companies provide financial institutions with 500 billion RMB in liquid funds, which can only be reinvested in the stock market, giving a direct boost to stock demand. Plus, the special refinancing vehicle for stock purchases and repurchases encourages listed companies and shareholders to buy back their own shares, driving up stock prices. 
+
+> ... this is at least a good start which epitomises a change to Chinese policymakers’ mindset and paves the way for future policy stimulus.
+
+![Pedestrians cross a road in front of the Citigroup Tower, centre, in Shanghai, China, on 27 September 2024. (Qilai Shen/Bloomberg)](pedestrians.jpg)
+
+With regard to the property sector, the decrease in the down payment ratios for mortgages will attract new home buyers, while the additional support for the refinancing of affordable housing will further motivate local governments to purchase unsold commercial housing and convert them to affordable housing. Both policies boost the demand for housing, with the latter also reducing the supply, thus contributing to the bottoming and recovery of the property prices. 
+
+Besides, the interest rates cut to existing mortgages is expected to increase the annual discretionary incomes of 50 million households by 150 billion RMB in total, as Pan Gongsheng, governor of the PBOC said. This will unleash effective demand for consumption, which is vital for China’s macroeconomy.
+
+Although the effects of these policies are yet to take full effect in the financial markets and trickle to other aspects of the macroeconomy, there are already promising signs of improved confidence from not only the Chinese, but also the global markets.
+
+On the day of the announcement of the stimulus package, the Chinese stock indices such as the SSE Composite, CSI 300 and Hang Seng all spiked more than 4%. The optimism also spread to international stock markets, with S&P 500, Dow Jones and MSCI closing at record highs. 
+
+# Important to establish a positive feedback loop
+
+Although the doubts about the efficacy of the stimulus package to overturn the current deflationary funk in China is not entirely invalid, this commentary argues that this is at least a good start which epitomises a change to Chinese policymakers’ mindset and paves the way for future policy stimulus. 
+
+First, it is apparent that the Chinese government has shifted away from its previous piecemeal approach to short-term economic problems to a more comprehensive plan of macroeconomic management that considers not only the problems to be solved, but also the potential unintended consequences of the policies themselves. 
+
+For example, in response to the potential stress the rate cuts put on the commercial banks’ balance sheets, the Financial Supervision Administration increased the core [tier 1 capital](https://www.investopedia.com/terms/t/tier1capital.asp) of the six large commercial banks to strengthen their financial positions and allow them to further support the real economy through increased lending and more favourable conditions. 
+
+> With additional stimulus driving a sustained rise in stock and housing prices, along with increased consumer spending, a positive feedback loop could emerge...
+
+![People walk along the bank of the Huangpu River at the financial district of Lujiazui in Shanghai on 23 September 2024. (Hector Retamal/AFP)](HuangpuRiver.jpg)
+
+Second, this round of policy stimulus aims at the financial sector and the short-term demand-side management, which departs from the government’s previous emphasis on the upgrading of the manufacturing sector that targets the long-term supply side. This implies that the monetary stimulus could be followed by major fiscal expansion, which will be more effective in targeting the real economy, employment and consumption. 
+
+Last but not least, the announcement suggests that more monetary policy tools such as a central bank-led stabilisation fund are being studied at the moment and will potentially be introduced in the future. Such hints could provide sustained optimism for the markets. 
+
+Recoveries of the stock and property markets contribute to consumption and thus the macroeconomy through the “wealth effect”, whereby households consume more when their perceived wealth increases. With additional stimulus driving a sustained rise in stock and housing prices, along with increased consumer spending, a positive feedback loop could emerge, fostering greater confidence, higher employment and stronger economic growth.
+
+Related: [Can China’s latest stimulus package save its economy?](https://www.thinkchina.sg/economy/can-chinas-latest-stimulus-package-save-its-economy) | [Who will fund China’s ambitious canal projects amid economic uncertainty?](https://www.thinkchina.sg/economy/who-will-fund-chinas-ambitious-canal-projects-amid-economic-uncertainty)
+
