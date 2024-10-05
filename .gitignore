@@ -18,3 +18,4 @@ Thumbs.db
 .hugo_build.lock
 
 /.luarc.json
+tool/2024-09-23-SwitchChallenge/js/light-dark-iframe.js

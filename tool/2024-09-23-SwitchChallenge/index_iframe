@@ -15,9 +15,9 @@ links:
     url: https://github.com/kv9898/switch_challenge_solver
 include-after-body:
   text: |
-    <script type="application/javascript" src="js/light-dark.js"></script>
+    <script type="application/javascript" src="js/light-dark-iframe.js"></script>
 ---
-<iframe src="https://kv9898.shinyapps.io/switch_challenge/" width="100%" height="300" frameborder="0"></iframe>
+<iframe id="shinyapp" src="https://kv9898.shinyapps.io/switch_challenge/" width="100%" height="300" frameborder="0"></iframe>
 
 # How to Use the Switch Challenge Solver
 
