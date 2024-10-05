@@ -10,9 +10,9 @@ format:
       sidebar-width: 0px
 comments: false
 header-includes: >
-  <link rel="stylesheet" href="assets/contact.scss">
+  <link rel="stylesheet" href="assets/contact.css">
 resources:
-  - assets/contact.scss
+  - assets/contact.css
 ---
 
 ::: {.grid}
