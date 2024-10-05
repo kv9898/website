@@ -2,6 +2,10 @@
   margin-top: 2em;
 }
 
+input, textarea {
+  background-color: var(--quarto-scss-export-spc-bg-1) !important;
+}
+
 /* mobile query up for screens up to ~992px wide */
 @media screen and (max-width: 991.98px) {
   /* wrap lately section */
