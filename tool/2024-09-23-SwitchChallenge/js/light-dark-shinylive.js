@@ -1,10 +1,12 @@
+const DarkEvent = new CustomEvent("quarto-color-mode", { detail: { mode: "dark" }});
+const LightEvent = new CustomEvent("quarto-color-mode", { detail: { mode: "light" }});
+
 function updateAppTheme() { // dispatch events when theme needs updating
     var bodyClass = window.document.body.classList;
-    var iframe = document.getElementById('shinyapp');
     if (bodyClass.contains('quarto-light')) {
-        iframe.contentWindow.postMessage("light-mode", 'https://kv9898.shinyapps.io/switch_challenge/');
+        window.dispatchEvent(LightEvent);
     } else if (bodyClass.contains('quarto-dark')) {
-        iframe.contentWindow.postMessage("dark-mode", 'https://kv9898.shinyapps.io/switch_challenge/');
+        window.dispatchEvent(DarkEvent);
     }
   }
   
@@ -25,11 +27,3 @@ window.onmessage = function(e) { // update theme when receives querry
     updateAppTheme();
   }
 };
-
-window.addEventListener('message', function(e) {
-  // Check the origin of the sender
-  if (e.data === 'ShinyColorQuery') {
-    alert("ShinyColorQuery received");
-    updateAppTheme();
-    }
-}, false);
