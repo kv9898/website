@@ -1,6 +1,6 @@
 ---
 title: "Dianyi Yang"
-subtitle: Currently preparing for GRE
+subtitle: Currently applying for a PhD
 image: sidebar/avatar.png
 image-alt: "Literally the same picture as on the main page"
 comments: false

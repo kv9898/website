@@ -122,6 +122,10 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 }
 
 // Contact
+form input,
+form textarea {
+  background-color: $spc-bg-1 !important;
+}
 
 // social links
 .link-dark.me-1 i {
