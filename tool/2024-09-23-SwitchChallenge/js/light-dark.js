@@ -29,7 +29,6 @@ window.onmessage = function(e) { // update theme when receives querry
 window.addEventListener('message', function(e) {
   // Check the origin of the sender
   if (e.data === 'ShinyColorQuery') {
-    alert("ShinyColorQuery received");
     updateAppTheme();
     }
 }, false);
