@@ -1,0 +1,277 @@
+---
+title: "Switch Challenge Solver"
+subtitle: a tool designed to help you familiarise yourself with the Switch Challenge for AON and P&G assessments
+author: 
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+date: 2024-09-23
+image: featured.png
+filters: 
+  - shinylive
+categories:
+- switch challenge
+- shinylive
+links:
+  - icon: github
+    name: Code
+    url: https://github.com/kv9898/switch_challenge_solver
+include-after-body:
+  text: |
+    <script type="application/javascript" src="js/light-dark.js"></script>
+---
+
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 300
+## file: app.R
+library(shiny)
+library(sortable)
+library(bslib)
+
+# Define IsColor function
+IsSwitch <- function(input_string) {
+  one <- grepl("1", input_string)
+  two <- grepl("2", input_string)
+  three <- grepl("3", input_string)
+  four <- grepl("4", input_string)
+  return(one & two & three & four)
+}
+
+# Define get_outcome function
+get_outcome <- function(input_sequence, output_sequence) {
+  map <- setNames(1:nchar(input_sequence), strsplit(input_sequence, NULL)[[1]])
+  outcome <- sapply(strsplit(output_sequence, NULL)[[1]], function(o) map[[o]])
+  return(paste0(outcome, collapse = ""))
+}
+
+compute <- function(formula) {
+  # Split formula into fml and outcome
+  parts <- strsplit(formula, "=")[[1]]
+  fml <- strsplit(parts[1], "\\+")[[1]]
+  outcome <- parts[2]
+  
+  # Predefined answer permutations
+  answers <- c('1234', '1243', '1324', '1342', '1423', '1432', 
+               '2134', '2143', '2314', '2341', '2413', '2431', 
+               '3124', '3142', '3214', '3241', '3412', '3421', 
+               '4123', '4132', '4213', '4231', '4312', '4321')
+
+  # Define switch function
+  switch_func <- function(a, b) {
+    map <- strsplit(a, NULL)[[1]]
+    new <- sapply(strsplit(b, NULL)[[1]], function(n) map[as.integer(n)])
+    return(paste0(new, collapse = ""))
+  }
+  
+  # Loop through each answer and find the correct match
+  for (a in answers) {
+    fml_temp <- sapply(fml, function(x) gsub("x", a, x))
+    out <- "1234"
+    for (i in seq_along(fml_temp)) {
+      out <- switch_func(out, fml_temp[i])
+    }
+    if (out == outcome) {
+      break
+    }
+  }
+  
+  return(a)
+}
+
+shapes <- function(input_id){
+  shapes = tags$div(
+    tags$img(src="img/blue.png", style="width:50px; height:50px; margin: 5px;", `data-rank-id`="b"),
+    tags$img(src="img/green.png", style="width:50px; height:50px; margin: 5px;", `data-rank-id`="g"),
+    tags$img(src="img/red.png", style="width:50px; height:50px; margin: 5px;", `data-rank-id`="r"),
+    tags$img(src="img/yellow.png", style="width:50px; height:50px; margin: 5px;", `data-rank-id`="y"),
+    id=input_id
+  )
+  return(tagList(
+    shapes,
+    sortable_js(css_id = input_id,
+    options = sortable_options(
+      onSort = sortable_js_capture_input(input_id = input_id)
+    ))
+  ))
+}
+
+trim <- function(string) paste0(string, collapse = "")
+
+IsComplete <- function(fml){
+  if (fml == "") return("empty")
+  if (fml == "x") return("shape")
+  if (grepl("=", fml) ) {
+    if(length(strsplit(fml, "=")[[1]])!=2) return("incomplete")
+    outcome = trimws(strsplit(fml, "=")[[1]][2])
+    first_part = strsplit(fml, "\\+")[[1]][1]
+    if (nchar(outcome) == 4){
+      if (IsSwitch(outcome) && (IsSwitch(first_part) | first_part == "x") ) {
+        return("short")
+      }  else if (sum(strsplit(first_part, "")[[1]] %in% strsplit(outcome, "")[[1]])==4) {
+        return("long")
+      } else {
+        return("incomplete")
+      }
+    } else {
+      return("incomplete")
+    }
+  } 
+  if (!grepl("+", fml)) {
+    return("incomplete")
+  } else{
+    parts <- strsplit(fml, "\\+")[[1]]
+    if (!"x" %in% parts) return("incomplete")
+    parts <- parts[parts != "x"]
+    if (all(IsSwitch(parts))) {
+      return ("shape")
+    } else {
+      return("incomplete")
+    }
+  }
+}
+
+ui <- fluidPage(
+  theme = bs_theme(),
+  tags$head(includeScript(path = "app.js")),
+  checkboxInput("shape_hide", "Hide Shapes"),
+  #input_dark_mode(id="dark", mode="dark"),
+  conditionalPanel(condition = "!input.shape_hide", shapes("initial")),
+  textInput("fml", "Formula (press `/~ to clear):"),
+  verbatimTextOutput("text"),
+  conditionalPanel(condition = "!input.shape_hide", shapes("final"))
+)
+
+server <- function(input, output, session) {
+  observeEvent(input$keyid,{
+    if(input$keyid == 96) { # clear input when ` or ~ is pressed
+      updateTextInput(session, "fml", value = "")
+    }
+  })
+
+  output$text <- renderText({
+    type = IsComplete(input$fml)
+    if (type == "incomplete") {
+      ""
+    } else if (type == "empty"){
+      if(trim(input$initial)=="" | trim(input$final)=="") {
+        ""
+      } else {
+        get_outcome(trim(input$initial), trim(input$final))
+      }
+    } else if (type == "short") {
+      compute(input$fml)
+    } else if (type == "long") {
+      outcome = trimws(strsplit(input$fml, "=")[[1]][2])
+      parts = strsplit(trimws(strsplit(input$fml, "=")[[1]][1]), "\\+")[[1]]
+      outcome <- get_outcome(parts[1], outcome)
+      parts <- parts[2:length(parts)]
+      formula = paste0(parts, collapse = "+")
+      formula = paste(formula, outcome, sep="=")
+      compute(formula)
+    } else if (type == "shape") {
+      if(trim(input$initial)=="" | trim(input$final)=="") {
+        "Please move the shapes"
+      } else {
+        #trim(input$initial)
+        outcome <- get_outcome(trim(input$initial), trim(input$final))
+        formula = paste(input$fml, outcome, sep="=")
+        compute(formula)
+      }
+    }
+  })
+
+}
+
+shinyApp(ui, server)
+
+## file: app.js
+$(document).on("keypress", function(event) {
+    Shiny.setInputValue("keyid", event.keyCode);
+});
+
+window.parent.addEventListener("quarto-color-mode", function(event) {
+  // Shiny.setInputValue('quarto_mode', event.detail.mode);
+  document.documentElement.dataset.bsTheme = event.detail.mode;
+  if (event.detail.mode === "dark") {
+      document.documentElement.style.setProperty('--bs-body-bg', "#16242f");
+  }  else if (event.detail.mode === "light") {
+      document.documentElement.style.setProperty('--bs-body-bg', "#f9fffe");
+  }
+})
+
+window.parent.postMessage('ShinyColorQuery', '*');
+document.documentElement.style.setProperty('--bs-body-bg', "#16242f");
+
+## file: www/img/blue.png
+## type: binary
+iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAABp0lEQVR4nO3cMW4CMRQAUdtC4hppfcEcIgdct7lGKqciQWCzIHntkZhXQkDoD3+3MEqstYZXlFJee4FCzjk++7fxmSBGGGcvzsMghjhOL0zqvcAYx+rNtxnEGHO05nwXxBhz3c47PXpSc1zPPbUe1HyX+Xdv6loj1lrdDhA3BMYgMMnLFYsbAmMQGIPAGATGIDAGgTEIzGn1B9jz+X0e/p5fHz/D33MUNwTGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBidu2Df1t7xFn4HQjz+jdEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDDDf+Qwmv84QEsZBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAw+DP1d+OGwBgExiAwBoExCIxBYAwCk3LOcfWH0D83BMYgMCmEELxsMeScoxsC8xfELVnrMv/UelBzXc/97pJllLlu5928hxhljtacuzd1oxyrN99Y6/6BYSnFU8VB9r7ov7z2Y7NgyWz8AAAAAElFTkSuQmCC
+
+## file: www/img/green.png
+## type: binary
+iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAACOUlEQVR4nO3cQU7DMBBAUSfiMl5xHCQOiMRx2DTHCStDSZOmQDLzLf23hKJO/ZkGoSrDPM/lN6Zp+t0PqNRah0cfOzwSxAjH2YtzN4ghzrMVZtz6AWOca+t8V4MYI8baOd8EMUas5XmP976pGNfnPq59UfHa+W9e1JVjmOfZ7QBxQ2AMAjP6dsXihsAYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgXnKHuCv3j5edh/z+vweMMmxhsvl0sV/ex8JsKeHQPggR4RYIofBBjkjxBIxDC5IRIglUhjUX1kZMTKfdw0mSPahZD9/gwhCOQzCHOlBCIdwLXue1CDZL35L5lxpQagxmqz5UoLQYzQZc6ZfQ/RTeJBetqOJntcNgQkN0tt2NJFzuyEwYUF63Y4man43BMYgMAaBCQnS+/WjiXgdbgiMQWAMAmMQGIPAGATGIDAGgQkJQvpk4H9EvA43BMYgMAaBCQvS+3Ukan43BCY0SK9bEjm3GwITHqS3LYme1w2BSQnSy5ZkzJm2IfQoWfOlvmVRo2TOlX4NoUXJnic9SCn5h9AQ5kAEKSX/MLKfv8EEKSXvUCgxSgHeWqPxXidQ3g0IyvtlwXlHOYVA/ZUlg+AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDBjrXXIHkLf3BAYg8CMpZTi2xZDrXVwQ2C+grgludr5j2tfVKzrc795yzJKrOV5r15DjBJj7Zw3L+pGOdfW+Q7zvP8poGma/KjQQfZ+0T8B56TMszbCXr0AAAAASUVORK5CYII=
+  
+## file: www/img/red.png
+## type: binary
+iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAABmElEQVR4nO3dzY3CMBBAYduiiu3AFXGiuj3RUNzBtmFOsAhsAhKZvMP7jvwFzWOSSyRy7z19orX22RuUaq353dfmd4IY4XvW4rwMYojtzMKU2RuMsa3ZfIdBjBFjNOenIMaI9Tjv8upJxbifexk9qHjX+U8v6tpH7r27HSBuCIxBYIqnKxY3BMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIzCHiID+nY8RhQvz9njf9fDcExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAweVkW/z8ExA2BMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJTaq157y+hf24IjEFgSkopedpiqLVmNwTmFsQt2dd1/mX0oGLdz/3plGWUWI/zHl5DjBJjNOfpRd0o25rNN/e+fhdQa81bhb5k7Yd+AeYwVrPPtpjeAAAAAElFTkSuQmCC
+
+## file: www/img/yellow.png
+## type: binary
+iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAACMElEQVR4nO3dTU7DMBRF4diLQfJ6WDfTZjlmgAyljZsWkvfOs+835EeYHN92gkSqtS6vWNf1tW+QpZSSnv3a9EwQRTjOXpyHQRTiPL0wufcNinGu3vPdDKIYNrae810QxbB1+7zzo0+Kjevnnrc+KPba8+++qYuPVGvVOkC0EBgFgcl6uWLRQmAUBEZBYBQERkFgFARGQWAUBEZBYBQERkFgFARmmCBvH+/eRzjEMEFGMUSQto4RVjJEkJGED3K7iugrCR9kNKGD9NYQeSWhg4wobJC9FURdSdggowoZ5NnbH3ElIYOMLFyQV299tJWECzK6UEH+etsjrSRUkBmECfLfWx5lJWGCzCJEkKNud4SVhAgyE3yQo281fSX4ILNBBznrNpNXgg4yI2yQs28xdSXYILNCBrG6vcSVIIPMDBfE+tbSVoILMjtUEK/bSloJKoiAgnjfUu+f32CCyBdEEMrtJJwDEUR+uAch3Mpr3udxDyK/uQbxvo09nufSQmDcglDX0XidTwuBcQlCX0fjcU4tBMY8SJR1NNbn1UJgTINEW0djeW4tBMYsSNR1NFbn10JgTIJEX0dj8Xuky+Wi/x8CopcsGAWBURAYBYFREBgFgVEQGAWBURAYBYFREBgFgcmllOR9CPmhhcAoCExelmXRyxZDKSVpITDfQbQSX+35560Piq3r5373kqUotm6f9+Z7iKLY2HrO3Td1RTlX7/mmWvf/CmhdV/2p0EH2Lvon7xmUo5SlXTYAAAAASUVORK5CYII=
+
+```
+
+# How to Use the Switch Challenge Solver
+
+There are two ways of using the solver:
+
+1.  Drag and Drop to enter the input and outshapes, then enter the middle part of the formula, which is potentially slower.
+
+2.  Enter the full formula, which can be faster when you are more familiar as you have done more assessments (very bad humour).
+
+Please leave a comment below or give me a star🌟 at the [Github repository](https://github.com/kv9898/switch_challenge_solver) if you find this useful.
+
+# Using Drag and Drop
+
+Similar to the problems, there are two rows of "shapes", the row at the top is the inputs while the other one at the bottom is the outputs. By dragging and dropping the shapes, you can enter the input and output colours.
+
+For the easiest problems (as the one below), once you have moved both rows of shapes, the answer is automatically displayed below the line edit:
+
+![Easy problem](img/level1.png)
+
+*PS: to clear the formula and answer, hit the `` ~/` `` button*
+
+For the harder question, you may need to enter the formula (from level 4 onward?) and hit `Enter`. In the formula, you need to replace the options with `x`：
+
+![Medium problem](img/level4.png)
+
+The solver can handle x in any position:
+
+![Hard problem](img/level9.png)
+
+For the hardest questions with two choices, you need to make a guess about the first choice, and let the solver find the second choice. If the answer is not correct, you need to try again. You may need to try 3 times at most:
+
+![Hardest problem](img/level11.png)
+
+In this case, the third option of the first choice is the correct answer. This implies that you need to try 3 times if you do from left to right.
+
+# Using the full formula
+
+There are two ways of using the full formula, long form and short form. In both cases, ignore the shapes in the solver, they don't do anything. You can even check the box at the top to hide the shapes.
+
+In the long form, you enter the input and output colors.
+
+Let's use the hard case as an example, the formula would be:
+
+`ybgr+1324+x+3241=gbyr`
+
+![Long Formula with GUI](img/lf.png)
+
+The gist of the short formula form is that you encode the outcome (number after `=`) in such a way that it is a single switch from the input to the output. Note that you cannot use the short formula for the easiest problems (you solve it with your brain).
+
+Let's use the hard case as an example:
+
+![Short Formula with GUI](img/sf.png)
+
+You can hide the shapes by checking the box at the top:
+
+![Hide shapes](img/hide.png)
