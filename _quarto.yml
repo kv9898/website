@@ -81,6 +81,13 @@ website:
 
 format: 
   html:
+    include-before-body: 
+      - text: |
+          <style>
+            body {
+              visibility: hidden; /* initially hidden until DOM ready to prevent flicker */
+            }
+          </style>
     theme:
       light:
         - cosmo
