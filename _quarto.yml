@@ -79,15 +79,11 @@ website:
         href: "contact.qmd"
       
 
+execute: 
+  freeze: auto
+
 format: 
   html:
-    include-before-body: 
-      - text: |
-          <style>
-            body {
-              visibility: hidden; /* initially hidden until DOM ready to prevent flicker */
-            }
-          </style>
     theme:
       light:
         - cosmo
@@ -100,6 +96,5 @@ format:
         - assets/dianyi/colors-dark.scss
         - assets/silvia/fonts.scss
     highlight-style: a11y
-
-execute: 
-  freeze: auto
+    include-before-body: 
+      - assets/dianyi/load_theme.js
