@@ -16,7 +16,6 @@ categories:
 - monetary policy
 links:
   - icon: file-pdf
-    icon_pack: fa
     name: PDF
     url: BailoutCB.pdf
 execute:
