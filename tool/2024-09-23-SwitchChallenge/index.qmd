@@ -11,7 +11,7 @@ categories:
 - shiny
 links:
   - icon: github
-    name: Code
+    name: Soruce Code
     url: https://github.com/kv9898/switch_challenge_solver
 include-after-body:
   text: |
