@@ -18,6 +18,9 @@ links:
   - icon: file-pdf
     name: PDF
     url: Maoist.pdf
+  - icon: github
+    name: Source Code
+    url: https://github.com/kv9898/maoist
 execute:
   echo: false
   warning: false
