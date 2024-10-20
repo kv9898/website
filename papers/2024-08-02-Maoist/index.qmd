@@ -1,0 +1,30 @@
+---
+author: 
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+date: 2024-08-02
+subtitle: adapted from my coursework
+title: Maoist Return or Continuation of Reform? A Structural Topic Modelling Analysis of Chinese Government Reports and Party Communiques
+citation: 
+  type: manuscript
+image: featured.jpg
+categories:
+- China
+- quantitative text analysis
+- political ideology
+- party communiques
+- government reports
+links:
+  - icon: file-pdf
+    name: PDF
+    url: Maoist.pdf
+execute:
+  echo: false
+  warning: false
+  error: false
+  message: false
+---
+
+# Abstract
+
+Motivated by the wide-spread speculation of a Maoist return under Xi Jinping, this project applies Structural Topic Modelling to the reports on the work of the government and communiques of the plenary sessions of the central committee of the CPC to identify the underlying themes and compare them vertically across different eras of Chinese leadership, and horizontally between the party and government. This project finds no evidence of a realignment with the Mao era in the party communiques or government reports under Xi Jinping. Instead, the reports under Xi Jinping are found to be more similar to those under his immediate predecessors. However, this project documents a divergence in the style of the party communiques and government reports under Xi Jinping, with the former becoming more abstract and ideological, and the latter becoming more concrete and policy-oriented. One source of this divergence is the downplaying of the five-year plans in the party communiques and government reports, which used to be the one of the overlapping themes of both documents.
