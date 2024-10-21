@@ -18,6 +18,10 @@ links:
   - icon: file-pdf
     name: PDF
     url: Maoist.pdf
+  - icon: researchgate
+    icon_pack: ai
+    name: ResearchGate
+    url: https://www.researchgate.net/publication/385103158_Maoist_Return_or_Continuation_of_Reform_A_Structural_Topic_Modelling_Analysis_of_Chinese_Government_Reports_and_Party_Communiques
   - icon: github
     name: Source Code
     url: https://github.com/kv9898/maoist
