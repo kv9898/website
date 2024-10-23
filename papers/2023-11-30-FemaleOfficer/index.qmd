@@ -26,6 +26,10 @@ links:
     icon_pack: ai
     name: ResearchGate
     url: https://www.researchgate.net/publication/376076713_A_Reproduction_of_Do_Female_Officers_Police_Differently_Evidence_from_Traffic_Stops_American_Journal_of_Political_Science_2021
+  - icon: dataverse
+    icon_pack: ai
+    name: Data (Dataverse)
+    url: https://doi.org/10.7910/DVN/8XQ1ZB
 citation:
   type: article-journal
   container-title: I4R Discussion Paper Series
@@ -36,6 +40,4 @@ citation:
 # Abstract
 
 We reproduce Shoub, Kelsey, Katelyn E. Stauffer, and Miyeon Song ([May 2021](https://doi.org/10.1111/ajps.12618)). "Do Female Officers Police Differently? Evidence from Traffic Stops," with alternative specifications and interpretation of the results. While our reproduction confirms that female police officers are less likely to search drivers than male officers and female officers are more likely to find contraband upon a search, we re-evaluate the authors' claims on the equality of effectiveness between male and female officers and find that female officers in the dataset confiscated less contraband than male officers.
-
-The replication files for this paper are available at [https://doi.org/10.7910/DVN/8XQ1ZB](https://doi.org/10.7910/DVN/8XQ1ZB).
 
