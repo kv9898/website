@@ -6,7 +6,7 @@ project:
     - "*.Rmd"
     - "!*.md"
   resources: 
-  - "assets/font/Petrona/*"
+  - "assets"
   #post-render: 
     #- "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
 
