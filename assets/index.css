@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@700&display=swap');
+
 /* title */
 .title {
   font-size: 3rem;
@@ -11,7 +13,7 @@
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
 }
 
 /* heading, subtitle, and blurb */
