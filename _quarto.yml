@@ -5,6 +5,8 @@ project:
     - "*.ipynb"
     - "*.Rmd"
     - "!*.md"
+  resources: 
+  - "assets/font/Petrona/*"
   #post-render: 
     #- "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
 
@@ -89,12 +91,10 @@ format:
         - cosmo
         - assets/dianyi/dianyi-theme-light.scss
         - assets/dianyi/colors-light.scss
-        - assets/silvia/fonts.scss
       dark:
         - cosmo
         - assets/dianyi/dianyi-theme-dark.scss
         - assets/dianyi/colors-dark.scss
-        - assets/silvia/fonts.scss
     highlight-style: a11y
     include-before-body: 
       - assets/dianyi/load_theme.js
