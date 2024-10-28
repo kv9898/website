@@ -1,6 +1,6 @@
 ---
 title: "Python package: shiny-sortable"
-subtitle: A Python library to add sortable widgets to Shiny UI.
+subtitle: A Python library to add SortableJS widgets to Shiny UI.
 filters:
   - shinylive
 author: 
@@ -27,7 +27,7 @@ include-after-body:
     <script type="application/javascript" src="js/light-dark.js"></script>
 ---
 
-This is a shinylive example of the usage of the Python package `shiny-sortable`. To install the package, run in CI:
+This is a shinylive example of the usage of the Python package `shiny-sortable`, which is a Python wrapper of the [SortableJS](https://github.com/SortableJS/Sortable) library. To install the package, run in CI:
 
 ```bash
 pip install shiny-sortable
