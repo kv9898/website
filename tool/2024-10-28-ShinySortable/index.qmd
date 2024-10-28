@@ -1,0 +1,96 @@
+---
+title: "Python package: shiny-sortable"
+subtitle: A Python library to add sortable widgets to Shiny UI.
+filters:
+  - shinylive
+author: 
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+date: 2024-10-28
+image: featured.png
+categories:
+- shiny
+- sortable
+- python
+- shinylive
+links:
+  - icon: github
+    name: GitHub
+    url: https://github.com/kv9898/shiny_sortable
+  - icon: python
+    fab: true
+    name: PyPI
+    url: https://pypi.org/project/shiny-sortable/
+
+include-after-body:
+  text: |
+    <script type="application/javascript" src="js/light-dark.js"></script>
+---
+
+This is a shinylive example of the usage of the Python package `shiny-sortable`. To install the package, run in CI:
+
+```bash
+pip install shiny-sortable
+```
+
+More information can be found in the [GitHub repo](https://github.com/kv9898/shiny_sortable).
+
+```{shinylive-python}
+#| standalone: true
+#| components: [editor, viewer]
+## file: app.py
+from shiny import *
+import shiny_sortable as sortable
+from pathlib import Path
+
+@sortable.make(updatable=True)
+def sortable_list(inputID):
+    list = ui.tags.ol(
+        ui.tags.li("Item 1", **{'data-id': '1'}),
+        ui.tags.li("Item 2", **{'data-id': '2'}),
+        ui.tags.li("Item 3", **{'data-id': '3'}),
+        id=inputID
+    )
+    return list
+
+app_ui = ui.page_fluid(
+    sortable_list("list"),
+    ui.output_text_verbatim(id = "text"),
+    ui.input_action_button("reset", "Reset"),
+    ui.head_content(ui.include_js(Path(__file__).parent / "light-dark.js")), # This is just for the dark mode
+)
+
+def server(input, output, session):
+    list_order = reactive.value("")
+    @output
+    @render.text
+    def text():
+        return list_order()
+
+    @reactive.effect
+    @reactive.event(input.list)
+    def _():
+        list_order.set(input.list())
+
+    @reactive.effect
+    @reactive.event(input.reset)
+    async def _():
+        await sortable.update(session, "list", ["1", "2", "3"])
+
+
+app = App(app_ui, server)
+
+## file: requirements.txt
+shiny-sortable
+
+## file: light-dark.js
+window.parent.addEventListener("quarto-color-mode", function(event) {
+    document.documentElement.dataset.bsTheme = event.detail.mode;
+    if (event.detail.mode === "dark") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#16242f"); // custom dark background color
+    }  else if (event.detail.mode === "light") {
+        document.documentElement.style.setProperty('--bs-body-bg', "#f9fffe"); // custom light background color
+    }
+})
+window.parent.postMessage('ShinyColorQuery', '*'); // request Quarto theme color when Shinyapp is loaded
+```
