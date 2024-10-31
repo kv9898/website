@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: a0aac7bd-f486-42d2-b71c-a608fe844dc5
-      url: 'https://rubuky.com'
+      url: https://rubuky.com
