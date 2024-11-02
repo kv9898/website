@@ -1,0 +1,45 @@
+---
+title: "Gap Challenge Solver"
+subtitle: a tool designed to help you familiarise yourself with the Gap Challenge for AON and P&G assessments
+author: 
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+date: 2024-11-02
+image: featured.png
+categories:
+- OT assessment
+- gap challenge
+- shiny
+links:
+  - icon: github
+    name: Source Code
+    url: https://github.com/kv9898/gap_challenge_solver
+include-after-body:
+  text: |
+    <script type="application/javascript" src="js/light-dark.js"></script>
+---
+<iframe id="shinyapp" src="https://kv9898.shinyapps.io/gap_challenge_solver/" width="100%" height="600" frameborder="0"></iframe>
+
+Please leave a comment below or give me a star🌟 at the [Github repository](https://github.com/kv9898/gap_challenge_solver) if you find this useful.
+
+# How to Use the Switch Challenge Solver
+
+Let's use the most difficult level 5 as an example:
+
+![](img/problem.png "A level 5 gap challenge"){width=500px}
+
+We first change the number of rows and columns of the solver to "5":
+
+![](img/mode.png "Change number of rows and columns"){width=500px}
+
+We then enter the existing patterns using numbers:
+
+![](featured.png "Enter the existing patterns using numbers"){width=100%}
+
+Then hit `Enter` (if you are using a computer) or press the `Submit` button. If the problem is entered correctly, a full solution will be displayed:
+
+![](img/answer.png "The solution"){width=100%}
+
+In this case, `4`, which corresponds to the green trigangle, is the answer we are looking for.
+
+In the end, we can hit ``~/` `` if on a computer, or hit `Clear` to clear the problem and move on to the next one.
