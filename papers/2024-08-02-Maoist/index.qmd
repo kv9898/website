@@ -7,6 +7,8 @@ subtitle: adapted from my coursework
 title: Maoist Return or Continuation of Reform? A Structural Topic Modelling Analysis of Chinese Government Reports and Party Communiques
 citation: 
   type: manuscript
+  doi: "10.31235/osf.io/62dvj"
+  url: "https://osf.io/preprints/socarxiv/62dvj"
 image: featured.jpg
 categories:
 - China
@@ -18,6 +20,10 @@ links:
   - icon: file-pdf
     name: PDF
     url: Maoist.pdf
+  - icon: doi
+    icon_pack: ai
+    name: DOI (SocArxiv)
+    url: https://doi.org/10.31235/osf.io/62dvj
   - icon: researchgate
     icon_pack: ai
     name: ResearchGate
