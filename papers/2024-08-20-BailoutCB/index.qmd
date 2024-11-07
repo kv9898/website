@@ -28,6 +28,9 @@ links:
     icon_pack: ai
     name: ResearchGate
     url: https://www.researchgate.net/publication/385622624_Bail_out_the_money_printer_The_impact_of_fiscal_indemnity_on_central_bank_profitability
+  - icon: github
+    name: Source Code
+    url: https://github.com/kv9898/BailoutCB
 execute:
   echo: false
   warning: false
