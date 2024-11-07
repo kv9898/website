@@ -6,7 +6,9 @@ date: 2024-08-20
 subtitle: adapted from my MSc dissertation
 title: Bail out the money printer?  The impact of fiscal indemnity on central bank profitability
 citation: 
-  type: manuscript
+  type: article-journal
+  doi: "10.31235/osf.io/wz75m"
+  url: "https://osf.io/preprints/socarxiv/wz75m"
 image: featured.jpg
 categories:
 - political economy
@@ -18,6 +20,14 @@ links:
   - icon: file-pdf
     name: PDF
     url: BailoutCB.pdf
+  - icon: doi
+    icon_pack: ai
+    name: DOI (SocArxiv)
+    url: https://doi.org/10.31235/osf.io/wz75m
+  - icon: researchgate
+    icon_pack: ai
+    name: ResearchGate
+    url: https://www.researchgate.net/publication/385622624_Bail_out_the_money_printer_The_impact_of_fiscal_indemnity_on_central_bank_profitability
 execute:
   echo: false
   warning: false
