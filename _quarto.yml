@@ -7,6 +7,7 @@ project:
     - "!*.md"
   resources: 
   - "assets"
+  - "ads.txt"
   #post-render: 
     #- "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
 
@@ -99,5 +100,6 @@ format:
     include-in-header: 
       - text: |
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8745077864238831"crossorigin="anonymous"></script>
+          <meta name="google-adsense-account" content="ca-pub-8745077864238831">
     include-before-body: 
       - assets/dianyi/load_theme.js
