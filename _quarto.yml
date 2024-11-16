@@ -96,5 +96,8 @@ format:
         - assets/dianyi/dianyi-theme-dark.scss
         - assets/dianyi/colors-dark.scss
     highlight-style: a11y
+    include-in-header: 
+      - text: |
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8745077864238831"crossorigin="anonymous"></script>
     include-before-body: 
       - assets/dianyi/load_theme.js
