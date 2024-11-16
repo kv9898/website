@@ -18,6 +18,12 @@ include-after-body:
   text: |
     <script type="application/javascript" src="js/light-dark.js"></script>
 ---
+::: {.callout-tip}
+## New Feature
+
+The solver now supports snipping the patterns from the screen and pasting them into the solver
+:::
+
 <iframe id="shinyapp" src="https://kv9898.shinyapps.io/gap_challenge_solver/" width="100%" height="600" frameborder="0"></iframe>
 
 Please leave a comment below or give me a star🌟 at the [Github repository](https://github.com/kv9898/gap_challenge_solver) if you find this useful.
@@ -35,6 +41,10 @@ We first change the number of rows and columns of the solver to "5":
 We then enter the existing patterns using numbers:
 
 ![](featured.png "Enter the existing patterns using numbers"){width=100%}
+
+Alternatively, we can also snip the patterns from the screen and paste them into the solver:
+
+![](img/pasted.gif "Snip and paste the patterns"){width=100%}
 
 Then hit `Enter` (if you are using a computer) or press the `Submit` button. If the problem is entered correctly, a full solution will be displayed:
 
