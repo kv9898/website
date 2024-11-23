@@ -18,11 +18,6 @@ include-after-body:
   text: |
     <script type="application/javascript" src="js/light-dark.js"></script>
 ---
-::: {.callout-tip}
-## New Feature
-
-The solver now supports snipping the patterns from the screen and pasting them into the solver
-:::
 
 <iframe id="shinyapp" src="https://kv9898.shinyapps.io/gap_challenge_solver/" width="100%" height="600" frameborder="0"></iframe>
 
