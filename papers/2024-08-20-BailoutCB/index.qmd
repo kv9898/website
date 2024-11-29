@@ -22,8 +22,12 @@ links:
     url: BailoutCB.pdf
   - icon: doi
     icon_pack: ai
-    name: DOI (SocArxiv)
+    name: DOI (SocArXiv)
     url: https://doi.org/10.31235/osf.io/wz75m
+  - icon: ssrn
+    icon_pack: ai
+    name: SSRN
+    url: https://dx.doi.org/10.2139/ssrn.4998639
   - icon: researchgate
     icon_pack: ai
     name: ResearchGate
