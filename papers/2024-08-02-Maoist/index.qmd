@@ -22,7 +22,7 @@ links:
     url: Maoist.pdf
   - icon: doi
     icon_pack: ai
-    name: DOI (SocArxiv)
+    name: DOI (SocArXiv)
     url: https://doi.org/10.31235/osf.io/62dvj
   - icon: researchgate
     icon_pack: ai
