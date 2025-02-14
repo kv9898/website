@@ -1,5 +1,5 @@
 ---
-title: "My blogs"
+title: "My blog posts"
 description: |
   All of my mind-blowing ideas that are not publishable are hidden here. 
   
