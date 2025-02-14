@@ -78,10 +78,10 @@ listing:
   max-items: 1
   image-height: "200"
   image-placeholder: ../papers/featured.jpg
-- id: tool
+- id: tools
   contents: 
-    - "../tool/*/index.qmd"
-    - "../tool/*/index.markdown"
+    - "../tools/*/index.qmd"
+    - "../tools/*/index.markdown"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -91,7 +91,7 @@ listing:
   fields: [title, image]
   max-items: 1
   image-height: "200"
-  image-placeholder: ../tool/featured.jpg
+  image-placeholder: ../tools/featured.jpg
 #- id: project
 #  contents: 
 #    - "../project/*/index.qmd"
@@ -161,9 +161,9 @@ I used to be a Marxist. However, I later distanced myself from from the ideology
 
 ::: {.g-col-4}
 #### Tools
-::: {#tool}
+::: {#tools}
 :::
-[See all &rarr;](../tool){.about-links .subtitle}
+[See all &rarr;](../tools){.about-links .subtitle}
 :::
 
 ::::
