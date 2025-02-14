@@ -17,6 +17,9 @@ links:
 include-after-body:
   text: |
     <script type="application/javascript" src="js/light-dark.js"></script>
+citation:
+  language: zh-CN
+  title: "贝尔宾团队角色自我认知问卷 [Belbin Team-Role Self-Perception Inventory]"
 ---
 
 <iframe id="shinyapp" src="https://kv9898.shinyapps.io/belbin/" width="100%" height="500" frameborder="0">
