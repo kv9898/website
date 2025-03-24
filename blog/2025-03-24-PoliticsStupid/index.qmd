@@ -2,7 +2,7 @@
 author:
 - name: Dianyi Yang
   orcid: 0009-0004-4652-3429
-title: Chinese Economy - It's the Politics, Stupid
+title: Chinese Economy? It's the Politics, Stupid
 subtitle: Stop pretending it's *only* an economic issue 
 date: '2025-03-24'
 categories:
@@ -12,3 +12,11 @@ categories:
 image: featured.jpg
 google-scholar: false
 ---
+
+## The Existing Clichés
+
+From time to time, commentaries on the Chinese economy from economists have become more **BORING** than ever. Critics of China routinely cite its weak protection of private property and arbitrary state intervention in the market—but rarely explain why these problems have worsened in recent years, beyond vague or “personal” explanations. 
+
+Those who take a more neutral stance often focus on the property sector and local government debt crises, recommending central government bailouts while offering little on how to address the deeper structural issues that led to these crises in the first place. They also (rightly) call for a shift toward a consumption-driven economy, yet tend to gloss over the trade-offs and institutional obstacles involved, repeating the vague mantra that "the day will come."
+
+Perhaps most uninspiring—if not outright amusing—are those who continue to cheerlead for the Chinese economy at this stage. Chief among them is Justin Yifu Lin, who has consistently overestimated China’s growth prospects in recent years and continues to advocate for investment-led rather than consumption-driven expansion, as though it were still the 2010s. These economists continue to place false hope in 'industrial upgrading' as a panacea for all existing problems, without considering who will actually consume the resulting flood of products.
