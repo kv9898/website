@@ -1,0 +1,14 @@
+---
+author:
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+title: Chinese Economy - It's the Politics, Stupid
+subtitle: Stop pretending it's *only* an economic issue 
+date: '2025-03-24'
+categories:
+  - China
+  - Economy
+  - Political Economy
+image: featured.jpg
+google-scholar: false
+---
