@@ -25,8 +25,19 @@ Perhaps most uninspiring—if not outright amusing—are those who continue to c
 
 While the third group of economists are simply *wrong*, what the other two groups lack—or perhaps choose not to acknowledge—is a deeper understanding of the *political* roots underlying China’s economic problems. By “political,” I don’t mean the simplistic dichotomy between “authoritarianism” and “democracy” often drawn by thinkers like Acemoglu—that would be far too dull an argument to make. I'm not the kind of writer who hides behind unnecessarily long paragraphs and jargon without getting to the point. My response is clear and concise, as outlined below.
 
-1. Short Term – Good news: The main obstacles to rebooting the economy are ideational, not structural.
+1.  [Short Term – Good news: The main obstacles to rebooting the economy are ideational, not structural.](#sec-short)
 
-2. Medium Term: The property sector crisis, mounting local government debt, and—at least in part—the weak foundation of consumption, rooted in the distorted central–local government relationship.
+2.  Medium Term: The property sector crisis, mounting local government debt, and—at least in part—the weak foundation of consumption, rooted in the distorted central–local government relationship.
 
-3. Long Term: A Marxist-Leninist state *cannot* credibly commit to protecting private property or a market economy. This is still the elephant in the room.
+3.  Long Term: A Marxist-Leninist state *cannot* credibly commit to protecting private property or a market economy. This is still the elephant in the room.
+
+# Short Term: Ideational Obstacles {#sec-short}
+
+Simply put, ideas matter. This is something I hate to admit—as a political economy student trained in formal theory and quantitative empirics, I've never been a fan of constructivism (in International Relations). I’ve always found it difficult to assess the impact of people’s thoughts. It’s prone to reverse causality and often devolves into circular reasoning.
+
+But I would argue that China is different—something else I hate to admit. This is because Chinese politics have reached a point where structural factors (interest groups, institutions, conventions) can be overridden by the beliefs or even whims of the leader in decision-making. This is bad news for formal modellers, who rely on stable institutions and rationality, and for empiricists, who base predictions on past data. Ideational factors become especially crucial in the short term, when structural forces have yet to fully unfold and compel the leader to adjust their policies.
+
+This distortion is caused by the flawed information flow between the leader and their subordinates/advisors. The subordinates and advisors often speculate about the leader's policy preferences and present "evidence" and "rationale" to support these assumptions. Conversely, policy advice that contradicts the leader's preferences is either censored before reaching the leader or, more tragically, self-censored by the advisors themselves. Behind this distorted information flow lies the logic of loyalty: any opposition to the leader's views is seen as a threat to their authority, or even a sign of a political coup—something that has historically occurred in China. On the other hand, supporting the leader’s (often flawed) policy preference signals loyalty, and those who do so tend to be protected, even when things go wrong.
+
+Therefore, the message is clear: he dislikes ["feeding the lazy" (养懒汉)](http://theory.people.com.cn/n1/2021/1116/c40531-32283350.html) and sees no issue with [deflation](https://fortune.com/2024/12/29/china-economy-deflation-xi-jinping-growth-slump-consumer-producer-prices/). Until he changes his mind, no real progress toward a consumer economy will be made:
+
