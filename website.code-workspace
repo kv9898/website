@@ -7,5 +7,7 @@
 			"path": "_site"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "_site"
+	}
 }
