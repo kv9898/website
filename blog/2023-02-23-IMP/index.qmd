@@ -21,7 +21,6 @@ execute:
   error: false
   message: false
 bibliography: references.bib
-csl: extra/apa.csl
 google-scholar: true
 ---
 
