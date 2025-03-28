@@ -10,6 +10,7 @@ categories:
   - Economy
   - Political Economy
 image: featured.jpg
+bibliography: references.bib
 google-scholar: false
 ---
 
@@ -29,7 +30,7 @@ While the third group of economists are simply *wrong*, what the other two group
 
 2.  [Short-Medium Term: Growth and superpower status at the cost of twin deficits and export competitiveness.](#sec-short-medium)
 
-2.  Medium-Long Term: The property sector crisis, mounting local government debt, and—at least in part—the weak foundation of consumption, rooted in the distorted central–local government relationship.
+2.  [Medium-Long Term: The property sector crisis, mounting local government debt, and—at least in part—the weak foundation of consumption, rooted in the distorted central–local government relationship.](#sec-medium-long)
 
 3.  Long Term: A Marxist-Leninist state *cannot* credibly commit to protecting private property or a market economy. This is still the elephant in the room.
 
@@ -55,7 +56,7 @@ Furthermore, China’s current deflation poses a problem that Beijing may not ha
 
 What’s more, China is unable to offer its own domestic market to trading partners in a reciprocal way. Due to weak domestic demand, Chinese imports from other countries are [*declining* in both RMB and USD terms](https://www.zaobao.com.sg/realtime/china/story20250307-5981406). As a result, China is not only exporting goods—but also exporting the pain of deflation to its trade partners. These partners are facing growing pressure to protect their own industries and jobs from Chinese competition—creating a structural tension that diplomacy alone cannot resolve.
 
-The benefits of inflation are essentially the reverse: people spend more in anticipation of rising prices. Firms hire more and raise wages—making people more able to consume. As a byproduct, China would also import more goods and services from abroad, improving its image on the international stage and strengthening its diplomatic leverage. Once China achieves a *trade deficit*, there will even be a foundation for China to truly *internationalise* its currency and even replace the status of the US dollar (see [Germain & Schwartz, 2017](Germain & Schwartz, 2017) for a great discussion on this).
+The benefits of inflation are essentially the reverse: people spend more in anticipation of rising prices. Firms hire more and raise wages—making people more able to consume. As a byproduct, China would also import more goods and services from abroad, improving its image on the international stage and strengthening its diplomatic leverage. Once China achieves a *trade deficit*, there will even be a foundation for China to truly *internationalise* its currency and even replace the status of the US dollar (see @Germain2017 for a great discussion on this).
 
 Moreover, inflation could help alleviate three of the current administration’s major headaches: the property sector crisis, local government debt, and wealth inequality. The core dilemma in the property sector is that high housing prices stimulate property-linked industries but at the expense of other sectors—and, crucially, undermine young people’s willingness to have children. In contrast, low housing prices create a negative wealth effect and trigger a credit crunch, further fuelling the deflationary spiral. In this sense, the sector behaves like a cancer: too aggressive to contain, yet too dangerous to remove entirely.
 
@@ -73,4 +74,8 @@ These are significant commitments—and not easily reversed. If inflation oversh
 
 Trying to reverse the inflationary path by rolling back supportive policies would be politically costly, and would require a level of democratic legitimacy that the current system may not be willing—or able—to provide.
 
+# Medium-Long Term：A Need to Reform the Central–Local Government Relationship {#sec-medium-long}
+
 (To be continued...)
+
+# References
