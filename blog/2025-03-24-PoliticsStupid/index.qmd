@@ -14,7 +14,7 @@ bibliography: references.bib
 google-scholar: false
 ---
 
-## The Existing Clichés
+# The Existing Clichés
 
 From time to time, commentaries on the Chinese economy from economists have become more **BORING** than ever. Critics of China routinely cite its weak protection of private property and arbitrary state intervention in the market—but rarely explain why these problems have worsened in recent years, beyond vague or “personal” explanations.
 
