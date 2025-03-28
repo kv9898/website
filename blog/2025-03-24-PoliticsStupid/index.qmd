@@ -76,6 +76,20 @@ Trying to reverse the inflationary path by rolling back supportive policies woul
 
 # Medium-Long Term：A Need to Reform the Central–Local Government Relationship {#sec-medium-long}
 
+@Lan2022 tells a compelling story of how the newly commercialised property sector became a major driver of the economy as well as a major source of fiscal revenue for local governments following the Tax-Sharing Reform of China in 1994: Local governments charge property developers a “fee” for the right to use land—an essential component of local government revenue. This burden is then passed on to homebuyers, who are often more than willing to pay this indirect tax during the most productive decades of their lives in exchange for access to public services, social benefits, social prestige, and, perhaps most importantly, a seemingly reliable investment.
+
+During the golden age of China’s property market, it was common for households to view their home as the family’s most dependable breadwinner. Rising property prices were, in turn, underpinned by a booming economy—and, crucially, by infrastructure projects financed by local governments through loans from commercial banks, secured against the steadily growing income from land transfer fees.
+
+It almost created the illusion of “common prosperity.” Local officials overshot their GDP targets and were rewarded with promotions, all while dipping their snouts into the trough of rent-seeking through land auctions and infrastructure projects. Banks, too, were happy—earning profits from loans to homebuyers, developers, and local governments. Rural migrants could easily find work on construction sites, making far more than they would from growing crops. Urban residents enjoyed the “Chinese Miracle” of world-class infrastructure and rapid wealth accumulation from soaring property prices.
+
+People’s only regret? That they were too late to the party.
+
+Although @Lan2022 assembled the puzzle and helped popularize the concept, both the Chinese public and the government have *long* recognizsed the dangers of this economic opium. In fact, the Chinese administration’s efforts to [cool the spiral predate even the 2008 financial crisis](https://www.gov.cn/ztzl/2006-06/30/content_323769.htm). Nevertheless, awareness alone is not enough to resolve a problem of this scale—especially when the shared interests involved are deeply embedded across multiple layers of society. Even a regime as ostensibly "centralized" as China faces immense challenges in unwinding such entrenched dynamics.
+
+The good news—perhaps also the bad—is that the spiral has ended, and it won't restart even if the government wishes it would. Now that the party is over, the mess must be cleaned up: [unsold houses are being bought back by state-owned enterprises (SOEs) using loans from the central bank](https://www.gov.cn/yaowen/liebiao/202412/content_6995161.htm), and [local government financing vehicle (LGFV) debts are being replaced with local government bonds](http://www.npc.gov.cn/npc/c2/c30834/202411/t20241108_440817.html).
+
+But history reminds us that heroin is not a good treatment for opium addiction—it may be a Pandora’s box in its own right. The housing buybacks add financial pressure to SOEs and local governments without generating new revenue, while the local government debt restructuring exacerbates problems of moral hazard and soft budget constraints.
+
 (To be continued...)
 
 # References
