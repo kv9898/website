@@ -90,6 +90,38 @@ The good news—perhaps also the bad—is that the spiral has ended, and it won'
 
 But history reminds us that heroin is not a good treatment for opium addiction—it may be a Pandora’s box in its own right. The housing buybacks add financial pressure to SOEs and local governments without generating new revenue, while the local government debt restructuring exacerbates problems of moral hazard and soft budget constraints.
 
+The observations and rhetoric above are neither new nor original to me—they have largely been acknowledged by Beijing as part of an emerging consensus (even if not articulated in such a provocative or explicit manner).
+
+That said, I would like to contribute two additional points to this discussion, which I have not seen widely addressed elsewhere:
+
+1. [Local governments below the provincial level *still cannot* borrow legally on their own behalf, and must rely on financing vehicles—an arrangement that encourages overinvestment rather than supporting consumer demand](#sec-sub-provincial).
+
+2. [The key to addressing the soft budget constraint lies in shifting fiscal responsibility for public service provision](#sec-public-services).
+
+## Ban on Sub-Provincial Government Bond Issuance {#sec-sub-provincial}
+
+It’s easy to fall into the false dichotomy of “central vs. local” when analyzing China, while overlooking the multilevel nature of governance in such a vast country. In 2014, [China amended its Budget Law to allow provincial-level administrative regions to issue debt independently](https://gbdsj.gd.gov.cn/zwgk/zcfg/content/post_1757949.html). Nevertheless, [*sub-provincial* governments are still not permitted to issue government bonds directly](http://www.npc.gov.cn/rdxwzx/xwzx2025/xwzx2025019/202501/t20250108_442293.html) at the time of writing—despite being at the center of the local government financing vehicle (LGFV) debt crisis. This means that, even after recent rounds of debt restructuring, lower-level governments still lack legal channels for raising funds, which remains a major structural issue. Worse still, the restructuring process shifts repayment responsibility from lower-level to higher-level governments, further exacerbating the problem of **moral hazard**.
+
+Moreover, relying on financing vehicles as the main source of fundraising further reinforces local governments’ preference for investment-led growth over consumption-driven growth. This is because LGFV debt is essentially *commercial* debt, which requires corresponding *assets* to be added to the balance sheet when new debt is issued. As a result, governments are compelled to *invest* the proceeds—regardless of the investment’s quality—rather than spend them on social benefits, cash handouts, or subsidies that would promote consumption.
+
+Therefore, relaxing restrictions on sub-provincial government bond issuance—and allowing the proceeds to be used for consumption-promoting policies—are necessary steps to unlock the full potential of local governments in China’s transition toward a consumption-driven economy.
+
+## Public Services Should be Centralised {#sec-public-services}
+
+Further relaxing restrictions on local government bond issuance will, of course, risk exacerbating the moral hazard and soft budget constraint problems. The key is to enable the central government to make a *creadible* threat not to bail out the local government if it fails to pay its obligations, which is currently not the case. In fact, the recent central government-backed debt restructuring broke this exact promise.
+
+A crucial aspect of China’s soft budget constraint is that local governments are primarily responsible for financing and providing basic public services—such as education, transportation, and healthcare. They are also responsible for paying the wages of local civil servants. This means that if the central government were to refuse a bailout for a bankrupt local government, it would risk major social unrest and political instability—outcomes the central government is unwilling to tolerate.
+
+Aware that the central government cannot credibly commit to letting them fail, local officials may borrow aggressively to fund infrastructure projects in pursuit of GDP growth and personal promotion, leaving their successors—and ultimately the central government—to deal with the resulting debt. Paradoxically, the central government is more likely to provide fiscal support to those who have over-invested, further reinforcing the incentive to over-invest.
+
+One way to overcome this credibility problem is to *centralise* the responsibility for public service provision. These services should be funded through the *central* government budget and, ideally, managed *vertically* by their respective higher-level departments, rather than by local governments. In such a system, basic public services would remain uninterrupted even if a local government defaults—an outcome that would be acceptable to the central government.
+
+With this arrangement in place, the central government could more credibly commit *not *to bail out fiscally irresponsible local governments.
+
+One might argue that this solution does not address the incentive for local officials to over-invest at the expense of their successors and local citizens. This is a valid concern—but addressing it would require something even more politically costly for Beijing: more powerful and independent local people's congresses, rather than the current rubber-stamp institutions.
+
+Local citizens are more likely to prioritize long-term fiscal sustainability over short-term growth. If granted real authority, they would be more inclined to hold officials accountable for over-investment and excessive borrowing.
+
 (To be continued...)
 
 # References
