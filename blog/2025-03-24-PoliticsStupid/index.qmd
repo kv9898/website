@@ -32,7 +32,7 @@ While the third group of economists are simply *wrong*, what the other two group
 
 2.  [Medium-Long Term: The property sector crisis, mounting local government debt, and—at least in part—the weak foundation of consumption, rooted in the distorted central–local government relationship.](#sec-medium-long)
 
-3.  Long Term: A Marxist-Leninist state *cannot* credibly commit to protecting private property or a market economy. This is still the elephant in the room.
+3.  [Long Term: A Marxist-Leninist state *cannot* credibly commit to protecting private property or a market economy. This is still the elephant in the room](#sec-private-property).
 
 # Immediate Short Term: Ideational Obstacles {#sec-short}
 
@@ -121,6 +121,10 @@ With this arrangement in place, the central government could more credibly commi
 One might argue that this solution does not address the incentive for local officials to over-invest at the expense of their successors and local citizens. This is a valid concern—but addressing it would require something even more politically costly for Beijing: more powerful and independent local people's congresses, rather than the current rubber-stamp institutions.
 
 Local citizens are more likely to prioritize long-term fiscal sustainability over short-term growth. If granted real authority, they would be more inclined to hold officials accountable for over-investment and excessive borrowing.
+
+# Long Term: Incompatibility between Marx-Leninism and Private Property {#sec-private-property}
+
+To use a deliberately uncomfortable simile, the relationship between the Communist Party and Chinese private entrepreneurs (or capitalists, if you prefer) resembles that of an abusive husband and his victimized wife: after each incident, the husband apologizes sincerely and behaves with exaggerated kindness—but one should never expect him to change his nature.
 
 (To be continued...)
 
