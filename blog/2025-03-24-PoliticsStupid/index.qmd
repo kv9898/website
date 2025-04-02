@@ -30,7 +30,7 @@ While the third group of economists are simply *wrong*, what the other two group
 
 2.  [Short-Medium Term: Growth and superpower status at the cost of twin deficits and export competitiveness.](#sec-short-medium)
 
-2.  [Medium-Long Term: The property sector crisis, mounting local government debt, and—at least in part—the weak foundation of consumption, rooted in the distorted central–local government relationship.](#sec-medium-long)
+2.  [Medium-Long Term: The property sector crisis, mounting local government debt, and—at least in part—the weak foundation of consumption and worsening protection of private property, rooted in the distorted central–local government relationship.](#sec-medium-long)
 
 3.  [Long Term: A Marxist-Leninist state *cannot* credibly commit to protecting private property or a market economy. This is still the elephant in the room](#sec-private-property).
 
@@ -98,6 +98,8 @@ That said, I would like to contribute two additional points to this discussion, 
 
 2. [The key to addressing the soft budget constraint lies in shifting fiscal responsibility for public service provision](#sec-public-services).
 
+3. [Profit-driven law enforcement stems from the lack of separation of powers at the local level](#sec-fishing).
+
 ## Ban on Sub-Provincial Government Bond Issuance {#sec-sub-provincial}
 
 It’s easy to fall into the false dichotomy of “central vs. local” when analyzing China, while overlooking the multilevel nature of governance in such a vast country. In 2014, [China amended its Budget Law to allow provincial-level administrative regions to issue debt independently](https://gbdsj.gd.gov.cn/zwgk/zcfg/content/post_1757949.html). Nevertheless, [*sub-provincial* governments are still not permitted to issue government bonds directly](http://www.npc.gov.cn/rdxwzx/xwzx2025/xwzx2025019/202501/t20250108_442293.html) at the time of writing—despite being at the center of the local government financing vehicle (LGFV) debt crisis. This means that, even after recent rounds of debt restructuring, lower-level governments still lack legal channels for raising funds, which remains a major structural issue. Worse still, the restructuring process shifts repayment responsibility from lower-level to higher-level governments, further exacerbating the problem of **moral hazard**.
@@ -121,6 +123,16 @@ With this arrangement in place, the central government could more credibly commi
 One might argue that this solution does not address the incentive for local officials to over-invest at the expense of their successors and local citizens. This is a valid concern—but addressing it would require something even more politically costly for Beijing: more powerful and independent local people's congresses, rather than the current rubber-stamp institutions.
 
 Local citizens are more likely to prioritize long-term fiscal sustainability over short-term growth. If granted real authority, they would be more inclined to hold officials accountable for over-investment and excessive borrowing.
+
+## Institutional Roots of Profit-Driven Law Enforcement {#sec-fishing}
+
+One consequence of the property market downturn and the fiscal crisis facing local governments is the rise of profit-driven law enforcement. Not only are local governments more frequently imposing fines on residents to fill the fiscal black hole, but it has also become increasingly common for local authorities to [arrest entrepreneurs *outside* their jurisdiction in order to collect fines—practices that often resemble outright extortion](https://www.nytimes.com/2024/11/26/business/china-economy-police-business.html). This phenomenon has even earned a nickname: "long-distance fishing" (远洋捕捞). 
+
+While the CCP has acknowledged this issue and instructed relevant institutions to halt such practices, I remain skeptical about the effectiveness of this response. The reason is twofold: it addresses neither the *direct* cause of profit-driven law enforcement—namely, the shortfall in local government revenue—nor the *institutional root* of the problem: the dual accountability of local law enforcement entities. These agencies answer both to *local* governments and to corresponding institutions at higher levels of government. In practice, they are largely funded by local governments, and their appointments are often determined by local party committees—giving them a vested interest in serving local bureaucracies, even at the cost of broader negative externalities and long-term governance sustainability.
+
+If we consider law enforcement a form of "public service," then centralising and vertically managing these powers could also reduce the incentive for profit-driven law enforcement. Local governments would have less leverage over law enforcement agencies and therefore fewer opportunities to induce them to engage in illegal or coercive activities for local gain.
+
+Of course, this is a top-down solution that still depends on the central government’s political will to implement it—a will that may be weak if the proposed solution introduces bureaucratic inefficiencies. A more fundamental remedy would require making governments and law enforcement agencies more accountable to the *people*. This would involve stronger protections for free speech and independent media, the lifting of internet controls, more active judicial review, and a more independent judiciary—steps that would be far more difficult for the CCP to undertake.
 
 # Long Term: Incompatibility between Marx-Leninism and Private Property {#sec-private-property}
 
