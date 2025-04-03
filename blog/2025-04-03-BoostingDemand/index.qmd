@@ -1,0 +1,24 @@
+---
+author:
+- name: Jackson Huang
+  orcid: 0009-0009-9108-5436
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+title: How Boosting Demand Could Enhance China’s Relations with the Global South
+date: '2025-04-03'
+categories:
+  - China
+  - Global South
+  - Economy
+# image: featured.jpg
+google-scholar: false
+---
+For much of the past decades, China’s engagement with the global south has been defined by the import of raw materials and investment in infrastructure projects. Through the Belt and Road Initiative (BRI), China has financed railways, highways, ports and energy projects across Asia, Africa and Latin America, helping to facilitate trade and economic integration. As a result, China has garnered strong diplomatic and economic support from many developing nations, positioning itself as a key partner in the global south’s development. However, recent developments suggest that China’s relationship with the global south might be at a turning point. 
+
+Despite strengthening economic ties between China and the global south, the recent increase in trade imbalances and expansion of Chinese exports into developing markets are raising concerns. Many developing economies are increasingly worried about the influx of Chinese goods displacing local industries, particularly in textiles, manufacturing and consumer electronics. This trend, driven by China’s industrial overcapacity, risks eroding trust and creating tensions, potentially weakening China’s long-term economic partnerships. 
+
+The "overcapacity" argument is not new but it drew less attention when trade imbalances were milder and China’s foreign relations more stable. With growing economic tensions and global scrutiny, it has become a central issue in international discussions. Now, the time has come for China to take on a greater responsibility as a consumer market for goods from developing economies. At the very least, China can do more to ensure that its industrial overcapacity does not displace local industries in developing countries.
+
+# Expansion abroad: from global factory to industrial leader
+
+Since China's accession to the World Trade Organization (WTO) in 2001, Chinese products have increasingly entered global markets, initially focusing on low-end manufacturing and establishing the nation as the "world's factory".  The intensification of the BRI since 2015 and the onset of the Sino-US trade war in 2018 marked a new era of  expansion abroad for Chinese enterprises. During this period, China's domestic market continued its rapid expansion, with average GDP growth rates of 7% in 2015 and 6.7% in 2018. This robust growth made the domestic market highly profitable, reducing the urgency for companies to internationalise. Furthermore, a significant portion of Chinese firms expanding abroad during this period were engaged in intermediate goods production, setting up assembly lines in developing countries rather than directly competing in consumer markets. This model often contributed to local industrialisation, as Chinese investment in infrastructure and manufacturing helped integrate regional economies into global supply chains, fostering employment and economic development in host countries.
