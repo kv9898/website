@@ -6,7 +6,6 @@ author:
   orcid: 0009-0004-4652-3429
 title: Can China lead the global south without changing its economic model?
 subtitle: reposted from ThinkChina
-draft: true
 date: '2025-04-15'
 categories:
   - China
