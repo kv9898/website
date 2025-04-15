@@ -5,6 +5,7 @@ author:
 - name: Dianyi Yang
   orcid: 0009-0004-4652-3429
 title: Can China lead the global south without changing its economic model?
+subtitle: reposted from ThinkChina
 draft: true
 date: '2025-04-15'
 categories:
@@ -13,6 +14,13 @@ categories:
   - Economy
 image: featured.jpg
 google-scholar: false
+citation:
+  url: https://www.thinkchina.sg/economy/can-china-lead-global-south-without-changing-its-economic-model
+links:
+  - icon: newspaper
+    #icon_pack: fab
+    name: ThinkChina's original post
+    url: https://www.thinkchina.sg/economy/can-china-lead-global-south-without-changing-its-economic-model
 ---
 For much of the past decades, China’s engagement with the global south has been defined by the import of raw materials and investment in infrastructure projects. Through the Belt and Road Initiative (BRI), China has financed railways, highways, ports and energy projects across Asia, Africa and Latin America, helping to facilitate trade and economic integration. As a result, China has garnered strong diplomatic and economic support from many developing nations, positioning itself as a key partner in the global south’s development. However, recent developments suggest that China’s relationship with the global south might be at a turning point. 
 
