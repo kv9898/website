@@ -4,9 +4,9 @@ author:
   orcid: 0009-0009-9108-5436
 - name: Dianyi Yang
   orcid: 0009-0004-4652-3429
-title: How Boosting Demand Could Enhance China’s Relations with the Global South
+title: Can China lead the global south without changing its economic model?
 draft: true
-date: '2025-04-03'
+date: '2025-04-15'
 categories:
   - China
   - Global South
