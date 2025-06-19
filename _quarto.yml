@@ -102,5 +102,5 @@ format:
           <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="ce728f8a-dbdd-41e4-a940-81ab3c45bfe1" type="text/javascript" async></script>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8745077864238831"crossorigin="anonymous"></script>
           <meta name="google-adsense-account" content="ca-pub-8745077864238831">
-    include-before-body: 
-      - assets/dianyi/load_theme.js
+    # include-before-body: 
+    #   - assets/dianyi/load_theme.js
