@@ -1,0 +1,204 @@
+---
+title: "Github Action: Zotero BibTeX Export"
+subtitle: Fetch a Zotero collection (user or group) and export it to a cleaned **BibTeX** file with pinned citation keys.
+author: 
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+date: 2025-09-10
+image: featured.png
+categories:
+- github action
+- zotero
+- bibtex
+- latex
+- quarto
+links:
+  - icon: github
+    name: GitHub
+    url: https://github.com/kv9898/actions-zotero-bibtex
+---
+
+## Overview
+
+This GitHub Action automates the process of exporting a **Zotero** collection (from a *user library* or a *group library*) to a cleaned-up **BibTeX** file.
+
+It preserves pinned citation keys, fixes type fields, and ensures acronyms and capitalization are protected for LaTeX/BibTeX workflows.
+
+## Repository
+
+You can find the source code, issues, and documentation here:
+
+👉 [GitHub: kv9898/actions-zotero-bibtex](https://github.com/kv9898/actions-zotero-bibtex)
+
+## Features
+
+- 📚 Supports both **user** and **group** Zotero collections.  
+- 🔑 Preserves *pinned citation keys* stored in Zotero's **Extra** field.  
+- 🧹 Cleans up `type` fields to avoid nested braces like `{Policy {Contribution}}`.  
+- 🔒 Protects acronyms (e.g. `IMF`, `OECD`) with extra braces in titles.  
+- 🌐 Fully scriptable inside a CI/CD pipeline (e.g. for Quarto, LaTeX, or R Markdown builds).  
+
+## Usage
+
+This is an example snippet to include in your GitHub Actions workflow YAML file:
+
+```yaml
+- name: Export Zotero BibTeX
+  uses: kv9898/actions-zotero-bibtex@v1
+  with:
+    api-key: ${{ secrets.ZOTERO_API_KEY }} # your Zotero API key stored in GitHub Secrets
+    library-id: 5979835             # numeric user or group ID
+    coll-key: HY6TKCRU              # Zotero collection key
+    is-group: 'true'                # set 'false' for user library (default)
+    out-bib-path: extra/references.bib
+```
+
+## 🔧 Inputs
+
+| Name           | Required | Default          | Description                                                                            |
+| -------------- | -------- | ---------------- | -------------------------------------------------------------------------------------- |
+| `api-key`      | ✅ Yes   | —                | Zotero API key (create at [Zotero API settings](https://www.zotero.org/settings/keys)) |
+| `library-id`   | ✅ Yes   | —                | Zotero **userID** (numeric) or **groupID**                                             |
+| `coll-key`     | ✅ Yes   | —                | Zotero collection key (e.g. `5SR8EG4D`)                                                |
+| `is-group`     | ❌ No    | `false`          | Set to `"true"` if using a group library                                               |
+| `out-bib-path` | ❌ No    | `references.bib` | Where to write the `.bib` file          
+
+## Example URLs
+
+- User collection:
+  https://www.zotero.org/username/collections/5SR8EG4D → library-id = <numeric user ID>, coll-key = 5SR8EG4D
+
+- Group collection:
+  https://www.zotero.org/groups/5979835/<groupname>/collections/HY6TKCRU → library-id = 5979835, coll-key = HY6TKCRU
+
+## Example Workflow
+
+Below is a complete GitHub Actions workflow that demonstrates this action in practice: it fetches a Zotero collection, exports it to BibTeX, builds a Quarto PDF manuscript in an R environment, and finally creates a tagged GitHub Release.
+
+```yaml
+# .github/workflows/build-manuscript.yml
+name: Build Manuscript (Zotero → .bib → Quarto PDF)
+
+on:
+  workflow_dispatch:
+  push: 
+    branches:
+      - 'main'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04 # <= pin to jammy for better binaries
+    env:
+      # Your specific group & collection from the URL you shared
+      ZOTERO_GROUP_ID: "5979835"
+      ZOTERO_COLLECTION_KEY: "HY6TKCRU"
+      ZOTERO_OUT_BIB_PATH: "extra/references.bib"
+      RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.posit.co/cran/latest
+      RENV_CONFIG_INSTALL_MODE: "binary"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history for commit counting
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            cmake \
+            libcurl4-openssl-dev \
+            libfontconfig1-dev \
+            libfreetype6-dev \
+            libpng-dev \
+            libx11-dev \
+            pkg-config \
+            libharfbuzz-dev \
+            libfribidi-dev \
+            libxml2-dev
+
+      # ---------- Fetch + Convert (Zotero → CSL-JSON → BibTeX) ----------
+      - name: Export Zotero BibTeX
+        uses: kv9898/actions-zotero-bibtex@v1
+        with:
+          api-key: ${{ secrets.ZOTERO_API_KEY }}
+          library-id: ${{ env.ZOTERO_GROUP_ID }}
+          coll-key: ${{ env.ZOTERO_COLLECTION_KEY }}
+          is-group: 'true'     # or leave default 'false' for user
+          out-bib-path: ${{ env.ZOTERO_OUT_BIB_PATH }}
+      # -------------------------------------------------------------------
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Setup Quarto (with TinyTeX for PDF)
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          # Defaults to renv.lock at repo root; adjust if yours lives elsewhere
+          cache-version: 1
+
+      # If your document requires extra LaTeX packages not auto-installed,
+      # you can add a step here to install them with tlmgr, e.g.:
+      # - name: Install extra LaTeX packages
+      #   run: tlmgr install <packagename>
+
+      - name: Render manuscript to PDF
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: manuscript/manuscript.qmd
+          # By default renders formats declared in the doc.
+          # Ensure manuscript.qmd lists 'pdf' (or has default-format: pdf in _quarto.yml)
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: manuscript-pdf
+          path: manuscript/manuscript.pdf
+          if-no-files-found: error
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Create date-based tag and release
+        id: tag
+        run: |
+          # Get year.month prefix (UTC)
+          PREFIX=$(date -u +'%Y.%m')
+
+          # Get the number of commits on this branch in the current month
+          git fetch --unshallow || true
+          git fetch origin ${{ github.ref_name }} --tags
+          COUNT=$(git rev-list --count --since="$(date -u +'%Y-%m-01')" HEAD)
+
+          TAG="${PREFIX}-${COUNT}"
+          echo "TAG=$TAG" >> $GITHUB_ENV
+          echo "Created tag: $TAG"
+
+          # Create annotated tag and push
+          git tag -a "$TAG" -m "Release $TAG"
+          git push origin "$TAG"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG }}
+          name: Release ${{ env.TAG }}
+          body: |
+            Automated release for manuscript build.
+            Includes PDF generated from Quarto.
+          files: manuscript/manuscript.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
