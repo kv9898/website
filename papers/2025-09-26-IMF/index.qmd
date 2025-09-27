@@ -1,0 +1,28 @@
+---
+author: 
+- name: Dianyi Yang
+  orcid: 0009-0004-4652-3429
+- name: Tong Hu
+  orcid: 0009-0003-5234-8164
+- name: Zhenyi Chen
+  orcid: 0009-0008-2910-5187
+date: 2025-09-26
+subtitle: ''
+title: "European or American? A re-examination of the transatlantic influence over the IMF"
+citation: 
+  type: manuscript
+  url: ''
+image: featured.jpg
+categories:
+- international organisations
+- United States
+- Europe
+links:
+  - icon: file-pdf
+    name: PDF
+    url: IMF_paper.pdf
+---
+
+# Abstract
+
+This paper investigates whether the United States or Europe holds greater influence over the International Monetary Fund (IMF)—a longstanding yet underexamined question in the study of global economic governance. While the Fund is widely regarded as dominated by “Western” powers, most existing research either focuses exclusively on American influence or treats the West as a unified bloc, masking important variation between its two key actors. Drawing on panel data from 1980 to 2010, we construct separate measures of US and European influence using principal component analysis of commonly used alignment indicators—UN voting patterns, bilateral trade, and banking exposure—and estimate a series of Tobit and Probit models to assess their impact on four key IMF lending outcomes: loan-to-GDP ratios, participation rates, loan approvals, and conditionality. We find that European influence is strongly associated with higher loan volumes, more frequent participation, and greater likelihood of loan approval, while US influence is not. However, American ties are significantly correlated with fewer conditions attached to loans. Additional analysis shows that European influence is not driven by regional or colonial favouritism: neither European nor African borrowers benefit more from European ties—and may, in fact, fare worse—than other countries with comparable alignment. These findings complicate existing assumptions about IMF decision-making, highlighting the need to distinguish between types of Western influence. They also suggest that Europe wields broader institutional influence over access to IMF resources, while US power manifests more selectively through conditionality. In doing so, the paper contributes to debates on hegemony, institutional power, and intra-Western dynamics in global economic governance.
