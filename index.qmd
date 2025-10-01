@@ -7,7 +7,7 @@ image-alt: "My avatar"
 twitter-card:
     title:  Dianyi Yang
     description: |
-      I’m a graduate of the London School of Economics and Political Science. At the LSE, I studied Political Science and Political Economy as an MSc student, and Politics and International Relations as a BSc student. I’m interested in fiscal-monetary interactions, public opinion and international conflicts.
+      I’m a DPhil candidate in Politics at the University of Oxford (DPIR). My research examines fiscal–monetary interactions, public opinion, and political economy. Previously, I completed an MSc in Political Science (Political Science and Political Economy) and a BSc in Politics and International Relations at the London School of Economics and Political Science (LSE).
     image: assets/silvia/img/dianyi-social.png
 
 about:
@@ -65,7 +65,7 @@ resources:
 
 ::: {#hero-heading}
 
-I’m a graduate of the [London School of Economics and Political Science](https://www.lse.ac.uk/). At the LSE, I studied Political Science and Political Economy as an MSc student, and Politics and International Relations as a BSc student. I’m interested in fiscal-monetary interactions, public opinion and international conflicts.
+I’m a DPhil candidate in [Politics](https://www.politics.ox.ac.uk/course/dphil-politics) at the University of Oxford (DPIR). My research examines fiscal–monetary interactions, public opinion, and political economy. Previously, I completed an MSc in Political Science and Political Economy and a BSc in Politics and International Relations at the London School of Economics and Political Science (LSE).
 
 [READ MORE &rarr;](/about){.about-links .subtitle}
 
