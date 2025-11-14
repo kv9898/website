@@ -21,6 +21,17 @@ links:
   - icon: file-pdf
     name: PDF
     url: IMF_paper.pdf
+  - icon: doi
+    icon_pack: ai
+    name: DOI (SSRN)
+    url: https://dx.doi.org/10.2139/ssrn.5531319
+  - icon: researchgate
+    icon_pack: ai
+    name: ResearchGate
+    url: https://www.researchgate.net/publication/396259657_European_or_American_A_Re-examination_of_the_Transatlantic_Influence_over_the_IMF
+  - icon: github
+    name: Source Code
+    url: https://github.com/IMFPaper/IMF
 ---
 
 # Abstract
