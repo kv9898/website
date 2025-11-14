@@ -30,7 +30,7 @@ links:
     name: ResearchGate
     url: https://www.researchgate.net/publication/396259657_European_or_American_A_Re-examination_of_the_Transatlantic_Influence_over_the_IMF
   - icon: github
-    name: Source Code
+    name: Replication Materials
     url: https://github.com/IMFPaper/IMF
 ---
 

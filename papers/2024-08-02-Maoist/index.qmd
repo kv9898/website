@@ -29,7 +29,7 @@ links:
     name: ResearchGate
     url: https://www.researchgate.net/publication/385622037_Maoist_Return_or_Continuation_of_Reform_A_Structural_Topic_Modelling_Analysis_of_Chinese_Government_Reports_and_Party_Communiques
   - icon: github
-    name: Source Code
+    name: Replication Materials
     url: https://github.com/kv9898/maoist
 execute:
   echo: false
