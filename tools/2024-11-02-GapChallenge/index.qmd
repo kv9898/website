@@ -1,7 +1,6 @@
 ---
 title: "Gap Challenge Solver"
 subtitle: a tool designed to help you familiarise yourself with the Gap Challenge for AON and P&G assessments
-draft: true
 author: 
 - name: Dianyi Yang
   orcid: 0009-0004-4652-3429
