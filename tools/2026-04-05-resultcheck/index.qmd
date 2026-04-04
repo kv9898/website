@@ -4,7 +4,7 @@ subtitle: Result stability checks for empirical R projects — snapshot key outp
 author: 
 - name: Dianyi Yang
   orcid: 0009-0004-4652-3429
-date: 2026-04-01
+date: 2026-04-05
 image: featured.png
 categories:
 - R
