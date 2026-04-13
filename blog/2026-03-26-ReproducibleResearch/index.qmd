@@ -11,6 +11,10 @@ categories:
   - Quarto
 image: featured.jpg
 google-scholar: false
+links:
+  - icon: newspaper
+    name: Posit Open Source Blog
+    url: https://opensource.posit.co/blog/2026-04-13_reproducible-research-renv-quarto-github/
 ---
 
 Increasingly, academic disciplines, including the social sciences, are adopting data-science tools and calling for greater transparency and reproducibility in research. Many leading journals now require authors to share the data and code necessary to replicate published findings as a condition of publication.
