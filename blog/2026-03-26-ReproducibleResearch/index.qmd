@@ -1,6 +1,6 @@
 ---
 title: "Structuring Reproducible Research Projects in R"
-subtitle: "A Workflow with renv, Quarto, and GitHub"
+subtitle: "A Workflow with renv, resultcheck, Quarto, and GitHub"
 author:
 - name: "Dianyi Yang" 
   orcid: "0009-0004-4652-3429"
@@ -25,7 +25,7 @@ Yet preparing replication materials can be daunting, especially for researchers 
 
 In this post, I’ll walk through the project structure I use in my own research. It has evolved over time and reflects what I currently consider best practice for reproducible academic work. Adopting a clear structure from the outset makes it significantly easier to reproduce results, onboard collaborators, and maintain projects over the long term.
 
-The structure covers the full research lifecycle: from data cleaning and analysis to manuscript preparation and presentation. The template is built around R and Quarto (the successor to R Markdown), but the underlying principles translate easily to Python and other publishing workflows, including LaTeX. For convenience, I’ve created a ready-to-use template on [GitHub](https://github.com/kv9898/academic-project-template) that you can clone and adapt for your own projects.
+The structure covers the full research lifecycle: from data cleaning and analysis to manuscript preparation and presentation. The template is built around R and Quarto (the successor to R Markdown), but the underlying principles translate easily to Python and other publishing workflows, including LaTeX. For convenience, I’ve created a ready-to-use template on [GitHub](https://github.com/kv9898/academic-project-template) that you can clone and adapt for your own projects. The current version of the template also includes [`resultcheck`](https://kv9898.github.io/resultcheck/) to help detect unintended result drift during development and replication.
 
 The project structure looks like this:
 
@@ -180,6 +180,16 @@ The `renv/` folder contains the project-specific package library. Most of its co
 The `.Rprofile` file includes a line that automatically activates the `renv` environment when the project is loaded, ensuring that the correct package versions are used without manual setup.
 
 Automatic activation, however, only works when the project is **opened as a whole**—for example, by opening the `.Rproj` file or the project folder in Positron. If individual scripts are opened in isolation, the working directory will not be set to the project root at startup, and the project-level `.Rprofile` will not be executed. This is yet another reason to adopt a project-level workflow rather than treating scripts as standalone files.
+
+# Result stability checks (`resultcheck`)
+
+Once environments and file paths are reproducible, the next risk is *silent result drift*: code still runs, but key estimates or derived objects change without anyone noticing. To address this, the template now includes [`resultcheck`](https://github.com/kv9898/resultcheck/) as a core component alongside GitHub, `renv`, and Quarto.
+
+The philosophy is simple (see the [package article](https://kv9898.github.io/resultcheck/articles/resultcheck.html)): treat important results as testable objects, not just things you glance at manually. With `resultcheck`, you save a snapshot for a key output once, then automatically compare later runs against that baseline. If a value changes unexpectedly, the check fails early and points you to what moved.
+
+The most useful pattern is to start from day 1 and add snapshot checks whenever a script is "finished" for its stage. For example, once data cleaning is complete and you move on to analysis, add snapshot tests for cleaned data objects. When the analysis script stabilizes, snapshot model objects or regression tables. This creates a layered safety net as the project grows.
+
+These checks work both locally and in GitHub-based testing workflows. In practice, that means pull requests can surface unintended changes in cleaned datasets, model estimates, or output tables before they reach the manuscript or slides. Since `resultcheck` is now published and relatively stable (with dedicated [documentation](https://kv9898.github.io/resultcheck/)), it is practical to make result verification part of routine project maintenance rather than a late-stage replication scramble.
 
 # Quarto: manuscripts and presentations
 
