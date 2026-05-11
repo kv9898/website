@@ -25,7 +25,7 @@ Yet preparing replication materials can be daunting, especially for researchers 
 
 In this post, I’ll walk through the project structure I use in my own research. It has evolved over time and reflects what I currently consider best practice for reproducible academic work. Adopting a clear structure from the outset makes it significantly easier to reproduce results, onboard collaborators, and maintain projects over the long term.
 
-The structure covers the full research lifecycle: from data cleaning and analysis to manuscript preparation and presentation. The template is built around R and Quarto (the successor to R Markdown), but the underlying principles translate easily to Python and other publishing workflows, including LaTeX. For convenience, I’ve created a ready-to-use template on [GitHub](https://github.com/kv9898/academic-project-template) that you can clone and adapt for your own projects. The current version of the template also includes `resultcheck` to help detect unintended result drift during development and replication.
+The structure covers the full research lifecycle: from data cleaning and analysis to manuscript preparation and presentation. The template is built around R and Quarto (the successor to R Markdown), but the underlying principles translate easily to Python and other publishing workflows, including LaTeX. For convenience, I’ve created a ready-to-use template on [GitHub](https://github.com/kv9898/academic-project-template) that you can clone and adapt for your own projects. The current version of the template also includes [`resultcheck`](https://kv9898.github.io/resultcheck/) to help detect unintended result drift during development and replication.
 
 The project structure looks like this:
 
