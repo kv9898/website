@@ -10,6 +10,7 @@ Thumbs.db
 /.quarto/
 /_site/
 /site_libs/
+/_freeze/
 
 /talk/
 /project/
