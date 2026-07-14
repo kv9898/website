@@ -26,6 +26,40 @@ Legal expertise remains indispensable. But expertise does not make judges infall
 
 This is why I propose a reform of constitutional review.
 
+## Example: Roe, Dobbs, and the politics of constitutional interpretation
+
+Perhaps no case better illustrates the limits of judicial supremacy than *Roe v. Wade* [@roe1973] and its reversal in *Dobbs v. Jackson Women's Health Organization* [-@dobbs2022].
+
+The Constitution did not change between 1973 and 2022.
+
+The text of the Fourteenth Amendment remained exactly the same. The relevant constitutional provisions were identical. Yet the constitutional meaning attributed to those provisions shifted dramatically. In Roe, the Supreme Court held that the Due Process Clause protected a constitutional right to abortion as part of a broader right to privacy. Nearly half a century later, Dobbs rejected that conclusion and held that the Constitution conferred no such right, returning the issue to the political process (Blackmun 1973; Alito 2022).
+
+If constitutional meaning can reverse so completely while the constitutional text remains unchanged, it becomes difficult to maintain that the Court is merely discovering what the Constitution has always meant. Constitutional interpretation is not simply an exercise in textual retrieval. It is an exercise in constitutional judgment.
+
+Defenders of judicial review often present Dobbs as evidence that the Court had become politicised. But Roe itself was hardly free from controversy. Indeed, some of its most thoughtful critics were committed supporters of abortion rights.
+
+Justice Ruth Bader Ginsburg repeatedly argued that Roe rested on unstable constitutional foundations. She believed that the stronger constitutional basis for abortion rights lay not in an implied right to privacy but in the Equal Protection Clause. In her view, restrictions on abortion were fundamentally a form of sex discrimination because they reinforced women's unequal social and political status (Ginsburg 1985; Ginsburg 1992).
+
+Her criticism was therefore not that abortion should receive less constitutional protection. Quite the opposite. She believed that Roe had reached a desirable outcome through an insufficient constitutional argument.
+
+That disagreement is significant.
+
+If even judges and scholars who agree on the political desirability of abortion rights cannot agree on the constitutional reasoning that justifies them, then the constitutional question itself is genuinely contested. The disagreement is not merely about precedent or interpretive technique. It concerns competing understandings of liberty, equality, the role of the judiciary and the proper relationship between constitutional law and democratic politics.
+
+This observation cuts both ways.
+
+The majority in Dobbs claimed that Roe had been an illegitimate act of judicial lawmaking. Many critics responded that Dobbs itself represented an equally political exercise of judicial power. Both claims contain an important truth. Both decisions involved judges making contestable constitutional judgments on one of the most divisive political questions in American society.
+
+That is precisely the point.
+
+Once constitutional law ceases to produce a uniquely compelling legal answer, judicial review begins to resemble lawmaking. The remaining disagreement is not simply technical or doctrinal. It concerns competing visions of justice and the political community.
+
+Courts remain indispensable in identifying the range of constitutionally defensible interpretations. But when several such interpretations survive serious legal scrutiny, the final choice is no longer one that legal expertise alone can legitimately resolve.
+
+At that point, constitutional adjudication should become constitutional dialogue.
+
+The legislature should not be excluded simply because the disagreement has been translated into the language of judicial opinions.
+
 ## The sacred language of constitutional law
 
 The authority of judicial review rests partly on a familiar distinction between law and politics.
