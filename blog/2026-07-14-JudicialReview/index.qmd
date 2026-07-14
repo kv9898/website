@@ -1,0 +1,14 @@
+---
+title: "Judicial Review"
+subtitle: ""
+author:
+- name: "Dianyi Yang" 
+  orcid: "0009-0004-4652-3429"
+date: '2026-07-14'
+# categories:
+#   - Reproducibility
+#   - R
+#   - Quarto
+# image: featured.jpg
+google-scholar: true
+---
