@@ -11,26 +11,20 @@ date: '2026-07-14'
 #   - Quarto
 # image: featured.jpg
 google-scholar: true
+bibliography: references.bib
 ---
-# Judges Are Not Holy: Unpacking the Constitutional Veil
 
-### A proposal for conditional judicial supremacy
+A recent Financial Times article reports that Justice Amy Coney Barrett once compared serving on the US Supreme Court to “being in an arranged marriage with no option of divorce”. The comparison now appears unusually apt. During the Court’s latest term, its members interrupted one another, exchanged personal criticisms, and accused colleagues of advancing arguments that were “baseless and insulting” [@lee2026]. The ideological polarisation that has long characterised American electoral and mass politics has now become increasingly visible within the country’s highest court.
 
-A recent *Financial Times* article describes a United States Supreme Court whose internal disagreements are becoming increasingly difficult to conceal. The justices have interrupted one another, exchanged personal criticisms, and accused colleagues of producing arguments that are “baseless and insulting”. Justice Sonia Sotomayor publicly criticised a colleague’s apparent unfamiliarity with the lives of hourly workers. Justice Samuel Alito responded from the bench after Sotomayor delivered a particularly severe dissent. Justice Ketanji Brown Jackson accused the Court of creating confusion through unexplained emergency rulings. Justice Clarence Thomas, reflecting on an earlier period of collegiality, remarked simply: “That was a different court.”
+What makes the judicial branch distinctive is not that judges are somehow less political than other public officials. It is that constitutional politics surrounds them with a sacred veil. Their decisions are represented not as exercises of public power, but as declarations of what *“the law”* or *“the Constitution”* has already commanded. Political choices disappear behind legal language. A conclusion reached by five judges against four is transformed into the meaning of the Constitution, as though the document itself had spoken.
 
-The divisions are also visible in the Court’s voting. According to the article, one in five decisions during the latest term was decided 6–3 along ideological lines, compared with an average of 11 per cent over the preceding five terms.
+> The Constitution may be treated as holy. Its interpretation need not be—and the people who interpret it certainly are not.
 
-The spectacle is troubling. But it is also clarifying.
+The justices’ increasingly public disagreements offer an opportunity to look behind this veil of judicial professionalism. Courts should be understood not as secular temples whose occupants merely transmit constitutional truth, but as fallible institutions exercising enormous public power. Like other governing institutions, they are susceptible to ideological conflict, strategic behaviour, personal bias and error.
 
-The justices’ public quarrels reveal something that constitutional systems ordinarily encourage us to forget: judges are human beings. They possess political beliefs, moral intuitions, class backgrounds, professional ambitions, intellectual loyalties and personal animosities. They can be perceptive or obtuse, principled or strategic, generous or vain. Like members of every other institution, they disagree partly because the questions before them are difficult and partly because they see the world differently.
+Legal expertise remains indispensable. But expertise does not make judges infallible, nor does it convert every contested judicial choice into constitutional necessity.
 
-Judges are not holy.
-
-Yet constitutional politics often surrounds judges with a kind of sacred veil. Their decisions are represented not as exercises of public power but as declarations of what “the law” or “the Constitution” has already commanded. Political choices disappear behind legal language. A conclusion reached by five judges against four is transformed into *the meaning of the Constitution*, as though the document itself had spoken.
-
-The Court’s increasingly visible internal conflict makes that fiction harder to sustain.
-
-It is time to unpack the constitutional veil.
+This is why I propose a reform of constitutional review.
 
 ## The sacred language of constitutional law
 
@@ -314,3 +308,5 @@ Shapiro, Martin. 1981. *Courts: A Comparative and Political Analysis*. Chicago: 
 Tushnet, Mark. 2008. *Weak Courts, Strong Rights: Judicial Review and Social Welfare Rights in Comparative Constitutional Law*. Princeton: Princeton University Press.
 
 Waldron, Jeremy. 2006. “The Core of the Case Against Judicial Review.” *Yale Law Journal* 115(6): 1346–1406.
+
+## References
