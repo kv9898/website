@@ -1,6 +1,6 @@
 ---
-title: "Judges Are Not Holy"
-subtitle: "Unpacking the Constitutional Veil"
+title: "Borrowed Plumes: A Holy Constitution and Its Unholy Judges"
+subtitle: "A Proposal for Democratising Constitutional Review"
 author:
 - name: "Dianyi Yang" 
   orcid: "0009-0004-4652-3429"
