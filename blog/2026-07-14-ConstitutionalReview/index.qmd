@@ -28,11 +28,11 @@ This is why I propose a reform of constitutional review.
 
 ## Example: Roe, Dobbs, and the politics of constitutional interpretation
 
-Perhaps no case better illustrates the limits of judicial supremacy than *Roe v. Wade* [-@roe1973] and its reversal in *Dobbs v. Jackson Women's Health Organization* [-@dobbs2022].
+Perhaps no case better illustrates the limits of judicial supremacy than *Roe v. Wade* (1973) and its reversal in *Dobbs v. Jackson Women's Health Organization* (2022).
 
 The Constitution did not change between 1973 and 2022.
 
-The text of the Fourteenth Amendment remained exactly the same. The relevant constitutional provisions were identical. Yet the constitutional meaning attributed to those provisions shifted dramatically. In Roe, the Supreme Court held that the Due Process Clause protected a constitutional right to abortion as part of a broader right to privacy. Nearly half a century later, Dobbs rejected that conclusion and held that the Constitution conferred no such right, returning the issue to the political process (Blackmun 1973; Alito 2022) [@roe1973; @dobbs2022].
+The text of the Fourteenth Amendment remained exactly the same. The relevant constitutional provisions were identical. Yet the constitutional meaning attributed to those provisions shifted dramatically. In Roe, the Supreme Court held that the Due Process Clause protected a constitutional right to abortion as part of a broader right to privacy. Nearly half a century later, Dobbs rejected that conclusion and held that the Constitution conferred no such right, returning the issue to the political process [@roe1973; @dobbs2022].
 
 If constitutional meaning can reverse so completely while the constitutional text remains unchanged, it becomes difficult to maintain that the Court is merely discovering what the Constitution has always meant. Constitutional interpretation is not simply an exercise in textual retrieval. It is an exercise in constitutional judgment.
 
