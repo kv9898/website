@@ -36,29 +36,25 @@ The text of the Fourteenth Amendment remained exactly the same. The relevant con
 
 If constitutional meaning can reverse so completely while the constitutional text remains unchanged, it becomes difficult to maintain that the Court is merely discovering what the Constitution has always meant. Constitutional interpretation is not simply an exercise in textual retrieval. It is an exercise in constitutional judgment.
 
-Defenders of judicial review often present Dobbs as evidence that the Court had become politicised. But Roe itself was hardly free from controversy. Indeed, some of its most thoughtful critics were committed supporters of abortion rights.
+Defenders of judicial review often present *Dobbs* as evidence that the Court had become politicised. But *Roe* offers the clearer example of politics presented as constitutional interpretation.
 
-Justice Ruth Bader Ginsburg repeatedly argued that Roe rested on unstable constitutional foundations. She believed that the stronger constitutional basis for abortion rights lay not in an implied right to privacy but in the Equal Protection Clause. In her view, restrictions on abortion were fundamentally a form of sex discrimination because they reinforced women's unequal social and political status (Ginsburg 1985; Ginsburg 1992).
+The Constitution contains no express right to privacy, still less an express right to abortion. *Roe* nevertheless derived a constitutional right to abortion from the liberty protected by the Due Process Clause and then constructed a detailed trimester framework governing when states could regulate it. That reasoning is difficult to describe as the interpretation of a rule already contained in the constitutional text. The distance between the text and the result is simply too great.
 
-Her criticism was therefore not that abortion should receive less constitutional protection. Quite the opposite. She believed that Roe had reached a desirable outcome through an insufficient constitutional argument.
+The structure of the reasoning is instead *ex post*. The desired conclusion—that women should possess a legally protected right to abortion—comes first; the search for a constitutional provision capable of supporting that conclusion comes afterwards. The privacy doctrine supplied the necessary vehicle. Rather than allowing the Constitution to determine the outcome, the judges selected and extended a line of doctrine until it constitutionalised the outcome they favoured.
 
-That disagreement is significant.
+Justice Ruth Bader Ginsburg's criticism of *Roe* is especially revealing because she supported abortion rights while questioning the constitutional reasoning used to protect them. She argued that the Court had placed the right on unstable foundations and maintained that restrictions on abortion were better understood through the Equal Protection Clause, as restrictions that reinforced women's unequal social and political status (Ginsburg 1985; Ginsburg 1992). Her objection was not to the political desirability of abortion rights, but to the constitutional route by which *Roe* had secured them.
 
-If even judges and scholars who agree on the political desirability of abortion rights cannot agree on the constitutional reasoning that justifies them, then the constitutional question itself is genuinely contested. The disagreement is not merely about precedent or interpretive technique. It concerns competing understandings of liberty, equality, the role of the judiciary and the proper relationship between constitutional law and democratic politics.
+Ginsburg did not herself accuse the *Roe* majority of reasoning backwards from a preferred result. Her critique nevertheless strengthens that inference. If even a committed defender of abortion rights found the privacy rationale inadequate and sought a different clause capable of sustaining the same outcome, it becomes harder to maintain that the result followed from any clear constitutional command. The outcome appears stable; the constitutional justification remains interchangeable.
 
-This observation cuts both ways.
+This criticism does not depend on opposition to abortion rights. A person may regard access to abortion as morally important and still deny that judges are entitled to convert that political judgment into constitutional law. The issue is not whether *Roe* reached a desirable policy result. It is whether that result can plausibly be attributed to legal interpretation rather than judicial invention.
 
-The majority in Dobbs claimed that Roe had been an illegitimate act of judicial lawmaking. Many critics responded that Dobbs itself represented an equally political exercise of judicial power. Both claims contain an important truth. Both decisions involved judges making contestable constitutional judgments on one of the most divisive political questions in American society.
+If judges may begin with a preferred answer to a divisive social question and then search the Constitution for language broad enough to sustain it, the distinction between adjudication and legislation collapses. The Court is no longer enforcing a decision made by the constitutional text. It is making the decision itself while shielding that decision behind the authority of the Constitution.
 
-That is precisely the point.
+That is legislation in substance, and legislation is inherently political. Decisions about whether, when and under what conditions abortion should be lawful require moral judgments, the balancing of competing interests and the drawing of policy lines. Unless the Constitution supplies a sufficiently determinate answer, those choices should be made through the democratic process by representatives who can be held politically accountable.
 
-Once constitutional law ceases to produce a uniquely compelling legal answer, judicial review begins to resemble lawmaking. The remaining disagreement is not simply technical or doctrinal. It concerns competing visions of justice and the political community.
+*Roe* displaced that process by giving one contested political position constitutional status. *Dobbs* exposed how fragile that status had always been: a differently constituted Court, applying the same constitutional text, could withdraw it. The reversal did not show that constitutional meaning had changed. It showed that the earlier rule had depended upon the political judgment of the judges who announced it.
 
-Courts remain indispensable in identifying the range of constitutionally defensible interpretations. But when several such interpretations survive serious legal scrutiny, the final choice is no longer one that legal expertise alone can legitimately resolve.
-
-At that point, constitutional adjudication should become constitutional dialogue.
-
-The legislature should not be excluded simply because the disagreement has been translated into the language of judicial opinions.
+Courts remain indispensable in identifying and enforcing genuine constitutional limits. But they should not manufacture such limits merely because judges consider a particular outcome just. Where the Constitution does not settle the political question, the legislature should not be excluded simply because one side has translated its position into the language of constitutional rights.
 
 ## The sacred language of constitutional law
 
