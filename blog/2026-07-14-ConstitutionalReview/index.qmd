@@ -72,7 +72,7 @@ It tells us that highly qualified judges, examining the same constitutional text
 
 A narrow judicial majority is still a majority. But it is not a legal consensus.
 
-Alexander Bickel famously described judicial review as presenting a “counter-majoritarian difficulty”: unelected judges possess the power to invalidate the decisions of elected institutions. Jeremy Waldron later argued that, under reasonably democratic conditions, persistent disagreement about rights does not disappear merely because it is transferred from legislatures to courts. Judicial voting settles a dispute procedurally, but it does not establish that the majority has discovered the correct answer while the dissenters have failed to understand the law (Bickel 1962; Waldron 2006).
+Alexander Bickel famously described judicial review as presenting a “counter-majoritarian difficulty”: unelected judges possess the power to invalidate the decisions of elected institutions. Jeremy Waldron later argued that, under reasonably democratic conditions, persistent disagreement about rights does not disappear merely because it is transferred from legislatures to courts. Judicial voting settles a dispute procedurally, but it does not establish that the majority has discovered the correct answer while the dissenters have failed to understand the law [@bickel1986; @waldron2006].
 
 Here lies an irony at the heart of judicial review. The Court is commonly defended as a remedy for ordinary majoritarian politics: an institution capable of protecting constitutional rights when an electoral majority is unwilling to do so. Yet a 5–4 or 6–3 judgment can reproduce the very majoritarian logic from which the Court is meant to provide refuge. The decisive question becomes not which interpretation is constitutionally correct, but which side has assembled one more vote among nine unelected officials. A bare judicial majority thus replaces a popular majority without resolving the underlying disagreement—or acquiring democratic authority to settle it conclusively.
 
@@ -297,8 +297,6 @@ Once the constitutional veil has been unpacked, the division of labour becomes c
 
 Bellamy, Richard. 2007. *Political Constitutionalism: A Republican Defence of the Constitutionality of Democracy*. Cambridge: Cambridge University Press.
 
-Bickel, Alexander M. 1962. *The Least Dangerous Branch: The Supreme Court at the Bar of Politics*. Indianapolis: Bobbs-Merrill.
-
 Dixon, Rosalind. 2023. *Responsive Judicial Review: Democracy and Dysfunction in the Modern Age*. Oxford: Oxford University Press.
 
 Ely, John Hart. 1980. *Democracy and Distrust: A Theory of Judicial Review*. Cambridge, MA: Harvard University Press.
@@ -310,7 +308,5 @@ Hogg, Peter W., and Allison A. Bushell. 1997. “The Charter Dialogue between Co
 Kramer, Larry D. 2004. *The People Themselves: Popular Constitutionalism and Judicial Review*. Oxford: Oxford University Press.
 
 Tushnet, Mark. 2008. *Weak Courts, Strong Rights: Judicial Review and Social Welfare Rights in Comparative Constitutional Law*. Princeton: Princeton University Press.
-
-Waldron, Jeremy. 2006. “The Core of the Case Against Judicial Review.” *Yale Law Journal* 115(6): 1346–1406.
 
 ## References
