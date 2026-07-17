@@ -170,6 +170,16 @@ Instability among voters is routinely treated as a constitutional danger. Instab
 
 There is no obvious reason to privilege the latter.
 
+### Would this weaken judicial restraint?
+
+Judicial restraint is often associated with a reluctance to decide cases that would draw courts into divisive political disputes. Judges may avoid such cases, decide them on narrow grounds or defer to elected institutions because they do not want to appear to be making policy under the name of constitutional law.
+
+This proposal reduces that pressure. A Court would no longer have to choose between refusing to address a difficult constitutional question and imposing one contested interpretation as the final law for the entire country. It could identify the constitutional materials, state the propositions on which it agrees, and formulate the two legally defensible alternatives that remain. The democratic institution would then make the final choice between them.
+
+That is not judicial activism in the sense of granting judges a larger power to decide policy. The Court would remain bound by ordinary limits of jurisdiction and justiciability, and it could not invent a third option or send an unrestricted question to the legislature or electorate. Its role would be limited to clarifying the legal range of possible answers.
+
+The reform therefore recasts restraint as candour rather than avoidance. Judges need not pretend that a politically charged case has no legal content; nor need they pretend that a narrow judicial majority has eliminated the political judgment that remains. They can decide the legal questions they are competent to decide and leave the residual democratic choice to institutions designed to bear that responsibility.
+
 ### What about minority rights?
 
 The strongest objection is that democratic majorities cannot always be trusted to protect minorities. Judicial review is frequently defended on the ground that courts can protect rights that unpopular groups cannot defend through ordinary politics.
