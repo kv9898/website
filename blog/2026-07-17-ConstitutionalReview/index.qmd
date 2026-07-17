@@ -4,7 +4,7 @@ subtitle: "A Proposal for Democratising Constitutional Review"
 author:
 - name: "Dianyi Yang" 
   orcid: "0009-0004-4652-3429"
-date: '2026-07-14'
+date: '2026-07-17'
 # categories:
 #   - Reproducibility
 #   - R
