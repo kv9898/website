@@ -112,21 +112,21 @@ The guiding principle is straightforward:
 
 ## Responses to common questions
 
-## Why the House of Representatives?
+### Why the House of Representatives?
 
-The final decision should belong to the House of Representatives rather than to Congress as a whole.
+In the American context, the final choice between the two judicially formulated interpretations should be made either by the House of Representatives or by a national referendum. Both routes give the unresolved question a democratic decision-maker without inviting legislators or voters to devise a third constitutional position of their own.
 
-The Senate represents states as states. Its allocation of two senators to every state serves a federal purpose, but it does not embody political equality among citizens. A Senate majority can represent substantially fewer voters than the opposing minority.
+The House is the appropriate legislative institution because its organising principle is *representation by population*. It is also more electorally responsive, since all its members face election every two years. A referendum provides an even more direct expression of popular sovereignty and may be especially appropriate where the constitutional question has exceptional public salience.
 
-That may be defensible in areas where the federal balance itself is constitutionally relevant. It is a less persuasive arrangement for resolving a question referred to democratic judgment precisely because legal institutions could not settle it.
+The Senate should not participate in this choice. It represents states as states: its allocation of two senators to every state serves a federal purpose, but it does not embody *political equality among citizens*. A Senate majority can represent substantially fewer voters than the opposing minority. More importantly, bicameral decision-making risks deadlock, leaving a question unresolved precisely when the purpose of the procedure is to reach a temporary settlement.
 
-The House is not perfectly representative. District boundaries, electoral rules and geographic concentrations of voters all affect its composition. Nevertheless, it is the federal chamber whose organising principle is representation by population. It is also more electorally responsive because all its members face election every two years.
+Neither option is perfect. District boundaries, electoral rules and geographic concentrations of voters affect the House’s composition; referendums may simplify difficult constitutional questions and can be shaped by unequal political resources. But each is more consistent with political equality among citizens than a decision by the Senate.
 
-If constitutional ambiguity is to be resolved through popular sovereignty, the House is therefore the more appropriate institution.
+The institutional form should be adapted to the constitutional system in which the proposal is used. In other countries, the legislative choice could be assigned to whichever chamber most closely represents the people on an equal basis; where an appropriate referendum procedure exists, it could instead be put directly to the electorate. The central requirement is not an American House as such, but a single democratic decision-maker capable of resolving the narrow issue without a bicameral veto.
 
-The choice of the House also places this proposal within—but does not simply reproduce—the tradition of popular constitutionalism. Larry Kramer has argued that constitutional meaning should not be treated as the exclusive possession of courts and that the Constitution ultimately belongs to “the people themselves”. Richard Bellamy’s political constitutionalism similarly defends electoral competition, political equality and majority decision-making as constitutional mechanisms rather than as threats from which constitutionalism must be protected (Kramer 2004; Bellamy 2007).
+This choice places the proposal within—but does not simply reproduce—the tradition of popular constitutionalism. Larry Kramer has argued that constitutional meaning should not be treated as the exclusive possession of courts and that the Constitution ultimately belongs to “the people themselves”. Richard Bellamy’s political constitutionalism similarly defends electoral competition, political equality and majority decision-making as constitutional mechanisms rather than as threats from which constitutionalism must be protected [@kramer2004; @bellamy2007].
 
-My proposal gives these democratic principles a more structured institutional form. The House would not replace legal judgment; it would complete a process that legal judgment alone had been unable to conclude.
+My proposal gives these democratic principles a more structured institutional form. The House or the electorate would not replace legal judgment; it would complete a process that legal judgment alone had been unable to conclude.
 
 ## Why a simple majority?
 
@@ -259,8 +259,6 @@ Once the constitutional veil has been unpacked, the division of labour becomes c
 
 ## References
 
-Bellamy, Richard. 2007. *Political Constitutionalism: A Republican Defence of the Constitutionality of Democracy*. Cambridge: Cambridge University Press.
-
 Dixon, Rosalind. 2023. *Responsive Judicial Review: Democracy and Dysfunction in the Modern Age*. Oxford: Oxford University Press.
 
 Ely, John Hart. 1980. *Democracy and Distrust: A Theory of Judicial Review*. Cambridge, MA: Harvard University Press.
@@ -268,8 +266,6 @@ Ely, John Hart. 1980. *Democracy and Distrust: A Theory of Judicial Review*. Cam
 Hirschl, Ran. 2004. *Towards Juristocracy: The Origins and Consequences of the New Constitutionalism*. Cambridge, MA: Harvard University Press.
 
 Hogg, Peter W., and Allison A. Bushell. 1997. “The Charter Dialogue between Courts and Legislatures.” *Osgoode Hall Law Journal* 35(1): 75–124.
-
-Kramer, Larry D. 2004. *The People Themselves: Popular Constitutionalism and Judicial Review*. Oxford: Oxford University Press.
 
 Tushnet, Mark. 2008. *Weak Courts, Strong Rights: Judicial Review and Social Welfare Rights in Comparative Constitutional Law*. Princeton: Princeton University Press.
 
