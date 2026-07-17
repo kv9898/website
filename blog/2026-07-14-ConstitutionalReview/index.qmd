@@ -58,7 +58,7 @@ Political scientists have long treated courts as institutions engaged in governa
 
 Courts remain indispensable in identifying and enforcing genuine constitutional limits. But they should not manufacture such limits merely because judges consider a particular outcome just. Where the Constitution does not settle the political question, the legislature should not be excluded simply because one side has translated its position into the language of constitutional rights.
 
-## Judicial disagreement is information
+## Fatal Bug: Judicial disagreement ignored
 
 Under the existing system, a 9–0 judgment and a 5–4 judgment possess essentially the same formal authority. Both become binding constitutional law.
 
