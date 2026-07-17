@@ -192,63 +192,21 @@ The democratic decision-maker is therefore not choosing between constitutionalis
 
 Its more defensible promise is procedural: where neither legal expertise nor judicial deliberation produces a clear answer, the final choice should be made by an institution that citizens can replace.
 
-## The politics hidden inside expertise
-
-The mystification of constitutional judgment resembles a wider tendency in modern governance: political choices are often placed in the hands of experts and then redescribed as technical necessities.
-
-Central bankers, for example, possess specialised knowledge of monetary operations, financial systems and inflation dynamics. But expertise alone cannot determine how much unemployment society should tolerate, whose income should bear the cost of disinflation, or whether price stability should take priority over other social objectives.
-
-Those are distributive and political choices, even when they are expressed through technical models.
-
-Constitutional adjudication presents an analogous problem.
-
-Judges possess specialised legal knowledge. They can identify precedent, reconstruct doctrine, interpret texts and articulate principles more systematically than most legislators. But expertise cannot always determine which conception of liberty, equality, citizenship or executive authority should prevail when several interpretations remain legally plausible.
-
-Political judgment does not cease to be political because it appears in a judicial opinion.
-
-Footnotes are not holy water.
-
-Expertise should structure public choice. It should not be used to conceal public choice.
-
-## Unpacking the veil
-
-The public feuding described by the *Financial Times* is likely to be interpreted as a threat to the Supreme Court’s legitimacy. A court whose members openly exchange ideological and personal accusations may struggle to preserve an appearance of detached authority.
-
-But perhaps that appearance itself deserves scrutiny.
-
-The problem is not simply that judges have recently become too political. It is that constitutional institutions have long relied upon denying how much political judgment difficult constitutional cases require.
-
-The justices disagree about citizenship, equality, liberty, executive authority and democracy. These disagreements are not necessarily accidental intrusions into an otherwise mechanical legal process. They often reflect conflicts embedded within the constitutional order itself.
-
-The answer cannot simply be to restore the holy atmosphere by encouraging the justices to become more polite.
-
-Civility is desirable, but politeness does not turn disagreement into legal certainty. A restrained 5–4 judgment remains a 5–4 judgment. Robes, marble columns and ceremonial language do not change its epistemic status.
-
-Rather than repairing the veil, we should unpack it.
-
-We should identify which parts of constitutional adjudication rest upon broad legal agreement and which depend upon contested political judgment. Judicial authority should be strongest in the former category. Democratic authority should become decisive in the latter.
-
 ## A more honest constitutionalism
 
-Judges are not holy. Constitutions do not speak independently of the human beings who interpret them. Law can constrain political choice, but it cannot always eliminate it.
+Judges possess specialised legal knowledge. They can identify precedent, reconstruct doctrine, interpret texts and articulate principles more systematically than most legislators. But expertise cannot always determine which conception of liberty, equality, citizenship or executive authority should prevail when several interpretations remain legally plausible. Political judgment does not cease to be political because it appears in a judicial opinion. Footnotes are not holy water.
 
-A constitutional system should acknowledge this rather than disguising judicial disagreement as constitutional certainty.
+The answer is not to deny that expertise matters, nor to restore a sacred veil over judicial disagreement. A restrained 5–4 judgment remains a 5–4 judgment: robes, marble columns and ceremonial language do not turn a contested choice into legal certainty. A constitutional system should distinguish between what judges broadly agree upon and what they do not.
 
 Where the Supreme Court reaches broad agreement, its interpretation should be final.
 
-Where the Court remains substantially divided, the justices should identify their common ground, formulate two coherent alternatives and send those alternatives to the House of Representatives.
+Where the Court remains substantially divided, the justices should identify their common ground, formulate two coherent alternatives and refer the unresolved question to the House of Representatives or a referendum.
 
-The House should decide between them by a simple majority.
+The democratic decision-maker should choose between them by a simple majority.
 
 If the vote is narrow, the public should see that it is narrow. If democratic opinion changes after a subsequent election, the interpretation should remain open to revision. A constitutional question that lacks both legal consensus and durable political support should not be permanently removed from democratic life by a professional legal elite.
 
-This is not an argument against legal expertise. It is an argument about its proper limits.
-
-Judges should determine which interpretations are constitutionally defensible.
-
-They should not always determine which defensible interpretation must govern everyone else.
-
-Once the constitutional veil has been unpacked, the division of labour becomes clearer:
+This is not an argument against legal expertise, but about its proper limits:
 
 > Law should define the alternatives.
 > Where law cannot choose between them, democracy should decide.
