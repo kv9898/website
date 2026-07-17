@@ -110,6 +110,24 @@ The guiding principle is straightforward:
 
 > Where judges agree, judges should decide. Where judges disagree, democracy should decide between the legally admissible alternatives.
 
+## Beyond strong-form judicial review
+
+This proposal belongs to a wider body of scholarship challenging the assumption that courts must always possess the final word on constitutional meaning.
+
+Mark Tushnet distinguishes American-style “strong-form” judicial review from weaker arrangements in which legislatures retain greater capacity to respond to judicial decisions [@tushnet2008]. Peter Hogg and Allison Bushell describe the Canadian system as a “dialogue” between courts and legislatures [@hoggbushell1997]. Rosalind Dixon’s account of responsive judicial review asks courts to recognise the limits of their own institutional capacity and legitimacy, while Ran Hirschl, from a different perspective, has examined the global transfer of political power towards courts as a movement towards “juristocracy” [@dixon2023; @hirschl2004].
+
+My proposal shares with these approaches a rejection of absolute judicial supremacy, but differs in three respects.
+
+First, legislative involvement would be triggered by the **degree of judicial disagreement**. The vote split would be treated as information about the determinacy of constitutional law.
+
+Second, the Court would have a formal duty to separate consensus from disagreement and to incorporate the consensus into both opinions.
+
+Third, the House could choose only between two alternatives formulated by the justices. Democratic judgment would be neither unlimited nor merely consultative.
+
+The proposal thus combines legal and political constitutionalism rather than selecting one against the other.
+
+Judicial institutions would define the boundaries of constitutional legality. Democratic institutions would choose within those boundaries when legal reasoning produced more than one defensible answer.
+
 ## Responses to common questions
 
 ### Why the House of Representatives?
@@ -174,24 +192,6 @@ The democratic decision-maker is therefore not choosing between constitutionalis
 
 Its more defensible promise is procedural: where neither legal expertise nor judicial deliberation produces a clear answer, the final choice should be made by an institution that citizens can replace.
 
-## Beyond strong-form judicial review
-
-This proposal belongs to a wider body of scholarship challenging the assumption that courts must always possess the final word on constitutional meaning.
-
-Mark Tushnet distinguishes American-style “strong-form” judicial review from weaker arrangements in which legislatures retain greater capacity to respond to judicial decisions. Peter Hogg and Allison Bushell describe the Canadian system as a “dialogue” between courts and legislatures, while Rosalind Dixon’s account of responsive judicial review asks courts to recognise the limits of their own institutional capacity and legitimacy. Ran Hirschl, from a different perspective, has examined the global transfer of political power towards courts as a movement towards “juristocracy” (Hogg and Bushell 1997; Hirschl 2004; Tushnet 2008; Dixon 2023).
-
-My proposal shares with these approaches a rejection of absolute judicial supremacy, but differs in three respects.
-
-First, legislative involvement would be triggered by the **degree of judicial disagreement**. The vote split would be treated as information about the determinacy of constitutional law.
-
-Second, the Court would have a formal duty to separate consensus from disagreement and to incorporate the consensus into both opinions.
-
-Third, the House could choose only between two alternatives formulated by the justices. Democratic judgment would be neither unlimited nor merely consultative.
-
-The proposal thus combines legal and political constitutionalism rather than selecting one against the other.
-
-Judicial institutions would define the boundaries of constitutional legality. Democratic institutions would choose within those boundaries when legal reasoning produced more than one defensible answer.
-
 ## The politics hidden inside expertise
 
 The mystification of constitutional judgment resembles a wider tendency in modern governance: political choices are often placed in the hands of experts and then redescribed as technical necessities.
@@ -252,17 +252,3 @@ Once the constitutional veil has been unpacked, the division of labour becomes c
 
 > Law should define the alternatives.
 > Where law cannot choose between them, democracy should decide.
-
----
-
-## References
-
-Dixon, Rosalind. 2023. *Responsive Judicial Review: Democracy and Dysfunction in the Modern Age*. Oxford: Oxford University Press.
-
-Hirschl, Ran. 2004. *Towards Juristocracy: The Origins and Consequences of the New Constitutionalism*. Cambridge, MA: Harvard University Press.
-
-Hogg, Peter W., and Allison A. Bushell. 1997. “The Charter Dialogue between Courts and Legislatures.” *Osgoode Hall Law Journal* 35(1): 75–124.
-
-Tushnet, Mark. 2008. *Weak Courts, Strong Rights: Judicial Review and Social Welfare Rights in Comparative Constitutional Law*. Princeton: Princeton University Press.
-
-## References
