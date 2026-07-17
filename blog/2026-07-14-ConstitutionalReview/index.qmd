@@ -110,47 +110,7 @@ The guiding principle is straightforward:
 
 > Where judges agree, judges should decide. Where judges disagree, democracy should decide between the legally admissible alternatives.
 
-## The Court must first maximise agreement
-
-A constitutional case is not an indivisible object. Judges may agree on most of the relevant legal analysis while disagreeing sharply about only one question.
-
-Suppose that the justices agree on 70 per cent of a case and disagree on the remaining 30 per cent. The propositions on which they agree should appear in both versions of the opinion. Those common propositions would become binding constitutional interpretation regardless of the House’s subsequent vote.
-
-Only the unresolved portion would be submitted for democratic determination.
-
-The Court might agree on the relevant constitutional provision, the historical background, the applicable standard of review and several limits upon governmental authority. It might divide only over whether a particular measure crosses the constitutional boundary.
-
-The House would not be asked to reconsider the agreed legal foundations. Nor would legislators be invited to invent their own constitutional doctrine. They would select only between the two judicially formulated alternatives concerning the unresolved issue.
-
-This feature distinguishes the proposal from simply allowing Congress to overrule judicial decisions.
-
-Congress would not possess a free-standing power to interpret the Constitution however it pleased. The Court would define the range of legally admissible choices. The legislature would exercise political judgment only within that legally certified range.
-
-The requirement that the Court produce no more than two opinions is crucial.
-
-Modern appellate judgments can generate a majority opinion, several concurrences, a principal dissent and multiple partial dissents. The positions may overlap in complex ways, leaving lower courts and public officials uncertain about which propositions command authoritative support.
-
-Under the proposed system, the justices could not externalise every methodological or rhetorical difference in a separate opinion. They would have to negotiate.
-
-They would have to decide which disagreements were fundamental, which were secondary and which could be reconciled through common language. They would be institutionally required to maximise the area of legal agreement before referring the remaining question to democratic judgment.
-
-This would not overburden the House. It would prevent the House from being overburdened.
-
-Legislators would receive two coherent alternatives—not a judicial anthology.
-
-## Incentives for judicial candour
-
-The two-opinion rule would also alter judicial incentives.
-
-A possible objection is that judges might vote strategically in order to trigger or prevent legislative involvement. But the incorporation of judicial consensus into both opinions substantially reduces that incentive.
-
-Because every proposition contained in both opinions would become binding regardless of the House vote, each justice would have an interest in identifying the largest possible area of genuine agreement. Exaggerating disagreement would reduce the body of constitutional doctrine that the Court itself could settle conclusively.
-
-Judges would therefore have reason to distinguish fundamental disagreement from differences of emphasis, preferred methodology or judicial style.
-
-The system would not eliminate strategic behaviour. No institutional design can do that. But it would reward candour more effectively than the present arrangement, under which justices can convert every disagreement into a separate opinion intended to shape future litigation.
-
-Rather than asking nine judges to present themselves as a unified oracle when they are not, the proposal would require them to do something more modest and more useful: identify what they genuinely agree upon and formulate the two strongest legal accounts of what remains disputed.
+## Responses to common objections
 
 ## Why the House of Representatives?
 
