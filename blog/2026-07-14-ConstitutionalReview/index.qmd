@@ -54,7 +54,7 @@ That is legislation in substance, and legislation is inherently political. Decis
 
 *Roe* displaced that process by giving one contested political position constitutional status. *Dobbs* exposed how fragile that status had always been: a differently constituted Court, applying the same constitutional text, could withdraw it. The reversal did not show that constitutional meaning had changed. It showed that the earlier rule had depended upon the political judgment of the judges who announced it.
 
-Political scientists have long treated courts as institutions engaged in governance rather than as neutral oracles standing outside politics. Robert Dahl described the Supreme Court as a national policymaking institution, while Martin Shapiro emphasised the multiple political roles performed by courts across different constitutional systems. Critical legal scholars have likewise examined how judicial rhetoric can translate contestable political choices into apparently impersonal legal conclusions (Dahl 1957; Shapiro 1981; Kennedy 1997).
+Political scientists have long treated courts as institutions engaged in governance rather than as neutral oracles standing outside politics. Robert Dahl described the Supreme Court as a national policymaking institution, while Martin Shapiro emphasised the multiple political roles performed by courts across different constitutional systems. Critical legal scholars have likewise examined how judicial rhetoric can translate contestable political choices into apparently impersonal legal conclusions [@dahl2001; @shapiro2004; @kennedy1998].
 
 Courts remain indispensable in identifying and enforcing genuine constitutional limits. But they should not manufacture such limits merely because judges consider a particular outcome just. Where the Constitution does not settle the political question, the legislature should not be excluded simply because one side has translated its position into the language of constitutional rights.
 
@@ -297,8 +297,6 @@ Bellamy, Richard. 2007. *Political Constitutionalism: A Republican Defence of th
 
 Bickel, Alexander M. 1962. *The Least Dangerous Branch: The Supreme Court at the Bar of Politics*. Indianapolis: Bobbs-Merrill.
 
-Dahl, Robert A. 1957. “Decision-Making in a Democracy: The Supreme Court as a National Policy-Maker.” *Journal of Public Law* 6(2): 279–295.
-
 Dixon, Rosalind. 2023. *Responsive Judicial Review: Democracy and Dysfunction in the Modern Age*. Oxford: Oxford University Press.
 
 Ely, John Hart. 1980. *Democracy and Distrust: A Theory of Judicial Review*. Cambridge, MA: Harvard University Press.
@@ -307,11 +305,7 @@ Hirschl, Ran. 2004. *Towards Juristocracy: The Origins and Consequences of the N
 
 Hogg, Peter W., and Allison A. Bushell. 1997. “The Charter Dialogue between Courts and Legislatures.” *Osgoode Hall Law Journal* 35(1): 75–124.
 
-Kennedy, Duncan. 1997. *A Critique of Adjudication: Fin de Siècle*. Cambridge, MA: Harvard University Press.
-
 Kramer, Larry D. 2004. *The People Themselves: Popular Constitutionalism and Judicial Review*. Oxford: Oxford University Press.
-
-Shapiro, Martin. 1981. *Courts: A Comparative and Political Analysis*. Chicago: University of Chicago Press.
 
 Tushnet, Mark. 2008. *Weak Courts, Strong Rights: Judicial Review and Social Welfare Rights in Comparative Constitutional Law*. Princeton: Princeton University Press.
 
