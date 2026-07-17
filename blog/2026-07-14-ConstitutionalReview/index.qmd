@@ -82,27 +82,31 @@ Why should five unelected officials be entitled to constitutionalise their prefe
 
 The conventional answer is that someone must decide. That is correct. But it does not follow that the judiciary must always have the final word.
 
-## Conditional judicial supremacy
+## Proposal: A Collaborative Model of Constitutional Review
 
-The solution is not to abolish judicial review. Courts remain necessary to discipline constitutional argument, identify the relevant legal materials and exclude interpretations that cannot plausibly be reconciled with the constitutional order.
+The solution is not to abolish judicial review. Courts remain indispensable to constitutional government. They identify the relevant constitutional provisions, discipline legal argument, interpret precedent, and exclude interpretations that cannot plausibly be reconciled with the constitutional order.
 
-But judicial review need not entail unconditional judicial supremacy.
+What should be reconsidered is not judicial review, but judicial monopoly over constitutional interpretation.
 
-I propose a system of **conditional judicial supremacy**.
+Constitutional review need not be exercised by the judiciary alone. Where the Constitution admits of a broad legal consensus, courts should have the final word. Where constitutional meaning remains genuinely contested even among judges, however, democratic institutions should participate in resolving that disagreement.
 
-Where the Supreme Court reaches a sufficiently broad consensus, its interpretation would be final. On a nine-member Court, one might, for example, require the support of at least seven justices. A 9–0, 8–1 or 7–2 decision would be treated as evidence of substantial legal consensus.
+I therefore propose a system of distributed constitutional review.
 
-Where the Court divides 6–3 or more narrowly, it would not be permitted to impose the position of its majority as the final constitutional interpretation.
+When the Supreme Court reaches a sufficiently broad consensus—say, at least seven of the nine justices—its interpretation should become the authoritative interpretation of the Constitution. A 9–0, 8–1 or 7–2 judgment would indicate that there is no substantial legal disagreement requiring further democratic resolution.
 
-Instead, the justices would be required to produce two—and only two—constitutional opinions. Those opinions would then be submitted verbatim to the House of Representatives. The House would select between them by a simple majority.
+When the Court divides 6–3 or more narrowly, however, it should no longer impose the preferred interpretation of a narrow judicial majority as the final meaning of the Constitution.
 
-The resulting constitutional interpretation would possess two kinds of legitimacy.
+Instead, the justices should prepare two—and only two—constitutional opinions. Before doing so, they should identify and incorporate every proposition on which they agree. Those shared propositions would become binding constitutional interpretation regardless of what follows. Only the genuinely disputed questions would be expressed differently in the two opinions.
 
-It would possess **legal validity** because it had been formulated and certified as legally defensible by members of the Supreme Court.
+The two opinions would then be transmitted verbatim to the House of Representatives. The House would not draft its own constitutional interpretation, nor would it be free to invent a third alternative. It would simply choose, by a simple majority, between the two legally defensible interpretations presented by the Court.
 
-It would possess **democratic legitimacy** because the final choice between the competing legal positions had been made by the elected chamber most directly connected to the population.
+The resulting constitutional settlement would derive its authority from two distinct sources.
 
-The principle can be stated simply:
+It would possess legal legitimacy because every available option had been developed and certified by the Supreme Court as constitutionally defensible.
+
+It would possess democratic legitimacy because the final choice between those legally defensible alternatives had been made by the chamber that most directly represents the people.
+
+The guiding principle is straightforward:
 
 > Where judges agree, judges should decide. Where judges disagree, democracy should decide between the legally admissible alternatives.
 
