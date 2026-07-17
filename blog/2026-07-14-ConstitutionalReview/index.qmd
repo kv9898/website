@@ -128,25 +128,23 @@ This choice places the proposal within—but does not simply reproduce—the tra
 
 My proposal gives these democratic principles a more structured institutional form. The House or the electorate would not replace legal judgment; it would complete a process that legal judgment alone had been unable to conclude.
 
-## Why a simple majority?
+### Why a simple majority?
 
-It may seem natural to require a supermajority in the House. Constitutional questions are important, the argument goes, and should not be resolved by a narrow or temporary political coalition.
+Constitutional ambiguity cannot be left permanently unresolved. Public officials, lower courts and citizens need to know which of the legally admissible interpretations will govern. Even where the answer is contested, an institution must choose one and thereby provide a workable clarification for the time being.
 
-But a supermajority requirement would undermine the central purpose of the proposal.
+That practical need is the principal reason to use a simple majority. A supermajority requirement would make it too easy for disagreement to produce deadlock rather than a decision. The proposal is designed precisely for circumstances in which the Court has already shown that the law does not yield a single uncontested answer. It should therefore provide a means of settling the dispute, not create another veto point.
 
-If the House selects one interpretation by 218 votes to 217, that is not merely an unfortunate procedural outcome. It is substantive information. It tells us that democratic support for the prevailing interpretation is weak, just as the divided Court told us that its legal support was weak.
+Democratic institutions exist to make difficult and controversial political choices. When the available constitutional interpretations divide the Court and the public, a narrow decision does not supply a reason to remove the question from democratic politics. It supplies a reason to return the final choice to the House or, where appropriate, to a referendum. The closer the contest, the more important it is that the temporary settlement rests on democratic legitimacy rather than on the bare majority of an unelected court.
 
-The narrowness of the result should remain visible.
+If the House selects an interpretation by 218 votes to 217—or a referendum produces an equally close result—that narrowness is substantive information. It shows that the interpretation has weak democratic support, just as the divided Court showed that it has weak legal consensus. The settlement should be correspondingly fragile.
 
-The current system performs a strange constitutional alchemy. A question may divide judges, citizens and elected officials. Yet once five justices form a majority, the contested position is presented as settled constitutional law. The weakness of its support disappears behind the authority of judicial office.
+That fragility is a feature, not a defect. Where the underlying constitutional question remains genuinely contestable, a later democratic majority should be able to adopt the alternative interpretation as political opinion changes. This is not an invitation to incoherent constitutional improvisation: the Court’s prior drafting and certification process ensures that both alternatives are internally consistent and legally defensible. Democratic revision operates only within that judicially defined range.
 
-My proposal refuses that transformation.
+The current system performs a strange constitutional alchemy. A question may divide judges, citizens and elected officials, yet once five justices form a majority, the contested position is presented as settled constitutional law. The weakness of its support disappears behind the authority of judicial office.
 
-If an interpretation possesses narrow legal support and narrow democratic support, the constitutional settlement should be recognised as narrow. It must govern for the time being because a decision has to be made, but it should remain open to reconsideration after subsequent elections.
+This proposal refuses that transformation. If an interpretation possesses narrow legal support and narrow democratic support, the constitutional settlement should be recognised as narrow. It must govern because a decision has to be made, but it should remain readily revisable when prevailing democratic opinion changes.
 
-A simple majority prevents deadlock. It also allows constitutional interpretation to respond when democratic opinion changes.
-
-This does not mean that every constitutional rule should fluctuate with each electoral cycle. Rules supported by substantial judicial consensus would remain insulated from ordinary legislative revision. Democratic revisability would apply only to questions on which the Supreme Court itself had certified the existence of serious legal disagreement.
+This does not mean that every constitutional rule should fluctuate with each electoral cycle. Interpretations supported by substantial judicial consensus would remain insulated from ordinary political revision. Democratic revisability would apply only to questions on which the Supreme Court itself had certified the existence of serious legal disagreement.
 
 Where the law is relatively determinate, stability is justified. Where the law remains deeply contested, judicial entrenchment may merely protect the preferences of the judges who happened to form a majority at a particular moment.
 
