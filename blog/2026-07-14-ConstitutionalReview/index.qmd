@@ -152,23 +152,23 @@ Instability among voters is routinely treated as a constitutional danger. Instab
 
 There is no obvious reason to privilege the latter.
 
-## What about minority rights?
+### What about minority rights?
 
 The strongest objection is that democratic majorities cannot always be trusted to protect minorities. Judicial review is frequently defended on the ground that courts can protect rights that unpopular groups cannot defend through ordinary politics.
 
 This objection must be taken seriously. Democracy is not reducible to majority rule, and constitutional rights should constrain the mistreatment or exclusion of minorities.
 
-But it does not follow that a narrow majority of judges is systematically more reliable than a democratic legislature.
+But the proposal does not place every asserted right at the mercy of a legislature or referendum. Where the Court reaches the required broad agreement that a right is constitutionally protected, that holding is final. It forms part of the common ground incorporated into both judicial opinions, and neither the House nor the electorate can displace it. Democratic choice arises only when the Court itself has certified that two competing accounts of the right are legally defensible.
 
-Courts have sometimes protected vulnerable groups. They have also upheld slavery, racial segregation, forced sterilisation, restrictions on labour organisation and other forms of domination. Judicial independence can insulate principled decisions from public pressure, but it can equally insulate judicial error from democratic correction.
+Nor does it follow that a narrow majority of judges is systematically more reliable than a democratic legislature. Courts have sometimes protected vulnerable groups; they have also committed grave errors. In *Dred Scott v. Sandford*, the Court denied that people of African descent could be citizens and held that Congress could not prohibit slavery in the territories. In *Plessy v. Ferguson*, it upheld state-imposed racial segregation under the doctrine of “separate but equal”. In *Buck v. Bell*, it upheld compulsory sterilisation. Judicial independence can insulate principled decisions from public pressure, but it can equally insulate judicial error from democratic correction [@dredscott1857; @plessy1896; @buck1927].
 
 Waldron’s critique of judicial review does not deny the importance of rights; it questions whether disagreement about rights is necessarily resolved more legitimately by majority voting among judges than by majority voting among elected representatives. John Hart Ely’s influential defence of judicial review, meanwhile, focused not upon judges selecting society’s substantive values but upon correcting failures in democratic representation and protecting political participation (Waldron 2006; Ely 1980).
 
-Conditional judicial supremacy preserves a substantial judicial role.
+There is also a reason not to assume that judicial insulation will always favour the more protective account of rights. Life-tenured justices are selected from an older professional elite and are considerably older than the population as a whole: as of July 2026, the current Court’s average age is about 66, whereas the US median age in 2025 was 39.4 [@uscourtbio2026; @census2026]. Age does not determine judicial philosophy, and electoral majorities can of course be regressive. But the Court’s composition and insulation can make it slow to register changing social understandings. A democratic process can therefore help a more expansive or progressive account of a disputed right prevail—provided, crucially, that it is one of the legally coherent alternatives the Court has already identified.
 
-The Court would exclude interpretations falling outside the range of legally defensible constitutional argument. Its areas of broad consensus would remain binding. Only where at least a substantial minority of justices endorsed an alternative would the House become involved.
+Conditional judicial supremacy thus preserves a substantial judicial role. The Court excludes interpretations falling outside the range of legally defensible constitutional argument, and its areas of broad consensus remain binding. Only where a substantial minority of justices endorses an alternative does the House or referendum become involved.
 
-The democratic branch would therefore not be choosing between constitutionalism and lawlessness. It would be choosing between two positions that the Court itself had certified as serious constitutional interpretations.
+The democratic decision-maker is therefore not choosing between constitutionalism and lawlessness. It is choosing between two positions that the Court itself has certified as serious constitutional interpretations.
 
 The proposal cannot guarantee substantively just outcomes. Neither can the present system.
 
