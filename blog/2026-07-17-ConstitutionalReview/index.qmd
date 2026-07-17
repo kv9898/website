@@ -1,0 +1,222 @@
+---
+title: "Borrowed Plumes: A Holy Constitution and Its Unholy Judges"
+subtitle: "A Proposal for Democratising Constitutional Review"
+author:
+- name: "Dianyi Yang" 
+  orcid: "0009-0004-4652-3429"
+date: '2026-07-17'
+# categories:
+#   - Reproducibility
+#   - R
+#   - Quarto
+# image: featured.jpg
+google-scholar: true
+bibliography: references.bib
+---
+
+A recent Financial Times article reports that Justice Amy Coney Barrett once compared serving on the US Supreme Court to “being in an arranged marriage with no option of divorce”. The comparison now appears unusually apt. During the Court’s latest term, its members interrupted one another, exchanged personal criticisms, and accused colleagues of advancing arguments that were “baseless and insulting” [@lee2026]. The ideological polarisation that has long characterised American electoral and mass politics has now become increasingly visible within the country’s highest court.
+
+What makes the judicial branch distinctive is not that judges are somehow less political than other public officials. It is that constitutional politics surrounds them with a sacred veil. Their decisions are represented not as exercises of public power, but as declarations of what *“the law”* or *“the Constitution”* has already commanded. Political choices disappear behind legal language. A conclusion reached by five judges against four is transformed into the meaning of the Constitution, as though the document itself had spoken.
+
+> The Constitution may be treated as holy. Its interpretation need not be—and the people who interpret it certainly are not.
+
+The justices’ increasingly public disagreements offer an opportunity to look behind this veil of judicial professionalism. Courts should be understood not as secular temples whose occupants merely transmit constitutional truth, but as fallible institutions exercising enormous public power. Like other governing institutions, they are susceptible to ideological conflict, strategic behaviour, personal bias and error.
+
+Legal expertise remains indispensable. But expertise does not make judges infallible, nor does it convert every contested judicial choice into constitutional necessity.
+
+This is why I propose a reform of constitutional review.
+
+## Example: Roe, Dobbs, and the politics of constitutional interpretation
+
+Perhaps no case better illustrates the limits of judicial supremacy than *Roe v. Wade* (1973) and its reversal in *Dobbs v. Jackson Women's Health Organization* (2022).
+
+The Constitution did not change between 1973 and 2022.
+
+The text of the Fourteenth Amendment remained exactly the same. The relevant constitutional provisions were identical. Yet the constitutional meaning attributed to those provisions shifted dramatically. In Roe, the Supreme Court held that the Due Process Clause protected a constitutional right to abortion as part of a broader right to privacy. Nearly half a century later, Dobbs rejected that conclusion and held that the Constitution conferred no such right, returning the issue to the political process [@roe1973; @dobbs2022].
+
+If constitutional meaning can reverse so completely while the constitutional text remains unchanged, it becomes difficult to maintain that the Court is merely discovering what the Constitution has always meant. Constitutional interpretation is not simply an exercise in textual retrieval. It is an exercise in constitutional judgment.
+
+Defenders of judicial review often present *Dobbs* as evidence that the Court had become politicised. But *Roe* offers the clearer example of politics presented as constitutional interpretation.
+
+The Constitution contains no express right to privacy, still less an express right to abortion. *Roe* nevertheless derived a constitutional right to abortion from the liberty protected by the Due Process Clause and then constructed a detailed trimester framework governing when states could regulate it. That reasoning is difficult to describe as the interpretation of a rule already contained in the constitutional text. The distance between the text and the result is simply too great.
+
+The structure of the reasoning is instead *ex post*. The desired conclusion—that women should possess a legally protected right to abortion—comes first; the search for a constitutional provision capable of supporting that conclusion comes afterwards. The privacy doctrine supplied the necessary vehicle. Rather than allowing the Constitution to determine the outcome, the judges selected and extended a line of doctrine until it constitutionalised the outcome they favoured.
+
+Justice Ruth Bader Ginsburg's criticism of *Roe* is especially revealing because she supported abortion rights while questioning the constitutional reasoning used to protect them. She argued that the Court had placed the right on unstable foundations and maintained that restrictions on abortion were better understood through the Equal Protection Clause, as restrictions that reinforced women's unequal social and political status [@ginsburg1985; @ginsburg2020]. Her objection was not to the political desirability of abortion rights, but to the constitutional route by which *Roe* had secured them.
+
+Ginsburg did not herself accuse the *Roe* majority of reasoning backwards from a preferred result. Her critique nevertheless strengthens that inference. If even a committed defender of abortion rights found the privacy rationale inadequate and sought a different clause capable of sustaining the same outcome, it becomes harder to maintain that the result followed from any clear constitutional command. The outcome appears stable; the constitutional justification remains interchangeable.
+
+This criticism does not depend on opposition to abortion rights. A person may regard access to abortion as morally important and still deny that judges are entitled to convert that political judgment into constitutional law. The issue is not whether *Roe* reached a desirable policy result. It is whether that result can plausibly be attributed to legal interpretation rather than judicial invention.
+
+If judges may begin with a preferred answer to a divisive social question and then search the Constitution for language broad enough to sustain it, the distinction between adjudication and legislation collapses. The Court is no longer enforcing a decision made by the constitutional text. It is making the decision itself while shielding that decision behind the authority of the Constitution.
+
+That is legislation in substance, and legislation is inherently political. Decisions about whether, when and under what conditions abortion should be lawful require moral judgments, the balancing of competing interests and the drawing of policy lines. Unless the Constitution supplies a sufficiently determinate answer, those choices should be made through the democratic process by representatives who can be held politically accountable.
+
+*Roe* displaced that process by giving one contested political position constitutional status. *Dobbs* exposed how fragile that status had always been: a differently constituted Court, applying the same constitutional text, could withdraw it. The reversal did not show that constitutional meaning had changed. It showed that the earlier rule had depended upon the political judgment of the judges who announced it.
+
+Political scientists have long treated courts as institutions engaged in governance rather than as neutral oracles standing outside politics. Robert Dahl described the Supreme Court as a national policymaking institution, while Martin Shapiro emphasised the multiple political roles performed by courts across different constitutional systems. Critical legal scholars have likewise examined how judicial rhetoric can translate contestable political choices into apparently impersonal legal conclusions [@dahl2001; @shapiro2004; @kennedy1998].
+
+Courts remain indispensable in identifying and enforcing genuine constitutional limits. But they should not manufacture such limits merely because judges consider a particular outcome just. Where the Constitution does not settle the political question, the legislature should not be excluded simply because one side has translated its position into the language of constitutional rights.
+
+## Fatal Bug: Judicial disagreement ignored
+
+Under the existing system, a 9–0 judgment and a 5–4 judgment possess essentially the same formal authority. Both become binding constitutional law.
+
+But the two decisions do not have the same epistemic significance.
+
+When judges with different backgrounds, methodologies and ideological orientations converge upon one conclusion, that agreement is meaningful. A unanimous or nearly unanimous decision gives us some reason to believe that the constitutional question has a relatively determinate legal answer.
+
+A 5–4 or 6–3 judgment tells us something fundamentally different.
+
+It tells us that highly qualified judges, examining the same constitutional text, precedents, historical materials and factual record, have reached competing conclusions. Both sides may produce recognisably legal arguments. Both may appeal to coherent constitutional principles. Neither can plausibly claim that no serious legal dispute exists.
+
+A narrow judicial majority is still a majority. But it is not a legal consensus.
+
+Alexander Bickel famously described judicial review as presenting a “counter-majoritarian difficulty”: unelected judges possess the power to invalidate the decisions of elected institutions. Jeremy Waldron later argued that, under reasonably democratic conditions, persistent disagreement about rights does not disappear merely because it is transferred from legislatures to courts. Judicial voting settles a dispute procedurally, but it does not establish that the majority has discovered the correct answer while the dissenters have failed to understand the law [@bickel1986; @waldron2006].
+
+Here lies an irony at the heart of judicial review. The Court is commonly defended as a remedy for ordinary majoritarian politics: an institution capable of protecting constitutional rights when an electoral majority is unwilling to do so. Yet a 5–4 or 6–3 judgment can reproduce the very majoritarian logic from which the Court is meant to provide refuge. The decisive question becomes not which interpretation is constitutionally correct, but which side has assembled one more vote among nine unelected officials. A bare judicial majority thus replaces a popular majority without resolving the underlying disagreement—or acquiring democratic authority to settle it conclusively.
+
+This problem is especially acute when the judicial majority is narrow. Why should the addition of one judicial vote convert a disputed interpretation into the authoritative meaning of the Constitution for an entire political community?
+
+Why should five unelected officials be entitled to constitutionalise their preferred interpretation, while the disagreement of four equally qualified officials is treated as legally irrelevant?
+
+The conventional answer is that someone must decide. That is correct. But it does not follow that the judiciary must always have the final word.
+
+## Proposal: A Collaborative Model of Constitutional Review
+
+The solution is not to abolish judicial review. Courts remain indispensable to constitutional government. They identify the relevant constitutional provisions, discipline legal argument, interpret precedent, and exclude interpretations that cannot plausibly be reconciled with the constitutional order.
+
+What should be reconsidered is not judicial review, but judicial monopoly over constitutional interpretation.
+
+Constitutional review need not be exercised by the judiciary alone. Where the Constitution admits of a broad legal consensus, courts should have the final word. Where constitutional meaning remains genuinely contested even among judges, however, democratic institutions should participate in resolving that disagreement.
+
+I therefore propose a system of distributed constitutional review.
+
+When the Supreme Court reaches a sufficiently broad consensus—say, at least seven of the nine justices—its interpretation should become the authoritative interpretation of the Constitution. A 9–0, 8–1 or 7–2 judgment would indicate that there is no substantial legal disagreement requiring further democratic resolution.
+
+When the Court divides 6–3 or more narrowly, however, it should no longer impose the preferred interpretation of a narrow judicial majority as the final meaning of the Constitution.
+
+Instead, the justices should prepare two—and only two—constitutional opinions. Before doing so, they should identify and incorporate every proposition on which they agree. Those shared propositions would become binding constitutional interpretation regardless of what follows. Only the genuinely disputed questions would be expressed differently in the two opinions.
+
+The two opinions would then be transmitted *verbatim* to the House of Representatives (or to a referendum). The House would not draft its own constitutional interpretation, nor would it be free to invent a third alternative. It would simply choose, by a simple majority, between the two legally defensible interpretations presented by the Court.
+
+The resulting constitutional settlement would derive its authority from two distinct sources.
+
+It would retain *legal legitimacy* of the current model because every available option had been developed and certified by the Supreme Court as constitutionally defensible.
+
+It would also simultaneously possess *democratic legitimacy* because the final choice between those legally defensible alternatives had been made by the chamber that most directly represents the people.
+
+The guiding principle is straightforward:
+
+> Where judges agree, judges should decide. Where judges disagree, democracy should decide between the legally admissible alternatives.
+
+## Beyond strong-form judicial review
+
+This proposal belongs to a wider body of scholarship challenging the assumption that courts must always possess the final word on constitutional meaning.
+
+Mark Tushnet distinguishes American-style “strong-form” judicial review from weaker arrangements in which legislatures retain greater capacity to respond to judicial decisions [@tushnet2008]. Peter Hogg and Allison Bushell describe the Canadian system as a “dialogue” between courts and legislatures [@hoggbushell1997]. Rosalind Dixon’s account of responsive judicial review asks courts to recognise the limits of their own institutional capacity and legitimacy, while Ran Hirschl, from a different perspective, has examined the global transfer of political power towards courts as a movement towards “juristocracy” [@dixon2023; @hirschl2004].
+
+My proposal shares with these approaches a rejection of absolute judicial supremacy, but differs in three respects.
+
+First, legislative involvement would be triggered by the **degree of judicial disagreement**. The vote split would be treated as information about the determinacy of constitutional law.
+
+Second, the Court would have a formal duty to separate consensus from disagreement and to incorporate the consensus into both opinions.
+
+Third, the House could choose only between two alternatives formulated by the justices. Democratic judgment would be neither unlimited nor merely consultative.
+
+The proposal thus combines legal and political constitutionalism rather than selecting one against the other.
+
+Judicial institutions would define the boundaries of constitutional legality. Democratic institutions would choose within those boundaries when legal reasoning produced more than one defensible answer.
+
+## Responses to common questions
+
+### Why the House of Representatives?
+
+In the American context, the final choice between the two judicially formulated interpretations should be made either by the House of Representatives or by a national referendum. Both routes give the unresolved question a democratic decision-maker without inviting legislators or voters to devise a third constitutional position of their own.
+
+The House is the appropriate legislative institution because its organising principle is *representation by population*. It is also more electorally responsive, since all its members face election every two years. A referendum provides an even more direct expression of popular sovereignty and may be especially appropriate where the constitutional question has exceptional public salience.
+
+The Senate should not participate in this choice. It represents states as states: its allocation of two senators to every state serves a federal purpose, but it does not embody *political equality among citizens*. A Senate majority can represent substantially fewer voters than the opposing minority. More importantly, bicameral decision-making risks deadlock, leaving a question unresolved precisely when the purpose of the procedure is to reach a temporary settlement.
+
+Neither option is perfect. District boundaries, electoral rules and geographic concentrations of voters affect the House’s composition; referendums may simplify difficult constitutional questions and can be shaped by unequal political resources. But each is more consistent with political equality among citizens than a decision by the Senate.
+
+The institutional form should be adapted to the constitutional system in which the proposal is used. In other countries, the legislative choice could be assigned to whichever chamber most closely represents the people on an equal basis; where an appropriate referendum procedure exists, it could instead be put directly to the electorate. The central requirement is not an American House as such, but a single democratic decision-maker capable of resolving the narrow issue without a bicameral veto.
+
+This choice places the proposal within—but does not simply reproduce—the tradition of popular constitutionalism. Larry Kramer has argued that constitutional meaning should not be treated as the exclusive possession of courts and that the Constitution ultimately belongs to “the people themselves”. Richard Bellamy’s political constitutionalism similarly defends electoral competition, political equality and majority decision-making as constitutional mechanisms rather than as threats from which constitutionalism must be protected [@kramer2004; @bellamy2007].
+
+My proposal gives these democratic principles a more structured institutional form. The House or the electorate would not replace legal judgment; it would complete a process that legal judgment alone had been unable to conclude.
+
+### Why a simple majority?
+
+Constitutional ambiguity cannot be left permanently unresolved. Public officials, lower courts and citizens need to know which of the legally admissible interpretations will govern. Even where the answer is contested, an institution must choose one and thereby provide a workable clarification for the time being.
+
+That practical need is the principal reason to use a simple majority. A supermajority requirement would make it too easy for disagreement to produce deadlock rather than a decision. The proposal is designed precisely for circumstances in which the Court has already shown that the law does not yield a single uncontested answer. It should therefore provide a means of settling the dispute, not create another veto point.
+
+Democratic institutions exist to make difficult and controversial political choices. When the available constitutional interpretations divide the Court and the public, a narrow decision does not supply a reason to remove the question from democratic politics. It supplies a reason to return the final choice to the House or, where appropriate, to a referendum. The closer the contest, the more important it is that the temporary settlement rests on democratic legitimacy rather than on the bare majority of an unelected court.
+
+If the House selects an interpretation by 218 votes to 217—or a referendum produces an equally close result—that narrowness is substantive information. It shows that the interpretation has weak democratic support, just as the divided Court showed that it has weak legal consensus. The settlement should be correspondingly fragile.
+
+That fragility is a feature, not a defect. Where the underlying constitutional question remains genuinely contestable, a later democratic majority should be able to adopt the alternative interpretation as political opinion changes. This is not an invitation to incoherent constitutional improvisation: the Court’s prior drafting and certification process ensures that both alternatives are internally consistent and legally defensible. Democratic revision operates only within that judicially defined range.
+
+The current system performs a strange constitutional alchemy. A question may divide judges, citizens and elected officials, yet once five justices form a majority, the contested position is presented as settled constitutional law. The weakness of its support disappears behind the authority of judicial office.
+
+This proposal refuses that transformation. If an interpretation possesses narrow legal support and narrow democratic support, the constitutional settlement should be recognised as narrow. It must govern because a decision has to be made, but it should remain readily revisable when prevailing democratic opinion changes.
+
+This does not mean that every constitutional rule should fluctuate with each electoral cycle. Interpretations supported by substantial judicial consensus would remain insulated from ordinary political revision. Democratic revisability would apply only to questions on which the Supreme Court itself had certified the existence of serious legal disagreement.
+
+Where the law is relatively determinate, stability is justified. Where the law remains deeply contested, judicial entrenchment may merely protect the preferences of the judges who happened to form a majority at a particular moment.
+
+Instability among voters is routinely treated as a constitutional danger. Instability among judges is concealed by giving the winning judicial coalition the final word.
+
+There is no obvious reason to privilege the latter.
+
+### Would this weaken judicial restraint?
+
+Judicial restraint is often associated with a reluctance to decide cases that would draw courts into divisive political disputes. Judges may avoid such cases, decide them on narrow grounds or defer to elected institutions because they do not want to appear to be making policy under the name of constitutional law.
+
+This proposal reduces that pressure. A Court would no longer have to choose between refusing to address a difficult constitutional question and imposing one contested interpretation as the final law for the entire country. It could identify the constitutional materials, state the propositions on which it agrees, and formulate the two legally defensible alternatives that remain. The democratic institution would then make the final choice between them.
+
+That is not judicial activism in the sense of granting judges a larger power to decide policy. The Court would remain bound by ordinary limits of jurisdiction and justiciability, and it could not invent a third option or send an unrestricted question to the legislature or electorate. Its role would be limited to clarifying the legal range of possible answers.
+
+The reform therefore recasts restraint as candour rather than avoidance. Judges need not pretend that a politically charged case has no legal content; nor need they pretend that a narrow judicial majority has eliminated the political judgment that remains. They can decide the legal questions they are competent to decide and leave the residual democratic choice to institutions designed to bear that responsibility.
+
+### What about minority rights?
+
+The strongest objection is that democratic majorities cannot always be trusted to protect minorities. Judicial review is frequently defended on the ground that courts can protect rights that unpopular groups cannot defend through ordinary politics.
+
+This objection must be taken seriously. Democracy is not reducible to majority rule, and constitutional rights should constrain the mistreatment or exclusion of minorities.
+
+But the proposal does not place every asserted right at the mercy of a legislature or referendum. Where the Court reaches the required broad agreement that a right is constitutionally protected, that holding is final. It forms part of the common ground incorporated into both judicial opinions, and neither the House nor the electorate can displace it. Democratic choice arises only when the Court itself has certified that two competing accounts of the right are legally defensible.
+
+Nor does it follow that a narrow majority of judges is systematically more reliable than a democratic legislature. Courts have sometimes protected vulnerable groups; they have also committed grave errors. In *Dred Scott v. Sandford*, the Court denied that people of African descent could be citizens and held that Congress could not prohibit slavery in the territories. In *Plessy v. Ferguson*, it upheld state-imposed racial segregation under the doctrine of “separate but equal”. In *Buck v. Bell*, it upheld compulsory sterilisation. Judicial independence can insulate principled decisions from public pressure, but it can equally insulate judicial error from democratic correction [@dredscott1857; @plessy1896; @buck1927].
+
+Waldron’s critique of judicial review does not deny the importance of rights; it questions whether disagreement about rights is necessarily resolved more legitimately by majority voting among judges than by majority voting among elected representatives. John Hart Ely’s influential defence of judicial review, meanwhile, focused not upon judges selecting society’s substantive values but upon correcting failures in democratic representation and protecting political participation [@waldron2006; @ely2020].
+
+There is also a reason not to assume that judicial insulation will always favour the more protective account of rights. Life-tenured justices are selected from an older professional elite and are considerably older than the population as a whole: as of July 2026, the current Court’s average age is about 66, whereas the US median age in 2025 was 39.4 [@uscourtbio2026; @census2026]. Age does not determine judicial philosophy, and electoral majorities can of course be regressive. But the Court’s composition and insulation can make it slow to register changing social understandings. A democratic process can therefore help a more expansive or progressive account of a disputed right prevail—provided, crucially, that it is one of the legally coherent alternatives the Court has already identified.
+
+Conditional judicial supremacy thus preserves a substantial judicial role. The Court excludes interpretations falling outside the range of legally defensible constitutional argument, and its areas of broad consensus remain binding. Only where a substantial minority of justices endorses an alternative does the House or referendum become involved.
+
+The democratic decision-maker is therefore not choosing between constitutionalism and lawlessness. It is choosing between two positions that the Court itself has certified as serious constitutional interpretations.
+
+*The proposal cannot guarantee substantively just outcomes. Neither can the present system.*
+
+Its more defensible promise is procedural: where neither legal expertise nor judicial deliberation produces a clear answer, the final choice should be made by an institution that citizens can replace.
+
+## A more honest constitutionalism
+
+Judges possess specialised legal knowledge. They can identify precedent, reconstruct doctrine, interpret texts and articulate principles more systematically than most legislators. But expertise cannot always determine which conception of liberty, equality, citizenship or executive authority should prevail when several interpretations remain legally plausible. Political judgment does not cease to be political because it appears in a judicial opinion. Footnotes are not holy water.
+
+The answer is not to deny that expertise matters, nor to restore a sacred veil over judicial disagreement. A restrained 5–4 judgment remains a 5–4 judgment: robes, marble columns and ceremonial language do not turn a contested choice into legal certainty. A constitutional system should distinguish between what judges broadly agree upon and what they do not.
+
+Where the Supreme Court reaches broad agreement, its interpretation should be final.
+
+Where the Court remains substantially divided, the justices should identify their common ground, formulate two coherent alternatives and refer the unresolved question to the House of Representatives or a referendum.
+
+The democratic decision-maker should choose between them by a simple majority.
+
+If the vote is narrow, the public should see that it is narrow. If democratic opinion changes after a subsequent election, the interpretation should remain open to revision. A constitutional question that lacks both legal consensus and durable political support should not be permanently removed from democratic life by a professional legal elite.
+
+This is not an argument against legal expertise, but about its proper limits:
+
+> Law should define the alternatives.
+> Where law cannot choose between them, democracy should decide.
