@@ -54,31 +54,9 @@ That is legislation in substance, and legislation is inherently political. Decis
 
 *Roe* displaced that process by giving one contested political position constitutional status. *Dobbs* exposed how fragile that status had always been: a differently constituted Court, applying the same constitutional text, could withdraw it. The reversal did not show that constitutional meaning had changed. It showed that the earlier rule had depended upon the political judgment of the judges who announced it.
 
-Courts remain indispensable in identifying and enforcing genuine constitutional limits. But they should not manufacture such limits merely because judges consider a particular outcome just. Where the Constitution does not settle the political question, the legislature should not be excluded simply because one side has translated its position into the language of constitutional rights.
-
-## The sacred language of constitutional law
-
-The authority of judicial review rests partly on a familiar distinction between law and politics.
-
-Legislators make political choices; judges interpret law. Legislators represent competing interests; judges apply impartial principles. Legislators exercise power; judges merely determine the limits that the Constitution has already placed upon it.
-
-There is truth in this distinction. Courts perform indispensable legal functions. They interpret texts, organise precedent, require governments to justify coercive action and protect individuals against arbitrary power. Many disputes can be resolved by relatively settled rules and widely accepted legal methods.
-
-But this distinction cannot bear all the weight placed upon it.
-
-Constitutional texts are characteristically abstract. They refer to liberty, equality, due process, unreasonable searches, freedom of speech and executive power without specifying how these principles must resolve every future controversy. Historical evidence may be incomplete or contradictory. Precedents can point in different directions. Different interpretive methods may produce different conclusions.
-
-In difficult cases, judges do not simply retrieve an answer already contained inside the constitutional text. They select among competing readings of history, alternative constructions of rights and rival understandings of political authority.
-
-This is not to say that constitutional law is meaningless, or that any interpretation is as valid as any other. Legal reasoning can exclude implausible positions and narrow the range of admissible outcomes. But it does not always identify one uniquely correct answer.
-
-The constitutional veil obscures that distinction. It presents legally disciplined political judgment as legal necessity.
-
 Political scientists have long treated courts as institutions engaged in governance rather than as neutral oracles standing outside politics. Robert Dahl described the Supreme Court as a national policymaking institution, while Martin Shapiro emphasised the multiple political roles performed by courts across different constitutional systems. Critical legal scholars have likewise examined how judicial rhetoric can translate contestable political choices into apparently impersonal legal conclusions (Dahl 1957; Shapiro 1981; Kennedy 1997).
 
-None of this requires us to believe that judges consciously act as party politicians in every case. The more modest claim is enough: constitutional adjudication sometimes requires choices that cannot be determined by technical legal expertise alone.
-
-A divided Court occasionally tears away the veil itself.
+Courts remain indispensable in identifying and enforcing genuine constitutional limits. But they should not manufacture such limits merely because judges consider a particular outcome just. Where the Constitution does not settle the political question, the legislature should not be excluded simply because one side has translated its position into the language of constitutional rights.
 
 ## Judicial disagreement is information
 
