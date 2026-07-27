@@ -5,9 +5,10 @@ project:
     - "*.ipynb"
     - "*.Rmd"
     - "!*.md"
-  resources: 
+  resources:
   - "assets"
   - "ads.txt"
+  - "CV/CV_Dianyi.pdf"
   #post-render: 
     #- "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
 
@@ -52,7 +53,7 @@ website:
         href: tools/index.qmd
       - text: CV
         aria-label: "CV"
-        href: cv/CV_Dianyi.pdf
+        href: CV/CV_Dianyi.pdf
       #- text: Projects
       #  aria-label: "Project Portfolio"
       #  href: project/index.qmd
