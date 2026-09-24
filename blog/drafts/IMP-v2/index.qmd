@@ -1,0 +1,308 @@
+---
+author: Dianyi Yang
+title: "IMP v2: Notes toward a Monetary and Banking Architecture"
+subtitle: "Exploratory notes for a possible future book — not a settled proposal"
+date: 2026-09-24
+categories: [monetary policy, central banking, banking, financial stability, political economy]
+draft: true
+---
+
+# Status and relationship to the original IMP
+
+These are exploratory notes for a future development of [Inverted Monetary Policy (IMP)](../2023-02-23-IMP/index.qmd). The original IMP asked what becomes possible if central banks stop treating monetary policy as a single easing--tightening axis and combine interest rates with government-bond and non-debt asset operations. IMP v2 extends that question to the architecture of money, commercial-bank funding, supervision, fiscal--monetary externalities and democratic accountability.
+
+> **More objectives require more instruments. More instruments create more externalities. The institution with the instruments to control an externality should, where feasible, internalise it in its objective function.**
+
+This is not a finished blueprint. Many components require modelling, legal work and empirical testing.
+
+# 1. A multidimensional central bank
+
+A stylised conventional instrument set is dominated by one scalar policy rate, with QE/QT added reluctantly after the effective lower bound:
+
+$$
+\mathbf{x}_{conventional}=(i,Q).
+$$
+
+IMP starts from a richer instrument vector:
+
+$$
+\mathbf{x}=(i,Q_{gov},Q_{private},Q_{equity},r^{CB}_{j},R_{reserve},T_{reserve},\ldots).
+$$
+
+The point is not intervention for its own sake. It is to stop forcing one instrument to solve structurally different problems.
+
+# 2. Mandate externalities
+
+A narrow mandate can permit an institution to pursue its objective while exporting predictable consequences elsewhere: fiscal losses from QE, distributional effects, financial-sector risk, or changes in the maturity structure of the consolidated public balance sheet.
+
+Where the central bank has instruments capable of controlling an externality, otherwise-equivalent policies should not be treated as equivalent if one imposes much larger external costs.
+
+# 3. Seigniorage v1, v2 and v3
+
+**V1:** face value of coin minus the resource cost of minting it.
+
+**V2:** return on assets financed by non-interest-bearing fiat currency.
+
+**V3:** the funding advantage arising because the monetary authority can finance positions at the policy/funding rate while comparable private actors face a higher risk-adjusted funding cost.
+
+A first approximation is:
+
+$$
+S_3=(r^{private}_{funding}-r^{CB}_{funding})B.
+$$
+
+The benchmark must be risk-adjusted: the equity risk premium should not be mislabeled as free public profit. A broader concept is the **monetary franchise value**:
+
+$$
+MFV=S_2+S_3.
+$$
+
+Interest-bearing central-bank money therefore need not abolish seigniorage; it can transform its source.
+
+# 4. Decomposing central-bank profit
+
+Conceptually:
+
+$$
+\Pi_{CB}=S+M-C_{stab}-E,
+$$
+
+where \(S\) is structural seigniorage/funding franchise, \(M\) gains from countercyclical trading and market imperfections, \(C_{stab}\) financial costs willingly incurred for price/financial stability, and \(E\) avoidable losses from mistakes or poor execution.
+
+Observed profit cannot identify these components mechanically. A loss may be an efficient stabilisation cost or a mistake; profit may reflect efficiency or excessive risk-taking. Profit therefore cannot be a standalone KPI.
+
+# 5. Profitability and the policy frontier
+
+A stylised parliamentary loss function could be:
+
+$$
+L_{CB}=
+\alpha(\pi-\pi^*)^2+
+\beta F+
+\gamma Y^2+
+\eta C-
+\delta\Pi^{risk-adjusted}_{CB}.
+$$
+
+Parliament chooses the weights. Profitability receives positive but subordinate weight.
+
+A pure profit mandate would create a perverse incentive to let crashes deepen before buying and booms expand before selling. The relevant test is whether the CB operates near an efficient **profitability--stability frontier**. If two instrument combinations generate essentially the same inflation/stability outcomes but one destroys substantially more public wealth, it should be regarded as inferior.
+
+# 6. Countercyclical equity operations and incidence
+
+The original IMP proposes purchasing newly issued/preferred equity during deleveraging and selling during recovery. Equity ownership is disproportionately concentrated among wealthier households, while public portfolio gains belong to the public sector.
+
+But a long-term shareholder can benefit if reduced bankruptcy risk outweighs dilution:
+
+$$
+-\text{dilution}+\text{lower bankruptcy risk / stronger balance sheet}.
+$$
+
+The more direct transfer may come from procyclical/speculative investors. The public balance sheet buys during depressed conditions and sells during recovery, while investors who sell into crashes and repurchase during booms take the opposite side.
+
+Under fully rational and complete markets abnormal trading returns should disappear. IMP therefore separates \(S_3\), which can exist even with rational markets because of the monetary authority's funding privilege, from \(M\), which depends on constraints, mispricing or irrationality.
+
+# 7. Universal central-bank deposits
+
+Households and firms should be permitted to hold deposits directly at the central bank. This separates safe money from private credit risk:
+
+**Central bank provides money; commercial banks provide credit expertise.**
+
+A strong version remunerates household CB deposits at the policy rate:
+
+$$
+r^{household}_{CB}=i.
+$$
+
+If commercial-bank reserves receive the policy rate on central-bank money, why should ordinary citizens be structurally excluded from an equivalent remunerated public liability?
+
+# 8. CB-funded commercial banking
+
+If deposits migrate toward the CB, commercial banks obtain routine wholesale funding from it. CB borrowing ceases to be an emergency signal, reducing discount-window stigma.
+
+Instead of funding approximately at
+
+$$
+r_F^{old}=i-\rho,
+$$
+
+where \(\rho\) is deposit-franchise rent, bank \(j\) funds at
+
+$$
+r^{CB}_{j}=i+s_j,
+$$
+
+where \(s_j\) is a bank-specific risk premium. Banks increasingly earn profits from credit origination, screening and monitoring rather than under-remunerated deposits.
+
+# 9. Pricing the bank-specific spread
+
+A candidate transparent rule is:
+
+$$
+r^{CB}_{j,t}=i_t+PD_{j,t}LGD_{j,t}+\lambda UL_{j,t}+M_{j,t}.
+$$
+
+Here \(PD\) is probability of default, \(LGD\) loss given default, \(UL\) unexpected/tail loss, and \(M\) a bounded macroprudential adjustment. The formula should be auditable and discretionary components bounded to reduce self-fulfilling downgrades.
+
+The spread becomes both a funding price and supervisory signal:
+
+$$
+risk\uparrow\Rightarrow s_j\uparrow.
+$$
+
+# 10. Automatic liquidity and forced capital injection
+
+Liquidity and solvency should be separated.
+
+For a liquidity shortage at a fundamentally solvent institution:
+
+$$
+\text{liquidity trigger}\rightarrow\text{automatic CB liquidity support}.
+$$
+
+For a capital breach:
+
+$$
+k_j<k^*\rightarrow\boxed{\text{automatic forced equity recapitalisation}}.
+$$
+
+The bank issues new shares to the CB according to a pre-specified valuation/discount formula using, for example, book value, market value, supervisory asset valuation, capital shortfall and risk-weighted assets. The rule is precommitted but need not mechanically reference a collapsing market price.
+
+The objective is: **protect banking functions, not existing shareholders.** Bad management produces dilution, giving shareholders an incentive to discipline management before intervention.
+
+# 11. Supervisory skin in the game
+
+The CB funds banks and therefore bears consequences when its supervisory risk assessment is poor:
+
+$$
+\text{poor supervision}\rightarrow
+\text{bad CB credit}\rightarrow
+\Pi_{CB}\downarrow\rightarrow
+\text{KPI deterioration}\rightarrow
+\text{parliamentary explanation}.
+$$
+
+Credit risk is not abolished. The proposal changes who has ex ante responsibility for measuring, pricing and controlling it. Expected losses are priced through \(PD\times LGD\); realised losses can later be compared with ex ante pricing.
+
+Systematic underpricing damages profitability; systematic overpricing can suppress credit. Supervision is therefore judged jointly with macroeconomic outcomes.
+
+# 12. Deposit insurance and transaction continuity
+
+Universal CB deposits remove much of the rationale for traditional deposit insurance because ordinary money is already a claim on the CB. Transaction continuity and credit-loss allocation nevertheless remain distinct.
+
+A transition system might combine:
+
+$$
+\text{safe CB transaction money}
++\text{automatic liquidity}
++\text{forced recapitalisation}
++\text{shareholder dilution}.
+$$
+
+Whether private insured deposits continue alongside CB deposits remains an open design choice. A public guarantee could remain without requiring a large pre-funded insurance pool.
+
+# 13. Why the required policy rate may be lower
+
+The reform changes **both** transmission channels.
+
+## Savings channel
+
+Today:
+
+$$
+i\rightarrow r_{deposit}\rightarrow\text{household behaviour},
+$$
+
+with incomplete pass-through. Direct remunerated CB deposits make \(i=r^{household}_{CB}\), potentially requiring a smaller rate movement for the same savings response.
+
+## Borrowing channel
+
+More importantly, bank funding changes from roughly \(i-\rho\) to \(i+s_j\).
+
+Currently:
+
+$$
+r_L^{old}=i^{old}-\rho+\mu.
+$$
+
+Under the new system:
+
+$$
+r_L^{new}=i^{new}+s_j+\mu.
+$$
+
+Holding the desired mortgage/corporate borrowing rate constant:
+
+$$
+\boxed{i^{new}=i^{old}-\rho-s_j}.
+$$
+
+Thus the same market borrowing rate can in principle be achieved with a lower common policy rate. The magnitude is empirical because competition, margins, capital requirements, exchange rates and asset-price channels adjust.
+
+# 14. Fiscal by-products
+
+The proposal is not motivated solely by fiscal savings, but several may follow.
+
+After QE, a large share of consolidated public debt effectively takes the form of floating-rate reserve liabilities. If the same monetary stance can be achieved with lower \(i\):
+
+$$
+\Delta C_R=(i^{old}-i^{new})R.
+$$
+
+With universal CB deposits, the CB pays households \(iD\) and lends to banks at approximately \((i+s)L\). If \(D\approx L\), much of the common policy-rate component cancels within public intermediation, leaving approximately
+
+$$
+sL-\text{credit losses}
+$$
+
+as a public intermediation margin.
+
+Other possible fiscal effects include public capture of part of the monetary/intermediation franchise, fewer unpriced bailout contingencies, countercyclical portfolio gains, and incentives to choose financially efficient implementations of equivalent monetary policies. These are not free resources: the public sector bears credit, market and model risk.
+
+# 15. Governance: more power requires more accountability
+
+A broader CB should not choose society's objectives itself.
+
+**Legislature:** chooses objectives and weights.
+
+**Independent expert challenge:** audits the optimisation.
+
+**Central bank:** chooses and executes instruments.
+
+A permanent adversarial analytical capability could employ academic economists on rotating fellowships, PhD/DPhil researchers, financial economists, accountants, former practitioners subject to conflict rules, and permanent technical staff.
+
+Its task is not to set policy but to test counterfactuals. Instead of asking merely whether a rate decision was “appropriate”, it should be able to ask why instrument combination A was chosen if combination B could have delivered a similar inflation path with less instability or public-balance-sheet cost.
+
+# 16. Unifying principle
+
+> **Do not merely ask institutions to care about externalities. Where feasible, design their mandates, objective functions and balance sheets so that they have to internalise the externalities they can control.**
+
+Post-2008 QE, QT, reserve remuneration, macroprudential policy and emergency lending already blurred old boundaries. IMP v2 proposes making those consequences explicit rather than preserving a narrow formal mandate while externalities accumulate elsewhere.
+
+# 17. Open problems
+
+1. **Model risk:** \(PD\), \(LGD\), tail risk and the counterfactual private funding benchmark for \(S_3\).
+2. **Self-fulfilling supervisory signals:** higher CB funding spreads can themselves weaken banks.
+3. **Politicisation/rent-seeking:** equity purchases and private placements create allocation decisions vulnerable to lobbying.
+4. **CB expertise:** a multidimensional portfolio requires capabilities far beyond conventional rate policy.
+5. **Delegated execution:** private investment managers add principal--agent problems.
+6. **Transition:** moving from deposit-funded banking toward public deposits/CB wholesale funding could be disruptive.
+7. **International capital flows/exchange rates.**
+8. **Real losses:** issuing money does not eliminate credit or market losses.
+9. **Identification:** profit data alone cannot distinguish necessary stabilisation costs from mistakes.
+10. **Objective weights:** profitability--stability--inflation--activity trade-offs are ultimately political.
+11. **Competition/innovation:** implications for entry, fintech, non-bank finance and shadow banking.
+12. **Legal/constitutional design:** major changes to mandates and fiscal--monetary relations would be required.
+
+# 18. Possible research programme
+
+1. Formalise the objective function and conditions under which multiple instruments improve welfare.
+2. Model seigniorage v3 under rational markets and separate funding privilege from systematic-risk compensation.
+3. Estimate deposit-franchise rent \(\rho\) and bank-specific spreads \(s_j\) to quantify the lower-policy-rate proposition.
+4. Simulate universal CB deposits and wholesale bank funding in a heterogeneous-bank model.
+5. Model automatic recapitalisation and shareholder incentives.
+6. Estimate a profitability--stability frontier from historical CB balance-sheet operations.
+7. Study precedents: BOJ equity holdings, QE/QT, tiered reserve remuneration, CB lending facilities, CBDC/public accounts, resolution and bail-in regimes.
+8. Design an accountability framework for evaluating counterfactual instrument combinations.
+
+The eventual project need not adopt every component exactly as described here. The larger question is whether the post-2008 monetary and banking architecture can be redesigned around a richer instrument set, explicit internalisation of mandate externalities, and stronger democratic accountability.
