@@ -1,7 +1,7 @@
 ---
 title: "Tools" 
 description: |
-  Some (hopefully) useful tools which I write as public goods and personal coding excercises.
+  Some (hopefully) useful tools which I write as public goods and personal coding exercises.
 listing: 
   contents: 
     - "**/index.qmd"
